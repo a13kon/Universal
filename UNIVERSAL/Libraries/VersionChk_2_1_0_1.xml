@@ -1,0 +1,78 @@
+﻿<Manifest
+  Version="1.0.0"
+  IsLibrary="true">
+  <Libraries />
+  <Pou
+    Name="VersionChk_2"
+    Moniker="VersionChk_2.stf"
+    Language="ST"
+    IsIec61499="false"
+    Kind="FunctionBlock"
+    Password="E4BDBA2BEF6CC4DC"
+    GenerateDebugInfo="false"
+    GeneratingMonitoringSymbols="true"
+    UserEdited="false"
+    Deprecated="false"
+    IsVisible="true">
+    <Variable
+      Name="Version"
+      Comment=""
+      AccessRights="Read"
+      DataType="VERSIONCHK_APPVER"
+      Kind="VarInput" />
+    <Variable
+      Name="VerMismatch"
+      Comment="Check the application version every startup and inform the user if the version hes been changed (VersionMismatch = TRUE)"
+      AccessRights="Write"
+      DataType="BOOL"
+      Kind="VarOutput" />
+    <Variable
+      Name="EnVerChk"
+      Comment="VersionChk FB enable"
+      AccessRights="ReadWrite"
+      DataType="BOOL"
+      Kind="Var" />
+    <Variable
+      Name="WriteVer"
+      Comment="Enable the application version write after a wipe retain."
+      AccessRights="ReadWrite"
+      DataType="BOOL"
+      Kind="Var" />
+    <Variable
+      Name="X"
+      Comment="X version of the application"
+      AccessRights="ReadWrite"
+      DataType="UINT"
+      Kind="Var" />
+    <Variable
+      Name="Y"
+      Comment="Y version of the application"
+      AccessRights="ReadWrite"
+      DataType="UINT"
+      Kind="Var" />
+    <Variable
+      Name="Z"
+      Comment="Z version of the application"
+      AccessRights="ReadWrite"
+      DataType="UINT"
+      Kind="Var" />
+    <Variable
+      Name="D"
+      Comment="D version of the application"
+      AccessRights="ReadWrite"
+      DataType="UINT"
+      Kind="Var" />
+    <Variable
+      Name="IsBeta"
+      Comment="Beta enable"
+      AccessRights="ReadWrite"
+      DataType="BOOL"
+      Kind="Var" />
+    <Variable
+      Name="IsDemo"
+      Comment="Demo enable"
+      AccessRights="ReadWrite"
+      DataType="BOOL"
+      Kind="Var" />
+  </Pou>
+</Manifest>

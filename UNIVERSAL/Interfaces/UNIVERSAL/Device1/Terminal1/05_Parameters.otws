@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Worksheet Name="05_Parameters" Version="1.0.0">
+  <Mask Name="REF_Parameters" Type="Normal" X="0" Y="0" Color="255, 69, 0" Foreground="0, 255, 255" ReferToMask="">
+    <Fields>
+      <Field Type="Variable" Name="Variable_2" Row="5" Column="12" Content="Display.value_REAL[5]" Class="REAL_CHANGE_5" Format="o+3.1" Min="0.0" Max="999.9" />
+      <Field Type="Variable" Name="Variable_3" Row="3" Column="12" Content="Display.value_REAL[3]" Class="REAL_CHANGE_3" Format="o+3.1" Min="0.0" Max="999.9" />
+      <Field Type="Variable" Name="Variable_4" Row="4" Column="12" Content="Display.value_REAL[4]" Class="REAL_CHANGE_4" Format="o+3.1" Min="0.0" Max="999.9" />
+      <Field Type="Variable" Name="Variable_5" Row="3" Column="15" Content="Display.value_BOOL[3]" Class="BOOL_CHANGE_3" Format="o1" Min="0" Max="9" />
+      <Field Type="Variable" Name="Variable_6" Row="4" Column="15" Content="Display.value_BOOL[4]" Class="BOOL_CHANGE_4" Format="o1" Min="0" Max="9" />
+      <Field Type="Variable" Name="Variable_7" Row="5" Column="15" Content="Display.value_BOOL[5]" Class="BOOL_CHANGE_5" Format="o1" Min="0" Max="9" />
+      <Field Type="Variable" Name="Variable_8" Row="1" Column="1" Content="Display.Descr[1]" Class="Main_ParamDescription_Class" Format="o2" Min="0" Max="99" SimulationValue="13" />
+      <Field Type="Variable" Name="Variable_9" Row="2" Column="1" Content="Display.Descr[2]" Class="Main_ParamDescription_Class" Format="o2" Min="0" Max="99" SimulationValue="99" />
+      <Field Type="Variable" Name="Variable_10" Row="3" Column="1" Content="Display.Descr[3]" Class="Main_ParamDescription_Class" Format="o2" Min="0" Max="99" />
+      <Field Type="Variable" Name="Variable_11" Row="4" Column="1" Content="Display.Descr[4]" Class="Main_ParamDescription_Class" Format="o2" Min="0" Max="99" />
+      <Field Type="Variable" Name="Variable_12" Row="5" Column="1" Content="Display.Descr[5]" Class="Main_ParamDescription_Class" Format="o2" Min="0" Max="99" />
+      <Field Type="Variable" Name="Variable_13" Row="1" Column="12" Content="Display.value_REAL[1]" Class="REAL_CHANGE_1" Format="o+3.1" Min="0.0" Max="999.9" />
+      <Field Type="Variable" Name="Variable_14" Row="2" Column="12" Content="Display.value_REAL[2]" Class="REAL_CHANGE_2" Format="o+3.1" Min="0.0" Max="999.9" />
+      <Field Type="Variable" Name="Variable_15" Row="2" Column="15" Content="Display.value_BOOL[2]" Class="BOOL_CHANGE_2" Format="o1" Min="0" Max="9" />
+      <Field Type="Variable" Name="Variable_16" Row="1" Column="15" Content="Display.value_BOOL[1]" Class="BOOL_CHANGE_1" Format="o1" Min="0" Max="9" />
+      <Field Type="Image" Name="Image_2" Row="0" Column="0" Content="BLACK_ROWS_132X8.BMP" />
+      <Field Type="Variable" Name="Variable_26" Row="1" Column="12" Content="CurRow_modePRG" Class="CURROW_1" Format="o1" Min="0" Max="9" SimulationValue="1" />
+      <Field Type="Variable" Name="Variable_27" Row="2" Column="12" Content="CurRow_modePRG" Class="CURROW_2" Format="o1" Min="0" Max="9" SimulationValue="" />
+      <Field Type="Variable" Name="Variable_28" Row="3" Column="12" Content="CurRow_modePRG" Class="CURROW_3" Format="o1" Min="0" Max="9" SimulationValue="" />
+      <Field Type="Variable" Name="Variable_29" Row="4" Column="12" Content="CurRow_modePRG" Class="CURROW_4" Format="o1" Min="0" Max="9" SimulationValue="" />
+      <Field Type="Variable" Name="Variable_30" Row="5" Column="12" Content="CurRow_modePRG" Class="CURROW_5" Format="o1" Min="0" Max="9" SimulationValue="" />
+      <Field Type="Variable" Name="Variable" Row="1" Column="14" Content="Display.value_INT[1]" Class="INT_CHANGE_1" Format="o4" Min="0" Max="9999" SimulationValue="464" />
+      <Field Type="Variable" Name="Variable_17" Row="2" Column="14" Content="Display.value_INT[2]" Class="INT_CHANGE_2" Format="o4" Min="0" Max="9999" />
+      <Field Type="Variable" Name="Variable_18" Row="3" Column="14" Content="Display.value_INT[3]" Class="INT_CHANGE_3" Format="o4" Min="0" Max="9999" />
+      <Field Type="Variable" Name="Variable_19" Row="4" Column="14" Content="Display.value_INT[4]" Class="INT_CHANGE_4" Format="o4" Min="0" Max="9999" />
+      <Field Type="Variable" Name="Variable_20" Row="5" Column="14" Content="Display.value_INT[5]" Class="INT_CHANGE_5" Format="o4" Min="0" Max="9999" />
+      <Field Type="Variable" Name="Variable_34" Row="1" Column="19" Content="Display.UoM[1]" Class="UoM_CHANGE" Format="o2" Min="0" Max="9" />
+      <Field Type="Variable" Name="Variable_35" Row="2" Column="19" Content="Display.UoM[2]" Class="UoM_CHANGE" Format="o2" Min="0" Max="9" />
+      <Field Type="Variable" Name="Variable_36" Row="3" Column="19" Content="Display.UoM[3]" Class="UoM_CHANGE" Format="o2" Min="0" Max="9" />
+      <Field Type="Variable" Name="Variable_37" Row="4" Column="19" Content="Display.UoM[4]" Class="UoM_CHANGE" Format="o2" Min="0" Max="9" />
+      <Field Type="Variable" Name="Variable_38" Row="5" Column="19" Content="Display.UoM[5]" Class="UoM_CHANGE" Format="o2" Min="0" Max="9" />
+      <Field Type="Variable" Name="Variable_39" Row="1" Column="0" Content="CurRow" Class="CURROW_1" Format="o1" Min="0" Max="9" SimulationValue="1" />
+      <Field Type="Variable" Name="Variable_40" Row="2" Column="0" Content="CurRow" Class="CURROW_2" Format="o1" Min="0" Max="9" SimulationValue="" />
+      <Field Type="Variable" Name="Variable_41" Row="3" Column="0" Content="CurRow" Class="CURROW_3" Format="o1" Min="0" Max="9" SimulationValue="" />
+      <Field Type="Variable" Name="Variable_42" Row="4" Column="0" Content="CurRow" Class="CURROW_4" Format="o1" Min="0" Max="9" SimulationValue="" />
+      <Field Type="Variable" Name="Variable_43" Row="5" Column="0" Content="CurRow" Class="CURROW_5" Format="o1" Min="0" Max="9" SimulationValue="" />
+      <Field Type="Variable" Name="Variable_51" Row="6" Column="1" Content="Display.Hint" Class="Wide_ParamDescription_Class" Format="o3" Min="0" Max="255" SimulationValue="" />
+      <Field Type="Variable" Name="Variable_21" Row="0" Column="20" Content="cnt_Items" Class="CL_DINT" Format="o2" Min="0" Max="99" />
+      <Field Type="Text" Name="Text_2" Row="0" Column="19" Content="/" />
+      <Field Type="Variable" Name="Variable_22" Row="0" Column="17" Content="CurList_Position" Class="CL_DINT" Format="o2" Min="0" Max="99" />
+      <Field Type="Image" Name="Image" Row="6" Column="0" Content="Black_Bracket_left_6x16_2.bmp" />
+      <Field Type="Image" Name="Image_3" Row="6" Column="21" Content="Black_Bracket_right_6x16_2.bmp" />
+      <Field Type="Variable" Name="Variable_33" Row="0" Column="1" Content="Display.MaskHeader" Class="Main_MenuDescription_Class" Format="o3" Min="0" Max="255" SimulationValue="64" />
+      <Field Type="Variable" Name="Variable_44" Row="1" Column="18" Content="CurRow_modePRG" Class="Inv_CURROW_1" Format="o1" Min="0" Max="9" SimulationValue="1" />
+      <Field Type="Variable" Name="Variable_45" Row="2" Column="18" Content="CurRow_modePRG" Class="Inv_CURROW_2" Format="o1" Min="0" Max="9" SimulationValue="" />
+      <Field Type="Variable" Name="Variable_46" Row="3" Column="18" Content="CurRow_modePRG" Class="Inv_CURROW_3" Format="o1" Min="0" Max="9" SimulationValue="" />
+      <Field Type="Variable" Name="Variable_47" Row="4" Column="18" Content="CurRow_modePRG" Class="Inv_CURROW_4" Format="o1" Min="0" Max="9" SimulationValue="" />
+      <Field Type="Variable" Name="Variable_48" Row="5" Column="18" Content="CurRow_modePRG" Class="Inv_CURROW_5" Format="o1" Min="0" Max="9" SimulationValue="" />
+    </Fields>
+    <KeyBindings>
+      <KeyBinding Key="DOWN" BindOn="Param_DOWN" />
+      <KeyBinding Key="UP" BindOn="Param_UP" />
+      <KeyBinding Key="ESC" BindOn="Param_ESC" />
+      <KeyBinding Key="PRG" BindOn="Param_PRG" />
+      <KeyBinding Key="ENTER" BindOn="Param_ENTER" />
+    </KeyBindings>
+  </Mask>
+</Worksheet>

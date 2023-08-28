@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DeploymentView>
+  <DVNodeType Location="0 0" IndexName="Node39047789" Type="CategoryStation" MyWidth="200" Name="WorkStation" DataTemplate="Workstation" />
+  <DVNodeType Location="280 640" IndexName="e5619c74-aed5-4bfa-87ad-8e4823a88b2d" Type="CategoryDevice" MyWidth="200" Name="UNIVERSAL.Device1" />
+  <DVNodeType Location="20 450" IndexName="Node54963024" Type="CategoryNetwork" MyWidth="690" Name="ISARSI1" MyColor="HotPink" DataTemplate="Network" />
+  <DVNodeType Location="20 270" IndexName="Node49552783" Type="CategoryNetwork" MyWidth="360" Name="ETCP1" MyColor="Green" DataTemplate="Network" />
+  <DVDeviceLinkData From="e5619c74-aed5-4bfa-87ad-8e4823a88b2d" To="Node54963024" ToSpotX="0.55072463768115942" />
+  <DVDeviceLinkData From="Node39047789" To="Node54963024" ToSpotX="0.10144927536231885" />
+  <DVDeviceLinkData From="e5619c74-aed5-4bfa-87ad-8e4823a88b2d" To="Node49552783" ToSpotX="0.88888888888888884" />
+  <DVDeviceLinkData From="Node39047789" To="Node49552783" ToSpotX="0.11111111111111111" />
+</DeploymentView>

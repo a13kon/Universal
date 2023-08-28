@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Alarms UnitConversionZone="NoConversion">
+  <Alarm Name="Al_retain" Type="ManualReset" Description="Ошибка подсчета числа записей в постоянную память" StorVar1="MemWritingsNo" Trigger="Al_retain.Trigger" Active="Al_retain.Active" />
+  <Alarm Name="Al_Err_retain_write" Type="ManualReset" Description="Ошибка записи в постоянную память" Trigger="Al_Err_retain_write.Trigger" Active="Al_Err_retain_write.Active" />
+  <Alarm Name="FLR_FanSupplyTK" Type="AutoResetUntilCounter" Description="Авария приточного вентилятора" CounterMax="3" TimeValue="7200" Trigger="FLR_FanSupplyTK.Trigger" Active="FLR_FanSupplyTK.Active" />
+  <Alarm Name="FLR_FanExhTK" Type="AutoResetUntilCounter" Description="Авария вытяжного вентилятора" CounterMax="3" TimeValue="7200" Trigger="FLR_FanExhTK.Trigger" Active="FLR_FanExhTK.Active" />
+  <Alarm Name="FLR_PumpTK" Type="AutoResetUntilCounter" Description="Авария насоса" CounterMax="3" TimeValue="7200" Trigger="FLR_PumpTK.Trigger" Active="FLR_PumpTK.Active" />
+  <Alarm Name="FLR_Fire" Type="ManualReset" Description="Сигнал 'Пожар'" Trigger="FLR_Fire.Trigger" Active="FLR_Fire.Active" />
+  <Alarm Name="FLR_PreHeating" Type="AutoResetUntilCounter" Description="Ошибка преднагрева. Недостижение целевой температуры воды." CounterMax="3" TimeValue="1800" Trigger="FLR_PreHeating.Trigger" Active="FLR_PreHeating.Active" />
+  <Alarm Name="FLR_FreezeWater" Type="AutoResetUntilCounter" Description="Снижение температуры воды до опасного минимума по датчику Tw" CounterMax="Par_Wp05" TimeValue="1800" Trigger="FLR_FreezeWater.Trigger" Active="FLR_FreezeWater.Active" />
+  <Alarm Name="FLR_FreezeTZ" Type="ManualReset" Description="Авария насоса/капиллярного термостата" Trigger="FLR_FreezeTZ.Trigger" Active="FLR_FreezeTZ.Active" />
+  <Alarm Name="FLR_COOL_Total" Type="AutoReset" Description="Полный отказ ХМ" Trigger="FLR_COOL_Total.Trigger" Active="FLR_COOL_Total.Active" />
+  <Alarm Name="FLR_DX_HPComp1" Type="ManualReset" Description="Превышение давл.линии нагнетания компрессора 1 (реле давления)" CounterMax="3" TimeValue="7200" Trigger="FLR_DX_HPComp1.Trigger" Active="FLR_DX_HPComp1.Active" />
+  <Alarm Name="FLR_DX_HPComp2" Type="ManualReset" Description="Превышение давл.линии нагнетания компрессора 2 (реле давления)" CounterMax="3" TimeValue="7200" Trigger="FLR_DX_HPComp2.Trigger" Active="FLR_DX_HPComp2.Active" />
+  <Alarm Name="FLR_DX_HPComp3" Type="ManualReset" Description="Превышение давл.линии нагнетания компрессора 3 (реле давления)" CounterMax="3" TimeValue="7200" Trigger="FLR_DX_HPComp3.Trigger" Active="FLR_DX_HPComp3.Active" />
+  <Alarm Name="FLR_DX_LPComp1" Type="AutoResetUntilCounter" Description="Снижение давл.линии всасывания компрессора 1 (реле давления)" CounterMax="3" TimeValue="7200" Trigger="FLR_DX_LPComp1.Trigger" Active="FLR_DX_LPComp1.Active" />
+  <Alarm Name="FLR_DX_LPComp2" Type="AutoResetUntilCounter" Description="Снижение давления линии всасывания компр.2 (реле давления)" CounterMax="3" TimeValue="7200" Trigger="FLR_DX_LPComp2.Trigger" Active="FLR_DX_LPComp2.Active" />
+  <Alarm Name="FLR_DX_LPComp3" Type="AutoResetUntilCounter" Description="Снижение давления линии всасывания компр.3 (реле давления)" CounterMax="3" TimeValue="7200" Trigger="FLR_DX_LPComp3.Trigger" Active="FLR_DX_LPComp3.Active" />
+  <Alarm Name="FLR_DX_CTComp1" Type="AutoResetUntilCounter" Description="Перегрев компр.1 по термостату линии нагнетания" CounterMax="3" TimeValue="7200" Trigger="FLR_DX_CTComp1.Trigger" Active="FLR_DX_CTComp1.Active" />
+  <Alarm Name="FLR_DX_CTComp2" Type="AutoResetUntilCounter" Description="Перегрев компрессора 2 по термостату линии нагнетания" CounterMax="3" TimeValue="7200" Trigger="FLR_DX_CTComp2.Trigger" Active="FLR_DX_CTComp2.Active" />
+  <Alarm Name="FLR_DX_CTComp3" Type="AutoResetUntilCounter" Description="Перегрев компр.3 по термостату линии нагнетания" CounterMax="3" TimeValue="7200" Trigger="FLR_DX_CTComp3.Trigger" Active="FLR_DX_CTComp3.Active" />
+  <Alarm Name="FLR_DX_HPDVD1" Type="AutoResetUntilCounter" Description="Превышение давления по ДВД1 (уставка)" CounterMax="5" TimeValue="Alarms_Dt1214" Trigger="FLR_DX_HPDVD1.Trigger" Active="FLR_DX_HPDVD1.Active" />
+  <Alarm Name="FLR_DX_HPDVD2" Type="AutoResetUntilCounter" Description="Превышение давления по ДВД2 (уставка)" CounterMax="5" TimeValue="Alarms_Dt1214" Trigger="FLR_DX_HPDVD2.Trigger" Active="FLR_DX_HPDVD2.Active" />
+  <Alarm Name="FLR_DX_LPDND" Type="AutoReset" Description="Снижение давления по ДНД (уставка)" CounterMax="5" TimeValue="Alarms_Dt1213" Trigger="FLR_DX_LPDND.Trigger" Active="FLR_DX_LPDND.Active" />
+  <Alarm Name="FLR_DX_SFComp1" Type="ManualReset" Description="Срабатывание автоматического выключателя компр.1" Trigger="FLR_DX_SFComp1.Trigger" Active="FLR_DX_SFComp1.Active" />
+  <Alarm Name="FLR_DX_SFComp2" Type="ManualReset" Description="Срабатывание автоматического выключателя компр.2" Trigger="FLR_DX_SFComp2.Trigger" Active="FLR_DX_SFComp2.Active" />
+  <Alarm Name="FLR_DX_SFComp3" Type="ManualReset" Description="Срабатывание автоматического выключателя компр.3" Trigger="FLR_DX_SFComp3.Trigger" Active="FLR_DX_SFComp3.Active" />
+  <Alarm Name="FLR_DX_KVPower" Type="AutoResetUntilCounter" Description="Авария по реле контроля фаз" CounterMax="3" TimeValue="7200" Trigger="FLR_DX_KVPower.Trigger" Active="FLR_DX_KVPower.Active" />
+  <Alarm Name="FLR_Disc_CTRL" Type="AutoReset" Description="Потеря связи со шкафом управления" Trigger="FLR_Disc_CTRL.Trigger" Active="FLR_Disc_CTRL.Active" />
+  <Alarm Name="FLR_Disc_TOP" Type="AutoReset" Description="Потеря связи со шкафом установки" Trigger="FLR_Disc_TOP.Trigger" Active="FLR_Disc_TOP.Active" />
+  <Alarm Name="FLR_Disc_CPCOE" Type="AutoReset" Description="Потеря связи с модулем расширения шкафа DP-TOP" Trigger="FLR_Disc_CPCOE.Trigger" Active="FLR_Disc_CPCOE.Active" />
+  <Alarm Name="FLR_Conf_CPCOE" Type="AutoReset" Description="Неисправность модуля расширения шкафа DP-TOP" Trigger="FLR_Conf_CPCOE.Trigger" Active="FLR_Conf_CPCOE.Active" />
+  <Alarm Name="FLR_DX_SensorTw" Type="ManualReset" Description="Ошибка (обрыв или КЗ) датчика температуры обратной воды" Trigger="FLR_DX_SensorTw.Trigger" Active="FLR_DX_SensorTw.Active" />
+  <Alarm Name="FLR_DX_SensorHPDVD1" Type="ManualReset" Description="Ошибка (обрыв или КЗ) датчика высокого давления 1" Trigger="FLR_DX_SensorHPDVD1.Trigger" Active="FLR_DX_SensorHPDVD1.Active" />
+  <Alarm Name="FLR_DX_SensorHPDVD2" Type="ManualReset" Description="Ошибка (обрыв или КЗ) датчика высокого давления 2" Trigger="FLR_DX_SensorHPDVD2.Trigger" Active="FLR_DX_SensorHPDVD2.Active" />
+  <Alarm Name="FLR_DX_SensorLPDND" Type="ManualReset" Description="Ошибка (обрыв или КЗ) датчика низкого давления" Trigger="FLR_DX_SensorLPDND.Trigger" Active="FLR_DX_SensorLPDND.Active" />
+  <Alarm Name="FLR_SensorTout" Type="ManualReset" Description="Ошибка (обрыв или КЗ) датчика наружной температуры" Trigger="FLR_SensorTout.Trigger" Active="FLR_SensorTout.Active" />
+  <Alarm Name="FLR_SensorTsu" Type="ManualReset" Description="Ошибка (обрыв или КЗ) датчика приточной температуры" Trigger="FLR_SensorTsu.Trigger" Active="FLR_SensorTsu.Active" />
+  <Alarm Name="FLR_SensorTroom" Type="ManualReset" Description="Ошибка (обрыв или КЗ) датчика темп. вытяж. воздуха ДО рекуп." Trigger="FLR_SensorTroom.Trigger" Active="FLR_SensorTroom.Active" />
+  <Alarm Name="FLR_SensorHroom" Type="ManualReset" Description="Ошибка (обрыв или КЗ) датчика влажн. вытяж.воздуха ДО рекуп." Trigger="FLR_SensorHroom.Trigger" Active="FLR_SensorHroom.Active" />
+  <Alarm Name="FLR_SensorThru" Type="AutoResetUntilCounter" Description="Ошибка (обрыв или КЗ) датчика температуры ПОСЛЕ рекуператора" Trigger="FLR_SensorThru.Trigger" Active="FLR_SensorThru.Active" CounterMax="3" TimeValue="7200" />
+  <Alarm Name="FLR_SensorCO2" Type="AutoResetUntilCounter" Description="Ошибка (обрыв или КЗ) датчика концентрации CO2" Trigger="FLR_SensorCO2.Trigger" Active="FLR_SensorCO2.Active" CounterMax="3" TimeValue="7200" />
+  <Alarm Name="FLR_SensorVOC" Type="AutoResetUntilCounter" Description="Ошибка (обрыв или КЗ) датчика концентрации VOC" Trigger="FLR_SensorVOC.Trigger" Active="FLR_SensorVOC.Active" CounterMax="3" TimeValue="7200" />
+  <Alarm Name="FLR_SensorTsuPre" Type="AutoResetUntilCounter" Description="Ошибка (обрыв или КЗ) датчика температуры после пред.нагревателя" Trigger="FLR_SensorTsuPre.Trigger" Active="FLR_SensorTsuPre.Active" CounterMax="3" TimeValue="7200" />
+  <Alarm Name="FLR_SensorTcase" Type="AutoResetUntilCounter" Description="Ошибка (обрыв или КЗ) датчика температуры в шкафу" Trigger="FLR_SensorTcase.Trigger" Active="FLR_SensorTcase.Active" CounterMax="3" TimeValue="7200" />
+  <Alarm Name="FLR_DXcool1" Type="AutoResetUntilCounter" Trigger="FLR_DXcool1.Trigger" Active="FLR_DXcool1.Active" Description="Авария ККБ контур 1" CounterMax="Par_Cp01" TimeValue="1800" />
+  <Alarm Name="FLR_DXcool2" Type="AutoResetUntilCounter" Trigger="FLR_DXcool2.Trigger" Active="FLR_DXcool2.Active" Description="Авария ККБ контур 2" CounterMax="Par_Cp01" TimeValue="1800" />
+  <Alarm Name="WRN_FilterSuMain" Type="ManualReset" Description="Засорение основного фильтра приточного воздуха" Trigger="WRN_FilterSuMain.Trigger" Active="WRN_FilterSuMain.Active" />
+  <Alarm Name="WRN_FilterSuAux" Type="AutoReset" Trigger="WRN_FilterSuAux.Trigger" Active="WRN_FilterSuAux.Active" Description="Засорение предварительного фильтра приточного воздуха" />
+  <Alarm Name="WRN_FilterExh" Type="AutoReset" Trigger="WRN_FilterExh.Trigger" Active="WRN_FilterExh.Active" Description="Засорение фильтра вытяжного воздуха" />
+  <Alarm Name="FLR_EHeat" Type="AutoResetUntilCounter" Trigger="FLR_EHeat.Trigger" Active="FLR_EHeat.Active" Description="Авария э/нагрева" CounterMax="3" TimeValue="86400" />
+  <Alarm Name="FLR_FWMismatch" Type="AutoReset" Trigger="FLR_FWMismatch.Trigger" Active="FLR_FWMismatch.Active" Description="Несовпадение версий прошивки контроллеров DP-CTRL и DP-TOP" />
+  <Alarm Name="FLR_CoolTZ" Type="AutoResetUntilCounter" Description="Авария капиллярного термостата водяного т/о охладителя" Trigger="FLR_CoolTZ.Trigger" Active="FLR_CoolTZ.Active" CounterMax="Par_Cp01" TimeValue="1800" />
+  <Alarm Name="WRN_SensorTroom" Type="AutoReset" Description="Предупреждение (обрыв или КЗ) датчика темп. вытяж. воздуха ДО рекуп." Trigger="WRN_SensorTroom.Trigger" Active="WRN_SensorTroom.Active" CounterMax="3" TimeValue="7200" />
+  <Alarm Name="FLR_GateHeater" Type="AutoReset" Trigger="FLR_GateHeater.Trigger" Active="FLR_GateHeater.Active" Description="Авария КВУ" />
+  <Alarm Name="WRN_ManualMode" Type="AutoReset" Trigger="WRN_ManualMode.Trigger" Active="WRN_ManualMode.Active" Description="Предупреждение: ручной режим" />
+  <Alarm Name="FLR_DX_OilReg_Comp1" Type="AutoReset" Trigger="FLR_DX_OilReg_Comp1.Trigger" Active="FLR_DX_OilReg_Comp1.Active" Description="Авария регулятора масла 1" />
+  <Alarm Name="FLR_DX_OilReg_Comp2" Type="AutoReset" Trigger="FLR_DX_OilReg_Comp2.Trigger" Active="FLR_DX_OilReg_Comp2.Active" Description="Авария регулятора масла 2" />
+  <Alarm Name="FLR_DX_OilReg_Comp3" Type="AutoReset" Trigger="FLR_DX_OilReg_Comp3.Trigger" Active="FLR_DX_OilReg_Comp3.Active" Description="Авария регулятора масла 3" />
+  <Alarm Name="FLR_EVD" Type="AutoReset" Trigger="FLR_EVD.Trigger" Active="FLR_EVD.Active" Description="Авария ЭРВ EVD Evolution" />
+  <Alarm Name="FLR_Fire_Auto" Type="AutoReset" Description="Сигнал 'Пожар'" Trigger="FLR_Fire_Auto.Trigger" Active="FLR_Fire_Auto.Active" />
+  <Alarm Name="FLR_SensorTsuAux" Type="AutoResetUntilCounter" Description="Ошибка (обрыв или КЗ) датчика температуры после доп.нагревателя" Trigger="FLR_SensorTsuAux.Trigger" Active="FLR_SensorTsuAux.Active" CounterMax="3" TimeValue="7200" />
+  <Alarm Name="FLR_Disc_CPCOE_1" Type="AutoReset" Trigger="FLR_Disc_CPCOE_1.Trigger" Active="FLR_Disc_CPCOE_1.Active" Description="Потеря связи с модулем расширения 1" />
+  <Alarm Name="FLR_Disc_CPCOE_2" Type="AutoReset" Trigger="FLR_Disc_CPCOE_2.Trigger" Active="FLR_Disc_CPCOE_2.Active" Description="Потеря связи с модулем расширения 2" />
+  <Alarm Name="FLR_Disc_CPCOE_3" Type="AutoReset" Trigger="FLR_Disc_CPCOE_3.Trigger" Active="FLR_Disc_CPCOE_3.Active" Description="Потеря связи с модулем расширения 3" />
+  <Alarm Name="FLR_Disc_CPCOE_4" Type="AutoReset" Trigger="FLR_Disc_CPCOE_4.Trigger" Active="FLR_Disc_CPCOE_4.Active" Description="Потеря связи с модулем расширения 4" />
+  <Alarm Name="FLR_Disc_CPCOE_5" Type="AutoReset" Trigger="FLR_Disc_CPCOE_5.Trigger" Active="FLR_Disc_CPCOE_5.Active" Description="Потеря связи с модулем расширения 5" />
+  <Alarm Name="FLR_Disc_CPCOE_6" Type="AutoReset" Trigger="FLR_Disc_CPCOE_6.Trigger" Active="FLR_Disc_CPCOE_6.Active" Description="Потеря связи с модулем расширения 6" />
+  <Alarm Name="FLR_HRUrotor" Type="AutoReset" Trigger="FLR_HRUrotor.Trigger" Active="FLR_HRUrotor.Active" Description="Отказ оборудования регенератора" />
+  <Alarm Name="FLR_AuxFan1" Type="AutoReset" Trigger="FLR_AuxFan1.Trigger" Active="FLR_AuxFan1.Active" Description="Отказ доп.вентилятора 1" />
+  <Alarm Name="FLR_AuxFan2" Type="AutoReset" Trigger="FLR_AuxFan2.Trigger" Active="FLR_AuxFan2.Active" Description="Отказ доп.вентилятора 2" />
+  <Alarm Name="FLR_AuxFan3" Type="AutoReset" Trigger="FLR_AuxFan3.Trigger" Active="FLR_AuxFan3.Active" Description="Отказ доп.вентилятора 3" />
+  <Alarm Name="FLR_DX_SFComp4" Type="ManualReset" Description="Срабатывание автоматического выключателя компрессора 4" Trigger="FLR_DX_SFComp4.Trigger" Active="FLR_DX_SFComp4.Active" />
+  <Alarm Name="FLR_DX_HPComp4" Type="ManualReset" Description="Превышение давл.линии нагнетания компрессора 4 (реле давления)" CounterMax="3" TimeValue="7200" Trigger="FLR_DX_HPComp4.Trigger" Active="FLR_DX_HPComp4.Active" />
+  <Alarm Name="FLR_DX_LPComp4" Type="AutoResetUntilCounter" Description="Снижение давления линии всасывания компрессора 4 (реле давления)" CounterMax="3" TimeValue="7200" Trigger="FLR_DX_LPComp4.Trigger" Active="FLR_DX_LPComp4.Active" />
+  <Alarm Name="FLR_DX_CTComp4" Type="AutoResetUntilCounter" Description="Перегрев компрессора 4 по термостату линии нагнетания" CounterMax="3" TimeValue="7200" Trigger="FLR_DX_CTComp4.Trigger" Active="FLR_DX_CTComp4.Active" />
+  <Alarm Name="FLR_DX_SensorHPDVD1_Circ2" Type="ManualReset" Description="Ошибка (обрыв или КЗ) датчика высокого давления 1 (контур 2)" Trigger="FLR_DX_SensorHPDVD1_Circ2.Trigger" Active="FLR_DX_SensorHPDVD1_Circ2.Active" />
+  <Alarm Name="FLR_DX_SensorHPDVD2_Circ2" Type="ManualReset" Description="Ошибка (обрыв или КЗ) датчика высокого давления 2 (контур 2)" Trigger="FLR_DX_SensorHPDVD2_Circ2.Trigger" Active="FLR_DX_SensorHPDVD2_Circ2.Active" />
+  <Alarm Name="FLR_DX_SensorLPDND_Circ2" Type="ManualReset" Description="Ошибка (обрыв или КЗ) датчика низкого давления (контур 2)" Trigger="FLR_DX_SensorLPDND_Circ2.Trigger" Active="FLR_DX_SensorLPDND_Circ2.Active" />
+  <Alarm Name="FLR_DX_HPDVD1_Circ2" Type="AutoResetUntilCounter" Description="Превышение давления по ДВД1 (уставка) (контур 2)" CounterMax="5" TimeValue="Alarms_Dt1214" Trigger="FLR_DX_HPDVD1_Circ2.Trigger" Active="FLR_DX_HPDVD1_Circ2.Active" />
+  <Alarm Name="FLR_DX_HPDVD2_Circ2" Type="AutoResetUntilCounter" Description="Превышение давления по ДВД2 (уставка) (контур 2)" CounterMax="5" TimeValue="Alarms_Dt1214" Trigger="FLR_DX_HPDVD2_Circ2.Trigger" Active="FLR_DX_HPDVD2_Circ2.Active" />
+  <Alarm Name="FLR_DX_LPDND_Circ2" Type="AutoReset" Description="Снижение давления по ДНД (уставка) (контур 2)" CounterMax="5" TimeValue="Alarms_Dt1213" Trigger="FLR_DX_LPDND_Circ2.Trigger" Active="FLR_DX_LPDND_Circ2.Active" />
+  <Alarm Name="FLR_Offline_CPY" Type="AutoReset" Description="Потеря связи с CPY" Trigger="FLR_Offline_CPY.Trigger" Active="FLR_Offline_CPY.Active" />
+  <Alarm Name="FLR_ExpCylLife_CPY" Type="AutoReset" Description="Mn: превышен ресурс бака" Trigger="FLR_ExpCylLife_CPY.Trigger" Active="FLR_ExpCylLife_CPY.Active" />
+  <Alarm Name="FLR_HiConduct_CPY" Type="AutoReset" Description="EC: высокая электропроводность" Trigger="FLR_HiConduct_CPY.Trigger" Active="FLR_HiConduct_CPY.Active" />
+  <Alarm Name="FLR_ParamsNotDwnld_CPY" Type="AutoReset" Description="E1: ошибка конфигурации" Trigger="FLR_ParamsNotDwnld_CPY.Trigger" Active="FLR_ParamsNotDwnld_CPY.Active" />
+  <Alarm Name="FLR_CalibrationParams_CPY" Type="AutoReset" Description="E0: ошибка внутренней памяти CPY" Trigger="FLR_CalibrationParams_CPY.Trigger" Active="FLR_CalibrationParams_CPY.Active" />
+  <Alarm Name="FLR_HiCurr_CPY" Type="AutoReset" Description="EH: превышение значения тока на электродах" Trigger="FLR_HiCurr_CPY.Trigger" Active="FLR_HiCurr_CPY.Active" />
+  <Alarm Name="FLR_LowProduction_CPY" Type="AutoReset" Description="EP: низкая паропроизводительность" Trigger="FLR_LowProduction_CPY.Trigger" Active="FLR_LowProduction_CPY.Active" />
+  <Alarm Name="FLR_CylFull_CPY" Type="AutoReset" Description="EU: высокий уровень воды в баке" Trigger="FLR_CylFull_CPY.Trigger" Active="FLR_CylFull_CPY.Active" />
+  <Alarm Name="FLR_PrbNotConnected_CPY" Type="AutoReset" Description="E3: отсутствует сигнал внешнего управления" Trigger="FLR_PrbNotConnected_CPY.Trigger" Active="FLR_PrbNotConnected_CPY.Active" />
+  <Alarm Name="FLR_MissingW_CPY" Type="AutoReset" Description="EF: нет воды" Trigger="FLR_MissingW_CPY.Trigger" Active="FLR_MissingW_CPY.Active" />
+  <Alarm Name="FLR_AlrmDrn_CPY" Type="AutoReset" Description="Ed: отказ слива" Trigger="FLR_AlrmDrn_CPY.Trigger" Active="FLR_AlrmDrn_CPY.Active" />
+  <Alarm Name="FLR_HiHum_CPY" Type="AutoReset" Description="Eh1: высокая влажность" Trigger="FLR_HiHum_CPY.Trigger" Active="FLR_HiHum_CPY.Active" />
+  <Alarm Name="FLR_LowHum_CPY" Type="AutoReset" Description="Eh2: низкая влажность" Trigger="FLR_LowHum_CPY.Trigger" Active="FLR_LowHum_CPY.Active" />
+  <Alarm Name="FLR_SerialDisconnected_CPY" Type="AutoReset" Description="SU: нет связи по последовательному соединению" Trigger="FLR_SerialDisconnected_CPY.Trigger" Active="FLR_SerialDisconnected_CPY.Active" />
+  <Alarm Name="FLR_CylLifeWarn_CPY" Type="AutoReset" Description="Предупреждение CY: наработка бака достигла порога" Trigger="FLR_CylLifeWarn_CPY.Trigger" Active="FLR_CylLifeWarn_CPY.Active" />
+  <Alarm Name="FLR_FoamWarn_CPY" Type="AutoReset" Description="Предупреждение EA: пена" Trigger="FLR_FoamWarn_CPY.Trigger" Active="FLR_FoamWarn_CPY.Active" />
+  <Alarm Name="FLR_PreExhaustWarn_CPY" Type="AutoReset" Description="Предупреждение CP:  требуется обслуживание бака" Trigger="FLR_PreExhaustWarn_CPY.Trigger" Active="FLR_PreExhaustWarn_CPY.Active" />
+  <Alarm Name="FLR_CylExhaustWarn_CPY" Type="AutoReset" Description="Предупреждение CL: ресурс бака истёк" Trigger="FLR_CylExhaustWarn_CPY.Trigger" Active="FLR_CylExhaustWarn_CPY.Active" />
+  <Alarm Name="FLR_BkpMemExhaustWarn_CPY" Type="AutoReset" Trigger="FLR_BkpMemExhaustWarn_CPY.Trigger" Active="FLR_BkpMemExhaustWarn_CPY.Active" Description="Предупреждение E2: ошибка сохранения в памяти CPY" />
+  <Alarm Name="FLR_Humid" Type="AutoReset" Trigger="FLR_Humid.Trigger" Active="FLR_Humid.Active" Description="Авария пароувлажнителя (дискретный вход)" />
+  <Alarm Name="FLR_Leak" Type="AutoReset" Trigger="FLR_Leak.Trigger" Active="FLR_Leak.Active" Description="Протечка" />
+  <Alarm Name="FLR_MainUnitOffline" Type="AutoReset" Trigger="FLR_MainUnitOffline.Trigger" Active="FLR_MainUnitOffline.Active" Description="Основная установка не в сети" />
+  <Alarm Name="FLR_ResUnitOffline" Type="AutoReset" Trigger="FLR_ResUnitOffline.Trigger" Active="FLR_ResUnitOffline.Active" Description="Резервная установка не в сети" />
+  <Alarm Name="WRN_ResUnitIsOff" Type="AutoReset" Trigger="WRN_ResUnitIsOff.Trigger" Active="WRN_ResUnitIsOff.Active" Description="Резервная установка отключена" />
+  <Alarm Name="FLR_BacSection" Type="AutoReset" Trigger="FLR_BacSection.Trigger" Active="FLR_BacSection.Active" Description="Отказ бактерицидной секции" />
+  <Alarm Name="WRN_Recup_DPD" Type="AutoReset" Trigger="WRN_Recup_DPD.Trigger" Active="WRN_Recup_DPD.Active" Description="Авария ДПД рекуператора" />
+  <Alarm Name="FLR_FanRegTK" Type="AutoResetUntilCounter" Description="Авария регенеративного вентилятора" CounterMax="3" TimeValue="7200" Trigger="FLR_FanRegTK.Trigger" Active="FLR_FanRegTK.Active" />
+  <Alarm Name="FLR_FanSupplyRes" Type="AutoResetUntilCounter" Description="Авария приточного резервного вентилятора" CounterMax="3" TimeValue="7200" Trigger="FLR_FanSupplyRes.Trigger" Active="FLR_FanSupplyRes.Active" />
+  <Alarm Name="FLR_FanExhRes" Type="AutoResetUntilCounter" Description="Авария вытяжного резервного вентилятора" CounterMax="3" TimeValue="7200" Trigger="FLR_FanExhRes.Trigger" Active="FLR_FanExhRes.Active" />
+  <Alarm Name="FLR_FanRegRes" Type="AutoResetUntilCounter" Description="Авария регенеративного резервного вентилятора" CounterMax="3" TimeValue="7200" Trigger="FLR_FanRegRes.Trigger" Active="FLR_FanRegRes.Active" />
+  <Alarm Name="FLR_FreezeRegW1" Type="AutoResetUntilCounter" Description="Снижение температуры обр.воды нагревателя 1 реген.потока до опасного минимума " CounterMax="Par_Wp05" TimeValue="1800" Trigger="FLR_FreezeRegW1.Trigger" Active="FLR_FreezeRegW1.Active" />
+  <Alarm Name="FLR_FreezeRegW2" Type="AutoResetUntilCounter" Description="Снижение температуры обр.воды нагревателя 2 реген.потока до опасного минимума" CounterMax="Par_Wp05" TimeValue="1800" Trigger="FLR_FreezeRegW2.Trigger" Active="FLR_FreezeRegW2.Active" />
+  <Alarm Name="FLR_FreezeRegTZ" Type="ManualReset" Description="Авария насоса/капиллярного термостата нагревателей реген.потока" Trigger="FLR_FreezeRegTZ.Trigger" Active="FLR_FreezeRegTZ.Active" />
+  <Alarm Name="FLR_RegEHeat_1" Type="AutoResetUntilCounter" Trigger="FLR_RegEHeat_1.Trigger" Active="FLR_RegEHeat_1.Active" Description="Авария э/нагрева регенеративного нагревателя 1" CounterMax="3" TimeValue="86400" />
+  <Alarm Name="FLR_RegEHeat_2" Type="AutoResetUntilCounter" Trigger="FLR_RegEHeat_2.Trigger" Active="FLR_RegEHeat_2.Active" Description="Авария э/нагрева регенеративного нагревателя 2" CounterMax="3" TimeValue="86400" />
+  <Alarm Name="FLR_RegSorpEHeat" Type="AutoResetUntilCounter" Trigger="FLR_RegSorpEHeat.Trigger" Active="FLR_RegSorpEHeat.Active" Description="Авария э/нагрева сорбционного регенератора" CounterMax="3" TimeValue="86400" />
+  <Alarm Name="FLR_Sensor_RegTw1" Type="ManualReset" Description="Ошибка (обрыв или КЗ) датчика температуры обратной воды реген.нагрев.1" Trigger="FLR_Sensor_RegTw1.Trigger" Active="FLR_Sensor_RegTw1.Active" />
+  <Alarm Name="FLR_Sensor_RegTw2" Type="ManualReset" Description="Ошибка (обрыв или КЗ) датчика температуры обратной воды реген.нагрев.2" Trigger="FLR_Sensor_RegTw2.Trigger" Active="FLR_Sensor_RegTw2.Active" />
+  <Alarm Name="FLR_FanSuDiff" Type="ManualReset" Trigger="FLR_FanSuDiff.Trigger" Active="FLR_FanSuDiff.Active" Description="Перепад давления на приточном вентиляторе" />
+  <Alarm Name="FLR_FanExhDiff" Type="AutoReset" Trigger="FLR_FanExhDiff.Trigger" Active="FLR_FanExhDiff.Active" Description="Перепад давления на вытяжном вентиляторе" />
+</Alarms>

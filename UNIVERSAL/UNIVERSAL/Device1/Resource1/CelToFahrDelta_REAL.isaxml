@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Pou FileVersion="200.00.003" Name="CelToFahrDelta_REAL" ElementGuid="eadf01e4-281b-4fec-a5c7-d111c91e66f8" Comment="" SingleTextLine="Converts a differential in Celsius to a differential in Fahrenheit" Language="ST" CustomFbd="0" Localization="Prj" GroupName="(User defined)" Password="E4BDBA2BEF6CC4DC" GenDebugInfo="false" UseResPassword="true" GenerateSymbMon="true" Is1499="false">
+  <Function IdentifierNb="0" Keyword="" ConvDirection="NoConversion" DataType="DINT" />
+  <LocalVars>
+    <Variable Name="CelToFahrDelta_REAL" DataType="REAL" InitialValue="" Comment="Differential in Fahrenheit" Address="" Modifier="Constant" Kind="VarOutput" Alias="" AccessRights="ReadWrite" StringSize="0" Direction="Output" CommentFields="" Attributes="23825" />
+    <Variable Name="In" DataType="REAL" InitialValue="" Comment="Differential in Celsius" Address="" Modifier="Constant" Kind="VarInput" Alias="" AccessRights="Read" StringSize="0" Direction="Input" CommentFields="" Attributes="0" />
+  </LocalVars>
+  <PouBody><![CDATA[gFQnV1NbWi9dZGUTZGofaWwxMzU3g1NLR1dLTk5hh2BoV21HYSm2QWFvdmBfE4FESA4IQmUtkGpCYmpzRCSocWVcUERBDf44TW0oOC5x6zAqMzkMCgSKQVtFV09DFY1KSg==]]></PouBody>
+  <PouUIProperties><![CDATA[P1QnV1NbWi9dZGUTZGofaWwxMzU3Pzl9aW8id2UzP2xrbT8jMW8/JyRmbGJvJT9rYz4gdHQnPz0mPDwMCn0/amt3IldlMz9sa20/IzVjPwgOIyI9TCA/YnFiZWRDLj9xZWpsZHISP3xoZiJCbyw/YGp3VmR4NT9qaGxwPCIGP2BhbSAhQy4/aGFtdkdvLz84JkBtdHIoP3ckTWd2LGE/NXR3ICFQLj9mcHZjdWkuP1Fhe3ZCby0/dzkhQG1hIj8nJFNtb2M1P2Rwam1vRi4/cTkhQW51Mz9gdiNMZHdtPzQ0c3YjIAg/YGp3a2dpJD9RYXt2Qm8tP3c5IUBtYSI/JyRKZmRuNT9jbWZwR28vPzgmQG10cig/dyRNZ3YsYT81dHcgIU8xP3dld21zVCQ/cUdsbm5yfD9HaGJhaiJhP3VhcWN1bzM/amp3PyNDLj93bWZwIU4kPykkMjJxdGM/V2FwZ3N2JD9Sa3FmVWU5P0Zrb21zPWM/aXFmICFSJD9gdnVnZVcuP2FCbGx1PWM/anFxa2RyYT9gcy8iMDAxPyckU210VCQ/cUdsbm5yfD9HaHZnV2kuP2BwISJRbzQ/amp3PyNDLj93bWZwIU4kPykkMjJxdGM/S3FuYGRyFT99cEBtbW8zPydAYnBqUiQ/JyRNd2xiJD9Da212PCICP3B2amdzIA8/cigjMzFwNT8lV3dwaG4mP2B8d0FubC4/OCZHY3NrEz9hJiNRdXIoP2JCbGx1PWM/anFxa2RyYT9gcy8iMDAxPyckRmZodC4/UWF7dkByJD9HZWBpZnIuP2tgQG1tbzM/J1Nra3VlYz9AYGp2bnIHP2twPiBCbzQ/bGFxIk9lNj8lNTNydSJhP2tgZno8InE/JSs9Dws8bj9qa3c8]]></PouUIProperties>
+</Pou>

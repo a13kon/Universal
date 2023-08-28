@@ -1,0 +1,19 @@
+[MAIN]
+NET=2
+CONF=1
+RES=1
+
+
+[NET]
+N1=ISARSI_1, ISARSI, COM3:9600:N:1:OFF
+N2=ETCP_2, ETCP
+
+
+[CONF]
+C1=Device1, 2
+I1=1
+I2=2, 172.17.3.115
+
+
+[RES]
+R1=1, Resource1, 1

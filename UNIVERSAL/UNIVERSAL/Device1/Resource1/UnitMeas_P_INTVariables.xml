@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Manifest Version="1.1.0">
+  <Variables>
+    <Variable Name="BaseP" Comment="Algorithm value" DataType="INT" Kind="VarOutput" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Access="ReadWrite" Min="" Max="" StringSize="0" />
+    <Variable Name="BasePIn" Comment="Algorithm value" DataType="INT" Kind="VarInput" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Access="ReadWrite" Min="" Max="" StringSize="0" />
+    <Variable Name="BaseUnit" Comment="Unit of measurement of the base (false: Bar, true: Psi)" DataType="BOOL" Kind="VarInput" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Access="ReadWrite" Min="" Max="" StringSize="0" />
+    <Variable Name="DisplayP" Comment="Display value" DataType="INT" Kind="VarOutput" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Access="ReadWrite" Min="" Max="" StringSize="0" />
+    <Variable Name="DisplayPIn" Comment="Display value" DataType="INT" Kind="VarInput" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Access="ReadWrite" Min="" Max="" StringSize="0" />
+    <Variable Name="DisplayUnit" Comment="Unit of measurement of the display (false: Bar, true: Psi)" DataType="BOOL" Kind="VarInput" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Access="ReadWrite" Min="" Max="" StringSize="0" />
+    <Variable Name="UnitMeasPressAbs_REAL_1" Comment="" DataType="UnitMeas_P_REAL" Kind="Var">
+      <Variable Name="BasePIn" DataType="REAL" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Comment="Algorithm value" Kind="VarInput" Access="ReadWrite" Decimals="1" Min="" Max="" StringSize="0" />
+      <Variable Name="DisplayPIn" DataType="REAL" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Comment="Display value" Kind="VarInput" Access="ReadWrite" Decimals="1" Min="" Max="" StringSize="0" />
+      <Variable Name="BaseUnit" DataType="BOOL" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Comment="Unit of measurement of the base (false: Bar, true: Psi)" Kind="VarInput" Access="ReadWrite" Min="" Max="" StringSize="0" />
+      <Variable Name="DisplayUnit" DataType="BOOL" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Comment="Unit of measurement of the display (false: Bar, true: Psi)" Kind="VarInput" Access="ReadWrite" Min="" Max="" StringSize="0" />
+      <Variable Name="BaseP" DataType="REAL" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Comment="Algorithm value" Kind="VarOutput" Access="ReadWrite" Decimals="1" Min="" Max="" StringSize="0" />
+      <Variable Name="DisplayP" DataType="REAL" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Comment="Display value" Kind="VarOutput" Access="ReadWrite" Decimals="1" Min="" Max="" StringSize="0" />
+      <Variable Name="PrevBaseP" DataType="REAL" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Comment="" Kind="Var" Access="ReadWrite" Decimals="1" Min="" Max="" StringSize="0" />
+      <Variable Name="PrevDisplayP" DataType="REAL" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Comment="" Kind="Var" Access="ReadWrite" Decimals="1" Min="" Max="" StringSize="0" />
+      <Variable Name="PrevDisplayUnit" DataType="BOOL" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Comment="" Kind="Var" Access="ReadWrite" Min="" Max="" StringSize="0" />
+      <Variable Name="FirstRun" DataType="BOOL" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Comment="" Kind="Var" Access="ReadWrite" Min="" Max="" StringSize="0" />
+    </Variable>
+  </Variables>
+</Manifest>

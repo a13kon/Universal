@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Manifest Version="1.1.0">
+  <Variables>
+    <Variable Name="adj" Comment="" DataType="UINT" Kind="Var" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Access="ReadWrite" Min="" Max="" StringSize="0" />
+    <Variable Name="Adjust" Comment="Number of seconds per hour (set 0 to indicate 3600)" DataType="UINT" Kind="VarInput" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Access="ReadWrite" Min="" Max="" StringSize="0" />
+    <Variable Name="Alrm" Comment="Signals that the maximum number of operating hours have been reached" DataType="BOOL" Kind="VarOutput" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Access="ReadWrite" Min="" Max="" StringSize="0" />
+    <Variable Name="EnOverwrite" Comment="" DataType="BOOL" Kind="Var" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Access="ReadWrite" Min="" Max="" StringSize="0" />
+    <Variable Name="first" Comment="" DataType="BOOL" Kind="Var" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Access="ReadWrite" Min="" Max="" InitialValue="TRUE" StringSize="0" />
+    <Variable Name="Hours" Comment="Count of hours" DataType="UDINT" Kind="VarOutput" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="Hours" Access="ReadWrite" Min="" Max="" StringSize="0" />
+    <Variable Name="HoursNo" Comment="HoursRetain update rate (according to Adjust)" DataType="UINT" Kind="VarInput" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Access="ReadWrite" Min="" Max="" StringSize="0" />
+    <Variable Name="HoursRetain" Comment="Count of hours (updated only every HoursNo hours)" DataType="UDINT" Kind="VarOutput" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="Hours" Access="ReadWrite" Min="" Max="" StringSize="0" />
+    <Variable Name="HoursRetainIn" Comment="Feedback from HoursRetain (VAR_IN_OUT simulation)" DataType="UDINT" Kind="VarInput" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="Hours" Access="ReadWrite" Min="" Max="" StringSize="0" />
+    <Variable Name="In" Comment="Enables hours count" DataType="BOOL" Kind="VarInput" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Access="ReadWrite" Min="" Max="" StringSize="0" />
+    <Variable Name="old" Comment="" DataType="TIME" Kind="Var" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Access="ReadWrite" Min="" Max="" StringSize="0" />
+    <Variable Name="Res_Trig" Comment="" DataType="R_TRIG" Kind="Var">
+      <Variable Name="CLK" DataType="BOOL" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Comment="any boolean variable" Kind="VarInput" Access="ReadWrite" Min="" Max="" StringSize="0" />
+      <Variable Name="Q" DataType="BOOL" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Comment="TRUE when CLK rises from FALSE to TRUE. False in other cases" Kind="VarOutput" Access="ReadWrite" Min="" Max="" StringSize="0" />
+      <Variable Name="Redge" DataType="BOOL" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Comment="Rising edge" Kind="Var" Access="ReadWrite" Min="" Max="" StringSize="0" />
+    </Variable>
+    <Variable Name="Reset" Comment="Reset of internal counter" DataType="BOOL" Kind="VarInput" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Access="ReadWrite" Min="" Max="" StringSize="0" />
+    <Variable Name="TempHours" Comment="" DataType="UDINT" Kind="Var" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Access="ReadWrite" Min="" Max="" StringSize="0" />
+    <Variable Name="Thrsh" Comment="Threshold of alarm" DataType="UDINT" Kind="VarInput" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Access="ReadWrite" Min="" Max="" StringSize="0" />
+    <Variable Name="TimeCounter_Hours" Comment="" DataType="TimeCounter_INT" Kind="Var">
+      <Variable Name="In" DataType="BOOL" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Comment="Enables the count" Kind="VarInput" Access="ReadWrite" Min="" Max="" StringSize="0" />
+      <Variable Name="Du" DataType="BOOL" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Comment="Down/Up, indicate the direction of count" Kind="VarInput" Access="ReadWrite" Min="" Max="" StringSize="0" />
+      <Variable Name="Reset" DataType="BOOL" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Comment="Resets the count" Kind="VarInput" Access="ReadWrite" Min="" Max="" StringSize="0" />
+      <Variable Name="Enable" DataType="BOOL" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Comment="Enables the update of the output" Kind="VarInput" Access="ReadWrite" Min="" Max="" StringSize="0" />
+      <Variable Name="Out" DataType="INT" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="Seconds" Comment="Count" Kind="VarOutput" Access="ReadWrite" Min="" Max="" StringSize="0" />
+      <Variable Name="Time_Cont" DataType="TIME" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Comment="" Kind="Var" Access="ReadWrite" Min="" Max="" StringSize="0" />
+      <Variable Name="Time_Old" DataType="TIME" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Comment="" Kind="Var" Access="ReadWrite" Min="" Max="" StringSize="0" />
+      <Variable Name="Out_Int" DataType="INT" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Comment="" Kind="Var" Access="ReadWrite" Min="" Max="" StringSize="0" />
+      <Variable Name="InOld" DataType="BOOL" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Comment="" Kind="Var" Access="ReadWrite" Min="" Max="" StringSize="0" />
+    </Variable>
+    <Variable Name="tmp" Comment="" DataType="UINT" Kind="Var" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Access="ReadWrite" Min="" Max="" StringSize="0" />
+  </Variables>
+</Manifest>

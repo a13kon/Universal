@@ -1,0 +1,4433 @@
+[EN]
+Alarms             /
+:     /  /
+Alarms
+for 3s to reset
+Press ALARM 
+ 
+ all alarms
+ Press ENTER
+ to DATA LOGGER
+ Data logger
+  Record:
+ :     /  /
+Alarms             /
+Alarms
+ 
+for 3s to reset
+Press ALARM 
+ all alarms
+  NO LOGS
+Alarms History
+ 
+ NO ALARMS
+to DATA LOGGER
+Press ENTER
+Alarms History
+ NO ALARMS
+Alarms History
+Data logger
+  Record:
+Event:
+ :     /  /
+Language
+ENGLISH
+ 
+P¬CC¨¦°
+Unit On/Off
+   Presets
+Current:
+State:
+Mode:
+:
+1:
+2:
+3:
+4:
+6:
+6:
+6:
+1:
+2:
+3:
+Holding Registers
+Coils
+Freq:
+3:
+4:
+1:
+2:
+  Set
+Current set:       
+ßC
+INITIALIZATION
+  COMPLETED
+ Wait for automatic 
+ application startup
+ATTENTION!
+Press ESC to go back
+ATTENTION!
+Network map
+  Device role:
+Master is
+  Connection status:
+   Reboot...
+  Eject USB!
+ ATTENTION!
+Press ENTER to YES
+Press ESC   to NO
+CTRL: v.
+TOP : v.
+FW is not compatible!
+Necessary to upgrade
+TOP
+Information
+SW ver.:
+OS ver.:
+.
+.
+. .
+Code:
+---
+Information
+Board type:
+Board size:
+Core:
+Information
+Cycle/s
+ms
+Main task:
+Retain memory writes:
+Unit:                h
+Information
+PowerOff time:
+/
+/
+Length last time off:
+:
+days    hrs    min
+:
+Information
+:
+/
+/
+:
+Current time:
+Blackout info
+Information
+Main      :
+Cascade   :
+Temperature setpoints
+Humidity setpoints
+
+Main      :
+Cascade   :
+Main      :
+Cascade   :
+
+%
+%
+Press ENTER
+to Log Out
+You are
+logged as
+LogOut
+Enter password:
+Login
+/
+Main Menu
+/
+/
+:
+ Date/Time change
+:
+Date:
+Hour:
+Day:
+NO
+YES
+  Timezone
+Update Timezone:
+Current:
+New time zone:
+State:
+  Password manage
+Unit of Measure
+UoM zone for mask
+visualization:
+editor:
+UoM zone for tERA/web
+Unit of Measure
+  Device role
+Current:
+Group structure
+ Enter the number
+of slave devices
+Current number:
+ Work mode
+Current:
+/
+/
+:
+ Date/Time change
+:
+Date:
+Hour:
+Format:
+Day:
+/
+Delete alarm logs?
+Alarm initialization
+Initialization
+counters?
+Enable buzzer?
+1/2
+Clear AutoReset 
+Initialization
+DEFAULT INSTALLATION
+Wipe retain mem.:
+Wipe NVRAM mem.:
+Wipe all:
+2/2
+Import/Export:
+Memory type :
+File name:
+Confirm?
+EXPORT_
+Params Import/Export
+ Unit configuration 
+>
+Memory type:
+File name:
+Confirm?
+>AL_EXPORT_
+ Alarm Export
+ Unit configuration
+Work schedule
+Mon:
+Tue:
+Wed:
+Thu:
+Fri:
+Sat:
+Sun:
+--:--
+--:--
+--:--
+--:--
+--:--
+--:--
+--:--
+--:--
+--:--
+--:--
+--:--
+--:--
+--:--
+--:--
+--:--
+--:--
+:
+  Device role
+Current:
+  Upgrade OS
+PRG - upgrade,
+OS v.
+.
+.
+ Upgrade OS?
+ESC - cancel
+Upgrade is available:
+  Upgrade FW
+PRG - upgrade,
+ESC - cancel
+  Upgrade
+Firmware:
+Error
+Err_R
+Error
+R ver
+R ver
+ModBus settings
+Port:
+  Control mode
+Current:
+BMS settings
+Port:
+FBus2
+1/2
+BMS settings
+Answer
+ms
+Detection
+timeout  :
+ms
+Command
+delay    :
+ms
+timeout  :
+2/2
+BMS settings
+Port:
+BMS2
+BMS settings
+Port:
+1/2
+BMS settings
+Answer
+ms
+Detection
+timeout  :
+ms
+Command
+delay    :
+ms
+timeout  :
+2/2
+BMS settings
+Port:
+BMS2
+BMS settings
+Port:
+Ethernet settings
+IP  :
+Mask:
+GW  :
+DNS :
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+DHCP:
+ Connection settings
+IP  :
+.
+.
+.
+Press ESC to back
+ Operation result
+Press ESC to back
+ATTENTION!
+Imp/Exp parameters
+is not allowed
+with the unit on
+Press ESC to back
+ Operation result
+Press ESC to back
+ATTENTION!
+  Alarm Log
+is cleared!
+  Upgrade
+/
+Configurator
+/
+Signal: code
+Input:
+/
+---
+---
+---
+Signal: code
+Type:
+Min:
+Max:
+Input:
+/
+Signal: code
+Output:
+/
+---
+Signal: code
+Type:
+Output:
+%
+      Activation
+ Schedule
+/
+Status:
+Input :
+Signal: code
+Mode  :
+Invert:
+/
+Value :
+Signal: code
+Input :
+Mode  :
+/
+Signal: code
+Output:
+Status:
+Mode  :
+/
+Signal: code
+Value :
+Output:
+Mode  :
+Invert:
+/
+Current:
+Signal:
+Input :
+Corr. :
+---
+Life time:
+Compressor
+Turn on number:
+h
+min
+Statistics
+.
+:
+:
+Last turn off time:
+Life time:
+Statistics
+.
+:
+:
+h
+min
+Turn on number:
+Last turn off time:
+Compressor
+  Refridgerator
+  Refridgerator
+1
+2
+  Refridgerator
+1
+2
+3
+Low :
+High:
+SV :
+HPS1:
+HPS2:
+LPS:
+Neutr.zone:
+bar
+bar
+  Refridgerator
+bar
+bar
+bar
+1
+2
+4
+3
+  Refridgerator
+ Active     :
+ R.to start :
+ R.to stop  :
+ Alarm      :
+CÄÅÁ¸ú¼ coÃµ:
+3
+4
+ Refridg.(circuit 2)
+SV:
+HPS1:
+HPS2:
+LPS:
+Neutr.zone
+H:
+L:
+Refridg.(circuit 2)
+HPS2:
+LPS:
+HPS1:
+
+
+
+Neutr.zone
+­:
+H:
+SV:
+
+
+
+
+ Active     :
+ R.to start :
+ R.to stop  :
+ Alarm      :
+1
+2
+3
+4
+Refridg.(circuit 2)
+C.1
+C.2
+Steam humidifier
+%
+Request  :
+Request  :
+Steam humidifier
+%
+Request  :
+Request  :
+Steam humidifier
+A
+kg/h
+äS/cm
+Current  :
+Conductiv:
+SteamRate:
+%
+Request  :
+Config   :
+1/2
+Steam humidifier
+Cylind.LT:
+h
+2/2
+Life time:
+h
+  NO
+ YES
+  Carel NTC
+     PT1000
+     0..1 V
+  Carel NTC
+     PT1000
+     0..1 V
+    0..10 V
+    4..20mA
+      0..5V
+    0..20mA
+    NTC 10k
+      0-10V
+  PWM 100Hz
+   PWM 2KHz
+  PWM 100Hz
+0-10V sl.r.
+Too many mem writings
+Retain mem write error
+Supply fan failure
+Exhaust fan failure
+Pump failure
+Alarm 'Fire'
+Preheating fail. Resetfor Wt03 minutes.
+Freeze water
+Freeze TZ
+DX failure
+High pressure relay 1
+High pressure relay 2
+High pressure relay 3
+Low pressure relay 1
+Low pressure relay 2
+Low pressure relay 3
+Discharge thermostat 1
+Discharge thermostat 2
+Discharge thermostat 3
+High pressure sensor 1
+High pressure sensor 2
+Low pressure sensor
+Compressor 1 alarm
+Compressor 2 alarm
+Compressor 3 alarm
+Fase control alarm
+CTRL is offline
+TOP is offline
+cpCOe is offline
+Wrong config on cpCOe
+Broken Tw sensor
+Broken high pressure  sensor 1
+Broken high pressure  sensor 2
+Broken low pressure   sensor
+Broken T out sensor
+Broken T supply sensor
+Broken T room sensor
+Broken H room sensor
+Broken Thru
+Broken CO sensor
+Broken VOC sensor
+Broken T sensor after preheater
+Broken T case sensor
+Circuit 1 failure
+Circuit 2 failure
+Main supply filter warning
+Pre supply filter warning
+Exhaust filter warning
+Electric heat failure
+FW version is mismatch
+Freezing cooler's     water coil
+Warning T room sensor
+Gate heater failure 
+Some inputs or outputsin manual mode!
+Oil regulator 1 fail
+Oil regulator 2 fail
+Oil regulator 3 fail
+EVD failure
+Alarm 'Fire'
+Broken T sensor after aux.heater
+cpCOe 1 is offline
+cpCOe 2 is offline
+cpCOe 3 is offline
+cpCOe 4 is offline
+cpCOe 5 is offline
+cpCOe 6 is offline
+Rotor FC alarm
+Aux fan 1 alarm
+Aux fan 2 alarm
+Aux fan 3 alarm
+Compressor 4 alarm
+High pressure relay 4
+Low pressure relay 4
+Discharge thermostat 4
+Broken high pressure  sensor 1 (circuit 2)
+Broken high pressure  sensor 2 (circuit 2)
+Broken low pressure   sensor (circuit 2)
+High pressure sensor 1(circuit 2)
+High pressure sensor 2(circuit 2)
+Low pressure sensor 1 (circuit 2)
+CPY offline
+Mn: cylinder's life   time expired
+EC: high water        conductivity alarm
+E1: configuration     parameter error
+E0: internal memory   error
+EH: excess electrode  current
+EP:low steam flow-rate
+EU: high water level
+E3: external control  signal missing
+EF: no supply water
+Ed: drain failure
+Eh1: high humidity
+Eh2: low humidity
+SU:serial disconnected
+CY: maintenance time  expired
+EA: foam
+CP: cylinder requires maintenance
+CL: cylinder depleted
+E2:memory backup fails
+Steam humidifier alarm(discrete input)
+Leak sensor alarm
+Main unit is offline
+Reserve unit is       offline
+Reserve unit is off
+Bactericidal section  failure
+Recuperator pressure  drop
+Regenerative fan      failure
+Reserve supply fan    failure
+Reserve exhaust fan   failure
+Reserve regenerative  fan failure
+Low water temp. of    regen.heater 1
+Low water temp. of    regen.heater 2
+Regen.flow thermostatealarm
+Regen.flow e/heater 1 alarm
+Regen.flow e/heater 2 alarm
+Sorption regen.       e/heater alarm 
+Regen.heater 1 water  sensor is broken
+Regen.heater 2 water  sensor is broken
+ªÃ¼Ä.Æ¸úÄ.:Á¸Ã¸Áa· ·aÆ
+­ËÄ.Æ¸úÄ.:Á¸Ã¸Áa· ·aÆ
+Start
+ Stop
+FLR#00
+FLR#01
+FLR#02
+FLR#03
+FLR#04
+FLR#05
+FLR#06
+FLR#07
+FLR#08
+FLR#09
+FLR#10
+FLR#11
+FLR#12
+FLR#13
+FLR#14
+FLR#15
+FLR#16
+FLR#17
+FLR#18
+FLR#19
+FLR#20
+FLR#21
+FLR#22
+FLR#23
+FLR#24
+FLR#25
+FLR#26
+FLR#27
+FLR#28
+FLR#29
+FLR#30
+FLR#31
+FLR#32
+FLR#33
+FLR#34
+FLR#35
+FLR#36
+FLR#37
+FLR#38
+FLR#39
+FLR#40
+FLR#41
+FLR#42
+FLR#43
+FLR#44
+FLR#45
+FLR#46
+FLR#47
+FLR#48
+FLR#49
+FLR#50
+FLR#51
+FLR#52
+FLR#53
+FLR#54
+FLR#55
+FLR#56
+FLR#57
+FLR#05
+FLR#59
+FLR#60
+FLR#61
+FLR#62
+FLR#63
+FLR#64
+FLR#65
+FLR#66
+FLR#67
+FLR#68
+FLR#69
+FLR#70
+FLR#71
+FLR#72
+FLR#73
+FLR#74
+FLR#75
+FLR#76
+FLR#77
+FLR#78
+FLR#79
+FLR#80
+FLR#81
+FLR#82
+FLR#83
+FLR#84
+FLR#85
+FLR#86
+FLR#87
+FLR#88
+FLR#89
+FLR#90
+FLR#91
+FLR#92
+FLR#93
+FLR#94
+FLR#95
+FLR#96
+FLR#97
+FLR#98
+FLR#99
+FLR#100
+FLR#101
+FLR#102
+FLR#103
+FLR#104
+FLR#105
+FLR#106
+FLR#107
+FLR#108
+FLR#109
+FLR#110
+FLR#111
+FLR#112
+FLR#113
+FLR#114
+FLR#115
+FLR#116
+FLR#117
+FLR#118
+FLR#119
+ 
+
+ 
+B
+
+
+
+
+
+-
+
+Board Temp.:          
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+     Large
+    Medium
+     Small
+        XL
+ 
+ 
+ 
+ 
+ 
+ 
+     Basic
+  Enhanced
+  High End
+EVD :
+SBN :
+SNK1:
+SNK2:
+  NO
+ YES
+ 
+(circuit1)
+(circuit2)
+M0 
+M1 
+M2 
+M3 
+---
+---
+---
+---
+---
+---
+ª0 
+ª1 
+---
+---
+---
+---
+---
+---
+---
+---
+---
+---
+---
+---
+---
+---
+---
+---
+---
+---
+---
+---
+---
+---
+---
+---
+---
+---
+---
+---
+---
+---
+---
+---
+---
+---
+---
+---
+---
+---
+---
+---
+---
+---
+---
+---
+---
+---
+---
+---
+---
+---
+---
+---
+---
+---
+---
+---
+---
+---
+---
+---
+---
+---
+---
+---
+---
+---
+---
+---
+---
+---
+---
+---
+---
+---
+---
+---
+---
+---
+---
+---
+---
+---
+---
+---
+---
+---
+---
+---
+ 
+
+ßC
+  NO
+ YES
+ 
+
+K
+%
+bar
+s
+m
+hr
+mA
+V
+ppm
+Pa
+g
+uSm
+ms
+ 
+**
+129
+130
+131
+132
+133
+134
+135
+136
+137
+138
+139
+140
+141
+142
+143
+144
+145
+146
+147
+148
+149
+150
+151
+152
+153
+154
+155
+156
+157
+158
+159
+160
+161
+162
+163
+164
+165
+166
+167
+168
+169
+170
+171
+172
+173
+174
+175
+176
+177
+178
+179
+180
+181
+182
+183
+184
+185
+186
+187
+188
+189
+190
+191
+192
+**
+321
+322
+323
+324
+325
+326
+327
+328
+329
+330
+331
+332
+333
+334
+335
+336
+337
+338
+339
+340
+341
+342
+343
+344
+345
+346
+347
+348
+349
+350
+351
+352
+353
+354
+355
+356
+357
+358
+359
+360
+361
+362
+363
+364
+365
+366
+367
+368
+369
+370
+371
+372
+373
+374
+375
+376
+377
+378
+379
+380
+381
+382
+383
+384
+385
+386
+387
+388
+389
+390
+391
+392
+393
+394
+395
+396
+397
+398
+399
+400
+401
+402
+403
+404
+405
+406
+407
+408
+409
+410
+411
+412
+413
+414
+415
+416
+417
+418
+419
+420
+421
+422
+423
+424
+425
+426
+427
+428
+429
+430
+431
+432
+433
+434
+435
+436
+437
+438
+439
+440
+441
+442
+443
+444
+445
+446
+447
+448
+**
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+83
+84
+85
+86
+87
+88
+89
+90
+91
+92
+93
+94
+95
+96
+97
+98
+99
+100
+101
+102
+103
+104
+105
+106
+107
+108
+109
+110
+111
+112
+113
+114
+115
+116
+117
+118
+119
+120
+121
+122
+123
+124
+125
+126
+127
+128
+**
+193
+194
+195
+196
+197
+198
+199
+200
+201
+202
+203
+204
+205
+206
+207
+208
+209
+210
+211
+212
+213
+214
+215
+216
+217
+218
+219
+220
+221
+222
+223
+224
+225
+226
+227
+228
+229
+230
+231
+232
+233
+234
+235
+236
+237
+238
+239
+240
+241
+242
+243
+244
+245
+246
+247
+248
+249
+250
+251
+252
+253
+254
+255
+256
+257
+258
+259
+260
+261
+262
+263
+264
+265
+266
+267
+268
+269
+270
+271
+272
+273
+274
+275
+276
+277
+278
+279
+280
+281
+282
+283
+284
+285
+286
+287
+288
+289
+290
+291
+292
+293
+294
+295
+296
+297
+298
+299
+300
+301
+302
+303
+304
+305
+306
+307
+308
+309
+310
+311
+312
+313
+314
+315
+316
+317
+318
+319
+320
+Compr.2 fail  :
+Comp2 CT relay:
+Comp2 HP relay:
+Comp2 LP relay:
+ 
+ 
+ 
+ 
+x
+ 
+ 
+!
+ 
+*
+ 
+Slave is offline
+Invalid packet
+Answer with error
+Has yet to be queried
+ 
+ 
+ 
+ 
+Heater 1
+Heater 2
+ 
+Recuperator
+Cooler
+Cooler(dry)
+Humidifier
+ 
+ 
+ 
+Preheater
+Add.heater
+Fan speed
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Heat pump(heat)
+Heat pump(cool)
+Heat pump(dry)
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Dampers(heat)
+Dampers(cool)
+Dampers(dry)
+Dampers(CO2/VOC)
+ 
+Slave 1
+Slave 2
+Slave 3
+Slave 4
+Slave 5
+Slave 6
+Slave 7
+Slave 8
+Slave 9
+Slave 10
+Slave 11
+Slave 12
+Slave 13
+Slave 14
+Slave 15
+Slave 16
+Slave 17
+Slave 18
+Slave 19
+Slave 20
+Slave 21
+Slave 22
+Slave 23
+Slave 24
+Slave 25
+Slave 26
+Slave 27
+Slave 28
+Slave 29
+Slave 30
+ ---------
+ Online
+ Run
+ Alarm!
+ ----
+ -----
+ ------
+ -------
+ Offline
+ ! Online
+ ! Run
+ ! Alarm!
+ 
+     Monday
+    Tuesday
+  Wednesday
+   Thursday
+     Friday
+   Saturday
+     Sunday
+.
+  Master
+ Slave 1
+ Slave 2
+ Slave 3
+ Slave 4
+ Slave 5
+ Slave 6
+ Slave 7
+ Slave 8
+ Slave 9
+ Slave 10
+ Slave 11
+ Slave 12
+ Slave 13
+ Slave 14
+ Slave 15
+ Slave 16
+ Slave 17
+ Slave 18
+ Slave 19
+ Slave 20
+ Slave 21
+ Slave 22
+ Slave 23
+ Slave 24
+ Slave 25
+ Slave 26
+ Slave 27
+ Slave 28
+ Slave 29
+ Slave 30
+>INTERNAL
+>USB 
+S
+ Port number:     502  Protocol:        TCP
+ Port number:     502  Protocol:        TCP
+  NO
+ YES
+  NO
+ YES
+Operation done
+Filename is not valid
+Cannot access disk
+Cannot access file
+File I/O error
+File is not valid
+Value is not valid
+Memory buffer is too small
+File is empty
+Time parameters are not correct
+Module is currently busy  retry is required
+Logger is not running
+Log exporting failed
+Input parameter value is not valid
+Function not implemented on the target
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Unknown/uncategorized error
+ 
+-1
+-2
+File not found
+-4
+-5
+-6
+-7
+-8
+-9
+-10
+-11
+-12
+-13
+-14
+-15
+-16
+Parameters are saved
+FBus1
+FBus2
+ 
+     Upgrade FW?       PRG - upgrade,
+ 
+ Digital inputs
+ Analog inputs
+ Digital outputs
+ Analog outputs
+ Sensor correction
+Address:
+Baudrate:
+TEHS comp.2   :
+TEHS comp.2   :
+Comp.2 manage :
+Stop/Start    :
+Setpoint      :      
+DD/MM/YY
+MM/DD/YY
+YY/MM/DD
+not involved
+    Ethernet
+    BMS card
+        BMS2
+ Group
+ Individual
+Mode :
+ none
+  odd
+ even
+Parity:
+*
+*
+*
+*
+*
+*
+Manufact:
+Service:
+User:
+Stop bits:
+ 
+h    %
+not active
+start evaporat.cycle
+water fill
+evaporation
+AFS drain
+drain(dilute/manual)
+end of water drain
+drain(long inactiv.)
+drain (manual/net)
+no water management
+pre-wash
+periodical drain
+no connection
+ 
+>IMPORT
+>EXPORT
+       none
+       DI 1
+       DI 2
+       DI 3
+       DI 4
+       DI 5
+       DI 6
+       DI 7
+       DI 8
+       DI 9
+      DI 10
+      DI 11
+      DI 12
+      DI 13
+      DI 14
+      DI 15
+      DI 16
+      DI 17
+      DI 18
+         Y1
+         Y2
+         Y3
+         Y4
+         Y5
+         Y6
+       NO 1
+       NO 2
+       NO 3
+       NO 4
+       NO 5
+       NO 6
+       NO 7
+       NO 8
+       NO 9
+      NO 10
+      NO 11
+      NO 12
+      NO 13
+      NO 14
+      NO 15
+      NO 16
+      NO 17
+      NO 18
+      NO 19
+      NO 20
+      NO 21
+      NO 22
+      NO 23
+      NO 24
+      NO 25
+      NO 26
+      NO 27
+      NO 28
+      NO 29
+        U 1
+        U 2
+        U 3
+        U 4
+        U 5
+        U 6
+        U 7
+        U 8
+        U 9
+       U 10
+    CM:DI 1
+    CM:DI 2
+      CM:Y1
+      CM:Y2
+    CM:NO 1
+    CM:NO 2
+    CM:NO 3
+    CM:NO 4
+    CM:NO 5
+    CM:NO 6
+     CM:U 1
+     CM:U 2
+     CM:U 3
+     CM:U 4
+     CM:U 5
+     CM:U 6
+     CM:U 7
+     CM:U 8
+     CM:U 9
+    CM:U 10
+   pCOe1:U1
+   pCOe1:U2
+   pCOe1:U3
+   pCOe1:U4
+   pCOe1:U5
+   pCOe1:U6
+   pCOe1:U7
+   pCOe1:U8
+   pCOe1:U9
+  pCOe1:U10
+  pCOe1:NO1
+  pCOe1:NO2
+  pCOe1:NO3
+  pCOe1:NO4
+  pCOe1:NO5
+  pCOe1:NO6
+   pCOe2:U1
+   pCOe2:U2
+   pCOe2:U3
+   pCOe2:U4
+   pCOe2:U5
+   pCOe2:U6
+   pCOe2:U7
+   pCOe2:U8
+   pCOe2:U9
+  pCOe2:U10
+  pCOe2:NO1
+  pCOe2:NO2
+  pCOe2:NO3
+  pCOe2:NO4
+  pCOe2:NO5
+  pCOe2:NO6
+   pCOe3:U1
+   pCOe3:U2
+   pCOe3:U3
+   pCOe3:U4
+   pCOe3:U5
+   pCOe3:U6
+   pCOe3:U7
+   pCOe3:U8
+   pCOe3:U9
+  pCOe3:U10
+  pCOe3:NO1
+  pCOe3:NO2
+  pCOe3:NO3
+  pCOe3:NO4
+  pCOe3:NO5
+  pCOe3:NO6
+   pCOe4:U1
+   pCOe4:U2
+   pCOe4:U3
+   pCOe4:U4
+   pCOe4:U5
+   pCOe4:U6
+   pCOe4:U7
+   pCOe4:U8
+   pCOe4:U9
+  pCOe4:U10
+  pCOe4:NO1
+  pCOe4:NO2
+  pCOe4:NO3
+  pCOe4:NO4
+  pCOe4:NO5
+  pCOe4:NO6
+   pCOe5:U1
+   pCOe5:U2
+   pCOe5:U3
+   pCOe5:U4
+   pCOe5:U5
+   pCOe5:U6
+   pCOe5:U7
+   pCOe5:U8
+   pCOe5:U9
+  pCOe5:U10
+  pCOe5:NO1
+  pCOe5:NO2
+  pCOe5:NO3
+  pCOe5:NO4
+  pCOe5:NO5
+  pCOe5:NO6
+ CM pCOe:U1
+ CM pCOe:U2
+ CM pCOe:U3
+ CM pCOe:U4
+ CM pCOe:U5
+ CM pCOe:U6
+ CM pCOe:U7
+ CM pCOe:U8
+ CM pCOe:U9
+CM pCOe:U10
+CM pCOe:NO1
+CM pCOe:NO2
+CM pCOe:NO3
+CM pCOe:NO4
+CM pCOe:NO5
+CM pCOe:NO6
+       none
+       DI 1
+       DI 2
+       DI 3
+       DI 4
+       DI 5
+       DI 6
+       DI 7
+       DI 8
+       DI 9
+      DI 10
+      DI 11
+      DI 12
+      DI 13
+      DI 14
+      DI 15
+      DI 16
+      DI 17
+      DI 18
+         Y1
+         Y2
+         Y3
+         Y4
+         Y5
+         Y6
+       NO 1
+       NO 2
+       NO 3
+       NO 4
+       NO 5
+       NO 6
+       NO 7
+       NO 8
+       NO 9
+      NO 10
+      NO 11
+      NO 12
+      NO 13
+      NO 14
+      NO 15
+      NO 16
+      NO 17
+      NO 18
+      NO 19
+      NO 20
+      NO 21
+      NO 22
+      NO 23
+      NO 24
+      NO 25
+      NO 26
+      NO 27
+      NO 28
+      NO 29
+        U 1
+        U 2
+        U 3
+        U 4
+        U 5
+        U 6
+        U 7
+        U 8
+        U 9
+       U 10
+  mini DI 1
+  mini DI 2
+    mini Y1
+    mini Y2
+  mini NO 1
+  mini NO 2
+  mini NO 3
+  mini NO 4
+  mini NO 5
+  mini NO 6
+   mini U 1
+   mini U 2
+   mini U 3
+   mini U 4
+   mini U 5
+   mini U 6
+   mini U 7
+   mini U 8
+   mini U 9
+  mini U 10
+   pCOe1:U1
+   pCOe1:U2
+   pCOe1:U3
+   pCOe1:U4
+   pCOe1:U5
+   pCOe1:U6
+   pCOe1:U7
+   pCOe1:U8
+   pCOe1:U9
+  pCOe1:U10
+  pCOe1:NO1
+  pCOe1:NO2
+  pCOe1:NO3
+  pCOe1:NO4
+  pCOe1:NO5
+  pCOe1:NO6
+   pCOe2:U1
+   pCOe2:U2
+   pCOe2:U3
+   pCOe2:U4
+   pCOe2:U5
+   pCOe2:U6
+   pCOe2:U7
+   pCOe2:U8
+   pCOe2:U9
+  pCOe2:U10
+  pCOe2:NO1
+  pCOe2:NO2
+  pCOe2:NO3
+  pCOe2:NO4
+  pCOe2:NO5
+  pCOe2:NO6
+   pCOe3:U1
+   pCOe3:U2
+   pCOe3:U3
+   pCOe3:U4
+   pCOe3:U5
+   pCOe3:U6
+   pCOe3:U7
+   pCOe3:U8
+   pCOe3:U9
+  pCOe3:U10
+  pCOe3:NO1
+  pCOe3:NO2
+  pCOe3:NO3
+  pCOe3:NO4
+  pCOe3:NO5
+  pCOe3:NO6
+   pCOe4:U1
+   pCOe4:U2
+   pCOe4:U3
+   pCOe4:U4
+   pCOe4:U5
+   pCOe4:U6
+   pCOe4:U7
+   pCOe4:U8
+   pCOe4:U9
+  pCOe4:U10
+  pCOe4:NO1
+  pCOe4:NO2
+  pCOe4:NO3
+  pCOe4:NO4
+  pCOe4:NO5
+  pCOe4:NO6
+   pCOe5:U1
+   pCOe5:U2
+   pCOe5:U3
+   pCOe5:U4
+   pCOe5:U5
+   pCOe5:U6
+   pCOe5:U7
+   pCOe5:U8
+   pCOe5:U9
+  pCOe5:U10
+  pCOe5:NO1
+  pCOe5:NO2
+  pCOe5:NO3
+  pCOe5:NO4
+  pCOe5:NO5
+  pCOe5:NO6
+   pCOe6:U1
+   pCOe6:U2
+   pCOe6:U3
+   pCOe6:U4
+   pCOe6:U5
+   pCOe6:U6
+   pCOe6:U7
+   pCOe6:U8
+   pCOe6:U9
+  pCOe6:U10
+  pCOe6:NO1
+  pCOe6:NO2
+  pCOe6:NO3
+  pCOe6:NO4
+  pCOe6:NO5
+  pCOe6:NO6
+*
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+M
+Start is              blocked
+Start is              unlocked
+Show mask time
+   Loading:
+   Loading:
+   Loading:
+    Saving:
+    Saving:
+Group
+Individual
+ 
+*
+ 
+System
+Equipment
+IO functions
+Regulators
+Sequences
+Config manage
+Load config
+Load from USB
+Complete config
+Save and exit
+Exit without saving
+Load config
+Reset config
+Save to USB
+Load from USB
+Unit type
+Expansions
+Scheme type
+Fans
+Additional fans
+Air dumpers
+Pre-heater
+Heater 1
+Heater 2
+Sorption heater
+Regen.heater 1
+Regen.heater 2
+Cooler
+Recup./Regen.
+Humidifier
+Reserve
+Universal unit
+Add.heat
+Regulators
+Add.equipment
+Modifications
+DI:descr.inputs
+AI:analog inputs
+DO:descr.outputs
+DO:analog outputs
+Reset all IO
+Universal
+DLE
+POOL
+ICE
+CCU
+AHUCM
+ICEnoCM
+Module 1
+Module 2
+Module 3
+Module 4
+Module 5
+Module 6
+Heating
+Cooling
+Drying
+Humidification
+Scheme M3
+Scheme M2
+Scheme M1
+Scheme M0
+Scheme P1
+Scheme P0
+Control type
+Humidifier type
+none
+KUESRF0W21 
+KUET2C0W21 
+KUET3C0W21 
+none
+S
+S(R)
+S+E
+S+E(R)
+S(R)+E
+S(R)+E(R)
+S+E+R
+S(R)+E(R)+R(R)
+none
+1 fan
+2 fans
+3 fans
+none
+Discrete control
+Propor.control
+Propor.control
+Propor.control
+none
+W, 1 pump
+W, 2 pumps
+E, proportional
+E, PWM
+E, Nstep.= 1
+E, Nstep.= 2
+E, Nstep.= 3
+E, Nstep.= 4
+E, Nstep.= 5
+E, Nstep.= 6
+E, Nstep.= 7
+E, Nstep.= 8
+[Ã¸Ê¸ÃÆ]
+[Ã¸Ê¸ÃÆ]
+[Ã¸Ê¸ÃÆ]
+none
+W, 1 pump
+W, 2 pumps
+E, proportional
+E, PWM
+E, Nstep.= 1
+E, Nstep.= 2
+E, Nstep.= 3
+E, Nstep.= 4
+E, Nstep.= 5
+E, Nstep.= 6
+E, Nstep.= 7
+E, Nstep.= 8
+none
+W, 1 pump
+W, 2 pumps
+E, proportional
+E, PWM
+E, Nstep.= 1
+E, Nstep.= 2
+E, Nstep.= 3
+E, Nstep.= 4
+E, Nstep.= 5
+E, Nstep.= 6
+E, Nstep.= 7
+E, Nstep.= 8
+none
+Chiller, 0-10V
+KKB, Nstep.= 1
+KKB, Nstep.= 2
+KKB, Nstep.= 3
+KKB, Nstep.= 4
+Comp.1
+Comp.2
+Comp.3
+Comp.2x2
+E, Nstep.= 1
+E, Nstep.= 2
+E, Nstep.= 3
+E, Nstep.= 4
+none
+W, 1 pump
+E, Nstep.= 1
+E, Nstep.= 2
+E, Nstep.= 3
+E, Nstep.= 4
+none
+W, 1 pump
+E, Nstep.= 1
+E, Nstep.= 2
+E, Nstep.= 3
+E, Nstep.= 4
+none
+Plate
+Rotor
+Coolant
+Coolant
+Coolant
+none
+Discrete control
+Propor.control
+Adiabatic control
+Network control
+none
+Role: main
+Role: reserve
+none
+Config 1
+Config 2
+Config 3
+Config 4
+none
+W, 1 pump
+E, proportional
+E, PWM
+E, Nstep.= 1
+E, Nstep.= 2
+E, Nstep.= 3
+E, Nstep.= 4
+E, Nstep.= 5
+E, Nstep.= 6
+E, Nstep.= 7
+E, Nstep.= 8
+R4.4.0
+R4.4.1
+R7
+R5.1.1
+R5.3.0
+R5 no cond.rotor
+R5 with cond.rotor
+R5 with pre-cooling
+Insul. dampers (KVU)
+Bactericidal sect.
+Actuators heating
+Vortex diffuser
+Case heat
+Sorbent regen.
+Speed/Theat
+Speed/Tcool
+Speed/CO2
+Speed/VOC
+Speed/H
+Pressure(S)
+Pressure(E)
+Dampers/THeat
+Dampers/TCool
+Dampers/CO2
+Dampers/VOC
+Dampers/H
+Cooler/T
+Cooler/H
+001
+021
+00X
+00R
+01R
+0R1
+21R
+R21
+0XR
+0RX
+00V
+01V
+21V
+0XV
+01T
+21T
+0XT
+R1V
+C00
+RC0
+CR0
+R00
+T00
+TR0
+T00
+T00
+R00
+C00
+S00
+RC0
+RS0
+RSC
+SC0
+T00
+TR0
+RT0
+00H
+0HR
+ABD
+DR0
+ADR
+ABDR
+VDR
+VADR
+VABDR
+00H
+0HR
+ 
+Ventilation
+Refridgerator
+Humidifier
+Alarm logs
+Common settings
+Service
+Logout
+Microclimate
+Heater
+Recycling
+Cooler
+Recuperator
+Vortex diffuser
+Fans
+Regulators
+Statistics
+Parameters
+Parameters
+Net settings
+Regulator
+Time/Date
+Language
+Password manage
+Group manage
+IO manage
+Sensors correction
+Configurator
+System parameters
+Net settings
+Upgrade
+Work mode schedule
+Work mode schedule
+Control mode
+Parameters control
+Reserve
+Setpoints
+Temperature
+Humidity
+Cascade
+Heat
+Cool
+Dry
+CO2/VOC
+Device role
+Group settings
+Group structure
+Digital inputs
+Analog inputs
+Digital outputs
+Analog outputs
+Reset man.control
+Config.master
+Device role
+ModBus settings
+BMS settings
+Ethernet settings
+Search on USB
+Search on device
+Work mode sched.
+Activation
+Load from USB
+Save to USB
+Reset parameters
+Rotation param.
+Connect.settings
+Preset A
+Preset B
+Preset C
+Preset D
+ 
+        Local
+     Remote (RC)
+       Schedule
+       BMS/PGDT
+  Remote and schedule
+  Remote or schedule
+  BMS/PGDT and Remote
+  BMS/PGDT or Remote
+ BMS/PGDT and Schedule
+ BMS/PGDT or Schedule
+ 
+Temperature
+Humidity
+Heater
+Recycling
+System parameters
+Microclimate
+Cooler
+Recuperator
+Vortex diffuser
+Refridgerator
+Fans
+Cascade
+Heat
+Cool
+Dry
+CO2
+Regulator
+Preset A
+Preset B
+Preset C
+Preset D
+Parameters
+Net settings
+Reserve
+Ts10_A
+Ts10_B
+Ts10_C
+Ts10_D
+Tb40
+Ts01
+Ts01
+Ts01
+Ts02
+Ts02
+Ts02
+Td03
+Tp10
+Tp08
+Tp09
+Tb11
+Ts14
+Ts15
+Ts16
+Ts20
+Ts21
+Hs01
+Hs02
+Hs03_A
+Hs03_B
+Hs03_C
+Hs03_D
+Ws02
+Wd02
+Ws01
+Wp01
+Wt01
+Ws03
+Ws04
+Ws05
+Ws06
+Ws07
+Ws08
+Wp02
+Wp05
+Wt02
+Wp03
+Wp04
+Wt04
+Wt03
+Wp06
+Wt05
+Wt06
+Wt07
+Sp100
+Et01
+Ts17
+Ts18
+Rp01
+Rp02
+Rp031
+Rp032
+Rp04
+Rp05
+Rp06
+Rp07
+Rp08
+Rp09
+Rt01
+Rt02
+Rt03
+Qs01_A
+Qs01_B
+Qs01_C
+Qs01_D
+Rp17
+Sp011
+Sp05
+Gs01
+Gs02
+Gt01
+Gt02
+Sp06
+Cp01
+Cp02
+Cp03
+Ct01
+Ct02
+Ct03
+Rp11
+Rt11
+Rp12
+Rt12
+Rt13
+Rt14
+Rp15
+Rp16
+Rt15
+Rb10
+Rs01
+Rd01
+As01
+As02
+Ap01
+Ap02
+Ap03
+Ap04
+As03
+Ds01
+Dd01
+Dp01
+Dp02
+Dp03
+Dp04
+Dp05
+Ds21
+DÆ21
+Dt01
+Dt02
+Dt03
+Dt11
+Dt12
+Dt1213
+Dt1214
+Dt15
+Ds03
+Dd03
+Ds04
+Dd04
+Ds07
+Ds08
+Tb10
+Tt10
+Xp01
+Xt01
+Xdb01
+Xrs01
+Xp02
+Xt02
+Xdb02
+Xrs02
+Xp11
+Xt11
+Xdb11
+Xrs11
+Xp12
+Xt12
+Xdb12
+Xrs12
+Xp031
+Xt031
+Xdb031
+Xrs031
+Xp04
+Xt04
+Xdb04
+Xrs04
+Xp21
+Xt21
+Xdb21
+Xrs21
+Xp032
+Xt032
+Xdb032
+Xrs032
+Xp05
+Xt05
+Xdb05
+Xrs05
+Xp22
+Xt22
+Xdb22
+Xrs22
+Xp033
+Xt033
+Xdb033
+Xrs033
+Xp06
+Xt06
+Xdb06
+Xrs06
+Xp13
+Xt13
+Xdb13
+Xrs13
+Xp23
+Xt23
+Xdb23
+Xrs23
+Xp034
+Xt034
+Xdb034
+Xrs034
+Xp07
+Xt07
+Xdb07
+Xrs07
+Ts10_A
+Hs03_A
+Qs01_A
+Ts10_B
+Hs03_B
+Qs01_B
+Ts10_C
+Hs03_C
+Qs01_C
+Ts10_D
+Hs03_D
+Qs01_D
+UP0
+UA0
+UA1
+UB1_0
+UB1_1
+UB1_2
+UB1_3
+UB1_4
+UB1_5
+UB1_6
+UB1_7
+UB2
+UB4
+UB5
+UB6
+UB7
+UB8
+UB9
+UBb
+UBe
+UBf
+UC3
+UC4
+UC5
+UC8
+Rsv01
+Rsv02
+Rsv03
+Rsv04
+UB2
+UB4
+UB5
+UB6
+UB7
+UB8
+UB9
+UBb
+UBe
+UBf
+UC3
+UC4
+UC5
+UC8
+Rsv01
+Rsv02
+Rsv03
+Rsv04
+ 
+*
+ 
+*
+ 
+*
+ 
+*
+ 
+*
+auto
+man.
+ Stop
+ Stop
+ Run
+ Run
+Alarm
+ online
+ offline
+         404:               not found!
+  Turn off the unit         to  change          unit settings
+   To access select      the devise role:           MASTER
+                        Slave is offline!
+    Insert Service      password to modify    Service parameters
+    Insert Manufact.    password to modify   Manufact. parameters
+     The group is          not declared!
+   Time settings is   available only on the         MASTER
+  No connection with         control!
+  Only for control!
+  Available only for          MASTER
+  Troom   sensor is    disabled or broken!
+ Parameter manage is  available only in mode      A."SUMMER"
+                      The schedule is empty!
+   Now You can reset         alarms!
+   The manual mode            is ON!
+   The manual mode            is OFF!
+  Manual mod in not         available!
+     Configuration            error
+    Failed to load        configuration!
+   Inputs / outputs    are not configured!
+ You must set main IO!
+Configuration failed!  Please,set main menu         points!
+ Extract USB - device!
+ Insert Usb - device!
+  Operation completed      successfully!
+  Failed to complete      the operation!
+The file is not found!
+    Humidifier type         not set!
+ Group
+ Individual
+Mode :
+ 
+T
+   unknown
+ 3 kg/h,230V
+ 8 kg/h,400V
+15 kg/h,400V
+ 
+       Universal             devices
+       devices
+       devices
+       arena
+     Closecontrol              units
+ 
+©¸·oÆË¸ aÃ¸úË µ¸Ê     xo¿o·¼¿Îúoºo ¾oúÄÅÃa
+ 
+       Universal             devices
+       devices
+       devices
+       arena
+     Closecontrol              units
+ 
+   ©¸·oÆË¸ aÃ¸úË µ¸Ê    xo¿o·¼¿ÎúoÉ ÀaÇ¼úË
+Memory writes:
+Example1:
+Example1:
+Example1:
+Example1:
+Example2:
+Example2:
+Example2:
+Example2:
+Example2:
+ 
+e
+A·Ã¸c:
+Baudrate:
+Comp.2 manage :
+TEHS comp.2   :
+Stop/Start    :
+Setpoint      :      
+DD/MM/YY
+MM/DD/YY
+YY/MM/DD
+not involved
+    Ethernet
+    BMS card
+        BMS2
+ Group
+ Individual
+Mode :
+ none
+  odd
+ even
+Parity:
+Manufact:
+Service:
+User:
+Stop bits:
+  Loading parameters.     Please, wait...
+  Saving parameters.      Please, wait...
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+     c.pCO
+ 
+c.pCO mini
+ 
+Preset A
+Preset B
+Preset C
+Preset D
+ 
+Ts10:
+Hs03:
+Qs10:
+ 
+Wrong Password! 
+ 
+user
+service
+manufacturer
+developer
+         404:               not found!
+      Switch to             individual              mode?
+       To reset              parameters     reboot is required!
+      To change             heat type        reboot is required!
+      To change             device role      reboot is required!
+      To change          MODBUS settings     reboot is required!
+     Save Ethernet           settings?
+ Return to the start     of configuration?
+  Clear compressor 1       statistics?
+  Clear compressor 2       statistics?
+  Clear compressor 3       statistics?
+ Launch configuration        wizard?
+  Exit configuration         wizard?
+ Need a higher level        of access!      Do You want to change?
+Set default settings?
+ Equipment list will        be erased!          Are You sure?
+The configuration willbe replaced by saving.   Confirm loading?
+Loading configuration    from USB-storage.        Continue?
+Reset inputs & outputs  to automatic mode?
+Reset inputs & outputs       settings?
+      To change            net settings      reboot is required!
+  Save configuration?
+  Do You want to load   parameters from USB         device?
+  Do You want to save    parameters to USB          device?
+  Reboot is required!         Reboot?
+     Save changes? 
+ 
+ 
+Stopping D-TOP...
+(RES.)
+(MAIN)
+  Mode 4 deactivate
+   Mode 4 activate
+is deactiv.
+is activ.
+ 
+ 
+
+    Sequences T
+    Sequences H
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+€
+ 
+  NO
+ YES
+  NO
+ YES
+Master
+Slave  1
+Slave  2
+Slave  3
+Slave  4
+Slave  5
+Slave  6
+Slave  7
+Slave  8
+Slave  9
+Slave 10
+Slave 11
+Slave 12
+Slave 13
+Slave 14
+Slave 15
+Slave 16
+Slave 17
+Slave 18
+Slave 19
+Slave 20
+Slave 21
+Slave 22
+Slave 23
+Slave 24
+Slave 25
+Slave 26
+Slave 27
+Slave 28
+Slave 29
+Slave 30
+:group
+:indiv.
+ 
+ local
+ remote (RC)
+ schedule
+ BMS|PGDT
+ RC+schedule
+ RC/schedule
+BMS|PGDT + RC
+BMS|PGDT / RC
+BMS|PGDT+sch.
+BMS|PGDT/sch.
+Current :      
+ Group
+ Individual
+Current :
+ 
+%
+ 
+'
+ 
+‹
+v
+
+ 
+ 
+ 
+ 
+x
+‹
+v
+
+ 
+Firmware upgrade...
+ 
+ Mismatch FW version!
+
+ 
+GMT+12
+GMT+11
+HONOLULU -10
+ANCHORAGE -9
+SANTA ISABEL -3
+LOS ANGELES -8
+PHOENIX -7
+CHIHUAHUA -7
+DENVER -7
+GUATEMALA/REGINA -6
+CHICAGO -6
+MEXICO CITY -6
+BOGOTA -5
+NEW YORK/INDIANAPOLIS -5
+CARACAS -4
+ASUNCION -3
+HALIFAX -4
+CUIABA -3
+LA PAZ -4
+SANTIAGO -4
+ST JOHNS -4
+SAO PAULO -3
+BUENOS AIRES -3
+CAYENNE -3
+GODTHAB -3
+MONTEVIDEO -3
+BAHIA -3
+GMT-2
+MID-ATLANTIC STD TIME
+AZORES -1
+CAPE VERDE -1
+CASABLANCA
+GMT
+LONDON
+REYKJAVIK
+BERL/BUDAP/PARIS/WARS +1
+LAGOS +1
+WINDHOEK +2
+AMMAN +2
+BUCHAREST/KIEV/ISTANB. +2
+BEIRUT +2
+CAIRO +2
+DAMASCUS +2
+E.EUROPE STD TIME
+JOHANNESBURG +2
+JERUSALEM +2
+TRIPOLI +2
+BAGHDAD +3
+KALININGRAD +2
+RIYADH +3
+NAIROBI +3
+TEHRAN +3.3
+DUBAI +4
+BAKU +4
+MOSCOW +3
+MAURITIUS +4
+TBILISI +4
+YEREVAN +4
+KABUL +4.3
+TASHKENT +5
+KARACHI +5
+CALCUTTA/COLOMBO +5.3
+KATMANDU +5.45
+ALMATY +6
+DHAKA +6
+YEKATERINBURG +5
+RANGOON +6.3
+BANGKOK +7
+NOVOSIBIRSK +7
+SHANGHAI +8
+KRASNOYARSK +7
+SINGAPORE +8
+PERTH +8
+TAIPEI +8
+ULAANBAATAR +8
+IRKUTSK +8
+TOKYO +9
+SEOUL +9
+ADELAIDE +10.3
+DARWIN +9.3
+BRISBANE +10
+SYDNEY/HOBART +11
+PORT MORESBY +10
+YAKUTSK +9
+GUADALCANAL +9
+VLADIVOSTOK +10
+AUCKLAND +13
+GMT-12
+FIJI +13
+MAGADAN +11
+KAMCHATKA +12
+TONGATAPU +13
+APIA +14
+LINE ISLANDS +14
+ 
+GMT+12
+GMT+11
+HONOLULU -10
+ANCHORAGE -9
+SANTA ISABEL -3
+LOS ANGELES -8
+PHOENIX -7
+CHIHUAHUA -7
+DENVER -7
+GUATEMALA/REGINA -6
+CHICAGO -6
+MEXICO CITY -6
+BOGOTA -5
+NEW YORK/INDIANAPOLIS -5
+CARACAS -4
+ASUNCION -3
+HALIFAX -4
+CUIABA -3
+LA PAZ -4
+SANTIAGO -4
+ST JOHNS -4
+SAO PAULO -3
+BUENOS AIRES -3
+CAYENNE -3
+GODTHAB -3
+MONTEVIDEO -3
+BAHIA -3
+GMT-2
+MID-ATLANTIC STD TIME
+AZORES -1
+CAPE VERDE -1
+CASABLANCA
+GMT
+LONDON
+REYKJAVIK
+BERL/BUDAP/PARIS/WARS +1
+LAGOS +1
+WINDHOEK +2
+AMMAN +2
+BUCHAREST/KIEV/ISTANB. +2
+BEIRUT +2
+CAIRO +2
+DAMASCUS +2
+E.EUROPE STD TIME
+JOHANNESBURG +2
+JERUSALEM +2
+TRIPOLI +2
+BAGHDAD +3
+¨A©¦H¦H¥PA£
+RIYADH +3
+NAIROBI +3
+TEHRAN +3.3
+DUBAI +4
+BAKU +4
+MOC¨­A
+MAURITIUS +4
+TBILISI +4
+YEREVAN +4
+KABUL +4.3
+TASHKENT +5
+KARACHI +5
+CALCUTTA/COLOMBO +5.3
+KATMANDU +5.45
+ALMATY +6
+DHAKA +6
+E¨ATEP¦H¡¬P¥
+RANGOON +6.3
+BANGKOK +7
+HO­OC¦¡¦PC¨
+SHANGHAI +8
+¨PACHOÑPC¨
+SINGAPORE +8
+PERTH +8
+TAIPEI +8
+ULAANBAATAR +8
+¦P¨¬TC¨
+TOKYO +9
+SEOUL +9
+ADELAIDE +10.3
+DARWIN +9.3
+BRISBANE +10
+SYDNEY/HOBART +11
+PORT MORESBY +10
+Ñ¨¬TC¨
+GUADALCANAL +9
+­©A£¦­OCTO¨
+AUCKLAND +13
+GMT-12
+FIJI +13
+MA¥A£AH
+¨AM«AT¨A
+TONGATAPU +13
+APIA +14
+LINE ISLANDS +14
+GMT
+¨A©¦H¦H¥PA£
+MOC¨­A
+CAMAPA
+E¨ATEP¦H¡¬P¥
+OMC¨
+¨PACHOÑPC¨
+¦P¨¬TC¨
+Ñ¨¬TC¨
+­©A£¦­OCTO¨
+MA¥A£AH
+¨AM«AT¨A
+      
+ 
+ 
+DP-CTRL
+DP-TOP
+DI-CTRL
+DI-TOP
+UNIVERSAL
+DLE
+CCU
+ICE
+ 
+UNIT ON
+OFF BY ALARM
+OFF BY BMS
+OFF BY SCHED
+OFF BY RC
+OFF BY LOCAL
+OFF BY MASTER
+COIL P/HEAT
+GATE P/HEAT:
+BLOWDOWN   :
+FANS ACCEL.:
+OFF BY RC+SCHED.
+OFF BY RC/SCHED.
+OFF BY RC + BMS
+OFF BY RC / BMS
+OFF BY BMS+SCHED
+OFF BY BMS/SCHED
+WAITING FOR CM..
+OFF BY RESERVE
+ 
+  
+  K
+  %
+bar
+sec
+min
+ hr
+ mA
+  V
+ppm
+ Pa
+  g
+uSm
+ ms
+ 
+ 
+
+K
+%
+bar
+sec
+min
+hr
+mA
+V
+ppm
+Pa
+g
+uSm
+ 
+ 
+ 
+
+K
+%
+bar
+sec
+min
+hr
+mA
+V
+ppm
+Pa
+g
+uSm
+ 
+ 
+ 
+
+K
+%
+bar
+sec
+min
+hr
+mA
+V
+ppm
+Pa
+g
+uSm
+ 
+ 
+ 
+
+K
+%
+bar
+sec
+min
+hr
+mA
+V
+ppm
+Pa
+g
+uSm
+ 
+ 
+ 
+
+K
+%
+bar
+sec
+min
+hr
+mA
+V
+ppm
+Pa
+g
+uSm
+ 
+ 
+ 
+
+K
+%
+bar
+sec
+min
+hr
+mA
+V
+ppm
+Pa
+g
+uSm
+ 
+ 
+ 
+
+K
+%
+bar
+sec
+min
+hr
+mA
+V
+ppm
+Pa
+g
+uSm
+ 
+ 
+ 
+
+K
+%
+bar
+sec
+min
+hr
+mA
+V
+ppm
+Pa
+g
+uSm
+ 
+ 
+     No
+     SI
+    USA
+     UK
+    CAN
+    Lon
+SI(bar)
+     No
+     SI
+    USA
+     UK
+    CAN
+    Lon
+SI(bar)
+  from internal disk.
+    from USB-host.
+UNUSED
+UPLOADING
+WAITING
+File is not found
+ 
+ 
+ 
+ 
+File is empty
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Upgrade is available:   UNIVERSAL_ . . .
+ 
+ 
+Upgrade is not found!
+ 
+ 
+ 
+ 
+File is empty
+ 
+LOADING
+WAITING
+RELOADING
+ 
+User Password
+Service Password
+Manufacturer Password
+Developer Password
+ 
+ 
+!
+                                          
+                                          
+                                          
+    Temperature           outdoor air     
+    Temperature          in supply duct   
+Temperature indoor/     in exhaust duct   
+  Temperature after     recuper./regener. 
+  Temperature after        pre-heater     
+  Temperature after       add. heater     
+   Temperature in        mixing chamber   
+                                          
+     Saturation           temperature     
+ Return water temp.         Heater 1      
+ Return water temp.         Heater 2      
+ Return water temp.        Pre-heater     
+Return water press.         Heater 1      
+  Position of 3-way     pre-heater valve  
+  Position of 3-way      heater 1 valve   
+  Position of 3-way      heater 2 valve   
+ Pressure in supply           duct        
+Pressure in exhaust           duct        
+Return water press.         Heater 2      
+Return water press.        pre-heater     
+  Humidity sensor        in supply duct   
+  Humidity sensor       in exhaust duct   
+  CO2 concentration          indoor       
+  VOC concentration                       
+   Temperature in         control box     
+                                          
+  Damper position          supply air     
+  Damper position         exhaust air     
+ Universal control.      analog input 1   
+ Universal control.      analog input 2   
+       Sensor           high pressure 1   
+       Sensor           high pressure 2   
+       Sensor             low pressure    
+    Sensor high       pressure 1 (line 2) 
+    Sensor high       pressure 2 (line 2) 
+     Sensor low         pressure (line 2) 
+                                          
+ Return water temp.       regen.heat.#1   
+ Return water temp.       regen.heat.#2   
+                                          
+                                          
+                                          
+                                          
+                                          
+                                          
+                                          
+                                          
+                                          
+                                          
+                                          
+                                          
+                                          
+                                          
+                                          
+                                          
+                                          
+                                          
+                                          
+                                          
+                                          
+                                          
+                                          
+ ±a·aú¼¸ ÁÃ¼ÄoÂúoºo     Æ¸úÄ.,·Æ¼ºaÄ¸¿Î1  
+  Supply fan speed           (main)       
+  Supply fan speed          (reserve)     
+  Exhaust fan speed          (main)       
+  Exhaust fan speed         (reserve)     
+  Regen. fan speed           (main)       
+  Regen. fan speed          (reserve)     
+Set value add./rem.          fan #1       
+Set value add./rem.          fan #2       
+Set value add./rem.          fan #3       
+                                          
+                                          
+    Outdoor air          damper control   
+    Recycling 1             control       
+    Recycling 2             control       
+    Regenerator's        damper control   
+     Regen.flow          damper control   
+                                          
+                                          
+                                          
+                                          
+  Water pre-heater        valve control   
+Electric pre-heater           power       
+Electric pre-heater           power       
+                                          
+Water pre-heater #1       valve control   
+Electric pre-heater         power #1      
+Electric pre-heater         power #1      
+                                          
+Water pre-heater #2       valve control   
+Electric pre-heater         power #2      
+Electric pre-heater         power #2      
+                                          
+                                          
+                                          
+    Water cooler         valve position   
+                                          
+                                          
+                                          
+   Rotation speed        rotor regener.   
+  3-way recuperator           valve       
+ Position of recup.       bypass valve    
+                                          
+                                          
+                                          
+ Position of vortex     diffuser blades   
+                                          
+ Performance of the        humidifier     
+                                          
+     Add.heater           valve control   
+Electric add.heater           power       
+Electric add.heater           power       
+                                          
+  Control of regen.   water heat.valve #1 
+  Control of regen.   water heat.valve #2 
+                                          
+                                          
+ Universal control.       analog output   
+                                          
+                                          
+                                          
+                                          
+                                          
+                                          
+                                          
+                                          
+                                          
+                                          
+                                          
+                                          
+                                          
+                                          
+                                          
+                                          
+                                          
+                                          
+                                          
+                                          
+                                          
+                                          
+                                          
+                                          
+                                          
+                                          
+                                          
+                                          
+                                          
+                                          
+                                          
+                                          
+                                          
+                                          
+                                          
+                                          
+                                          
+                                          
+                                          
+                                          
+                                          
+                                          
+                                          
+                                          
+                                          
+                                          
+                                          
+                                          
+                                          
+                                          
+                                          
+                                          
+                                          
+                                          
+                                          
+                                          
+                                          
+                                          
+                                          
+                                          
+                                          
+                                          
+                                          
+                                          
+                                          
+                                          
+                                          
+                                          
+                                          
+                                          
+                                          
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+   ¬ú¼Æ¸Ãca¿ÎúË¸         ª­-ÅcÄaúoÆ¾¼
+    ¡¸c¾aúa¿ÎúË¸            aºÃ¸ºaÄË     
+      ¬cÄaúoÆ¾¼           ·¿Ó µacc¸ÉúoÆ
+       ©¸·oÆË¸                aÃ¸úË
+    ªÃ¸¶¼Ê¼oúúË¸          ¾oú·¼¶¼oú¸ÃË
+­¸úÄ.ÅcÄaúoÆ¾¼ c XM
+    ©¸·oÆË¸ aÃ¸úË       (µ¸Ê xo¿.ÀaÇ¼úË)
+                        A·Ã¸c Ào·Å¿Ó: 10
+                        A·Ã¸c Ào·Å¿Ó: 11
+                        A·Ã¸c Ào·Å¿Ó: 12
+                        A·Ã¸c Ào·Å¿Ó: 13
+                        A·Ã¸c Ào·Å¿Ó: 14
+                        A·Ã¸c Ào·Å¿Ó: 15
+ 
+ 
+ 
+ 
+      £¿Ó cx¸À         PL.C11.02 ¼ ÆËÇ¸ 
+      £¿Ó cx¸ÀË             PL.C11.01 
+ 
+ 
+ 
+ 
+ 
+ 
+    T¼Á ÅÆ¿a½ú¼Ä¸¿Ó         ú¸ úaÊúaÂ¸ú
+    3 ¾º/Â, 230­
+    8 ¾º/Â, 400­
+    15 ¾º/Â, 400­
+    ­¸úÄ¼¿ÓÄoÃË           oÄcÅÄcÄÆÅÌÄ     
+                            ªÃ¼ÄoÂúËÉ     
+      ªÃ¼ÄoÂúËÉ           (c Ã¸Ê¸ÃÆoÀ)    
+    ªÃ¼ÄoÂúËÉ +             ­ËÄÓ½úoÉ      
+    ªÃ¼ÄoÂúËÉ +       ­ËÄÓ½úoÉ c Ã¸Ê¸ÃÆoÀ 
+ªÃ¼ÄoÂúËÉ c Ã¸Ê¸ÃÆ.        + ­ËÄÓ½úoÉ     
+ªÃ¼ÄoÂúËÉ c Ã¸Ê¸ÃÆ.+  ­ËÄÓ½úoÉ c Ã¸Ê¸ÃÆoÀ 
+ªÃ¼ÄoÂúËÉ + ­ËÄÓ½úoÉ    + P¸º¸ú¸ÃaÄ¼ÆúËÉ  
+ªÃ¼ÄoÂ.(Ã¸Ê.)+­ËÄÓ½.  (Ã¸Ê.)+P¸º¸ú.(Ã¸Ê.) 
+ H¸Ä ·oÁo¿ú./ÆËúoc.       Æ¸úÄ¼¿ÓÄoÃoÆ    
+    1 ·oÁ./ÆËúoc.          Æ¸úÄ¼¿ÓÄoÃ     
+    2 ·oÁ./ÆËúoc.         Æ¸úÄ¼¿ÓÄoÃa     
+    3 ·oÁ./ÆËúoc.         Æ¸úÄ¼¿ÓÄoÃa     
+      ±ac¿oú¾¼            oÄcÅÄcÄÆÅÌÄ     
+    ¬ÁÃaÆ¿¸ú¼¸:         oÄ¾ÃËÄo/Êa¾ÃËÄo   
+    ¬ÁÃaÆ¿¸ú¼¸:         ÁÃoÁoÃ¶¼oúa¿Îúo¸  
+    ¬ÁÃaÆ¿¸ú¼¸:         ÁÃoÁoÃ¶¼oúa¿Îúo¸  
+    ¬ÁÃaÆ¿¸ú¼¸:         ÁÃoÁoÃ¶¼oúa¿Îúo¸  
+  ªÃ¸·. úaºÃ¸ÆaÄ¸¿Î       oÄcÅÄcÄÆÅ¸Ä     
+                          ­o·a, 1 úacoc   
+   ­o·a, 2 úacoca     (ocúoÆúoÉ/Ã¸Ê¸ÃÆú.) 
+   ´¿¸¾ÄÃ¼Â¸c¾¼É.     ÁÃoÁoÃ¶. ¬ÁÃaÆ¿¸ú¼¸ 
+   ´¿¸¾ÄÃ¼Â¸c¾¼É.        ¬ÁÃaÆ¿¸ú¼¸ ®¦M   
+   ´¿¸¾ÄÃ¼Â¸c¾¼É.     ¬ÁÃaÆ¿¸ú¼¸: 1 cÄÅÁ. 
+   ´¿¸¾ÄÃ¼Â¸c¾¼É.     ¬ÁÃaÆ¿¸ú¼¸: 2 cÄÅÁ. 
+   ´¿¸¾ÄÃ¼Â¸c¾¼É.     ¬ÁÃaÆ¿¸ú¼¸: 3 cÄÅÁ. 
+   ´¿¸¾ÄÃ¼Â¸c¾¼É.     ¬ÁÃaÆ¿¸ú¼¸: 4 cÄÅÁ. 
+   ´¿¸¾ÄÃ¼Â¸c¾¼É.     ¬ÁÃaÆ¿¸ú¼¸: 5 cÄÅÁ. 
+   ´¿¸¾ÄÃ¼Â¸c¾¼É.     ¬ÁÃaÆ¿¸ú¼¸: 6 cÄÅÁ. 
+   ´¿¸¾ÄÃ¼Â¸c¾¼É.     ¬ÁÃaÆ¿¸ú¼¸: 7 cÄÅÁ. 
+   ´¿¸¾ÄÃ¼Â¸c¾¼É.     ¬ÁÃaÆ¿¸ú¼¸: 8 cÄÅÁ. 
+      [Ã¸Ê¸ÃÆ]              [Ã¸Ê¸ÃÆ]      
+      [Ã¸Ê¸ÃÆ]              [Ã¸Ê¸ÃÆ]      
+      [Ã¸Ê¸ÃÆ]              [Ã¸Ê¸ÃÆ]      
+   HaºÃ¸ÆaÄ¸¿Î #1         oÄcÅÄcÄÆÅ¸Ä     
+                          ­o·a, 1 úacoc   
+   ­o·a, 2 úacoca     (ocúoÆúoÉ/Ã¸Ê¸ÃÆú.) 
+   ´¿¸¾ÄÃ¼Â¸c¾¼É.     ÁÃoÁoÃ¶. ¬ÁÃaÆ¿¸ú¼¸ 
+   ´¿¸¾ÄÃ¼Â¸c¾¼É.        ¬ÁÃaÆ¿¸ú¼¸ ®¦M   
+   ´¿¸¾ÄÃ¼Â¸c¾¼É.     ¬ÁÃaÆ¿¸ú¼¸: 1 cÄÅÁ. 
+   ´¿¸¾ÄÃ¼Â¸c¾¼É.     ¬ÁÃaÆ¿¸ú¼¸: 2 cÄÅÁ. 
+   ´¿¸¾ÄÃ¼Â¸c¾¼É.     ¬ÁÃaÆ¿¸ú¼¸: 3 cÄÅÁ. 
+   ´¿¸¾ÄÃ¼Â¸c¾¼É.     ¬ÁÃaÆ¿¸ú¼¸: 4 cÄÅÁ. 
+   ´¿¸¾ÄÃ¼Â¸c¾¼É.     ¬ÁÃaÆ¿¸ú¼¸: 5 cÄÅÁ. 
+   ´¿¸¾ÄÃ¼Â¸c¾¼É.     ¬ÁÃaÆ¿¸ú¼¸: 6 cÄÅÁ. 
+   ´¿¸¾ÄÃ¼Â¸c¾¼É.     ¬ÁÃaÆ¿¸ú¼¸: 7 cÄÅÁ. 
+   ´¿¸¾ÄÃ¼Â¸c¾¼É.     ¬ÁÃaÆ¿¸ú¼¸: 8 cÄÅÁ. 
+   HaºÃ¸ÆaÄ¸¿Î #2         oÄcÅÄcÄÆÅ¸Ä     
+                          ­o·a, 1 úacoc   
+   ­o·a, 2 úacoca     (ocúoÆúoÉ/Ã¸Ê¸ÃÆú.) 
+   ´¿¸¾ÄÃ¼Â¸c¾¼É.     ÁÃoÁoÃ¶. ¬ÁÃaÆ¿¸ú¼¸ 
+   ´¿¸¾ÄÃ¼Â¸c¾¼É.        ¬ÁÃaÆ¿¸ú¼¸ ®¦M   
+   ´¿¸¾ÄÃ¼Â¸c¾¼É.     ¬ÁÃaÆ¿¸ú¼¸: 1 cÄÅÁ. 
+   ´¿¸¾ÄÃ¼Â¸c¾¼É.     ¬ÁÃaÆ¿¸ú¼¸: 2 cÄÅÁ. 
+   ´¿¸¾ÄÃ¼Â¸c¾¼É.     ¬ÁÃaÆ¿¸ú¼¸: 3 cÄÅÁ. 
+   ´¿¸¾ÄÃ¼Â¸c¾¼É.     ¬ÁÃaÆ¿¸ú¼¸: 4 cÄÅÁ. 
+   ´¿¸¾ÄÃ¼Â¸c¾¼É.     ¬ÁÃaÆ¿¸ú¼¸: 5 cÄÅÁ. 
+   ´¿¸¾ÄÃ¼Â¸c¾¼É.     ¬ÁÃaÆ¿¸ú¼¸: 6 cÄÅÁ. 
+   ´¿¸¾ÄÃ¼Â¸c¾¼É.     ¬ÁÃaÆ¿¸ú¼¸: 7 cÄÅÁ. 
+   ´¿¸¾ÄÃ¼Â¸c¾¼É.     ¬ÁÃaÆ¿¸ú¼¸: 8 cÄÅÁ. 
+     Ox¿a½·¸ú¼¸           oÄcÅÄcÄÆÅ¸Ä     
+     ¬ÁÃaÆ¿¸ú¼¸          ¾¿aÁaúoÀ 0-10­   
+    ¨oÀÁÃ¸ccoÃúËÉ       µ¿o¾, 1 cÄÅÁ¸úÎ   
+    ¨oÀÁÃ¸ccoÃúËÉ       µ¿o¾, 2 cÄÅÁ¸ú¼   
+    ¨oÀÁÃ¸ccoÃúËÉ       µ¿o¾, 3 cÄÅÁ¸ú¼   
+    ¨oÀÁÃ¸ccoÃúËÉ       µ¿o¾, 4 cÄÅÁ¸ú¼   
+  ­cÄÃ.xo¿o·.ÀaÇ¼úa       1 ¾oÀÁÃ¸ccoÃ    
+  ­cÄÃ.xo¿o·.ÀaÇ¼úa       2 ¾oÀÁÃ¸ccoÃa   
+  ­cÄÃ.xo¿o·.ÀaÇ¼úa       3 ¾oÀÁÃ¸ccoÃa   
+  ­cÄÃ.xo¿o·.ÀaÇ¼úa    2 ¾oÀÁÃ. 2 ¾oúÄÅÃ. 
+   ´¿¸¾ÄÃ¼Â¸c¾¼É.     ¬ÁÃaÆ¿¸ú¼¸: 1 cÄÅÁ. 
+   ´¿¸¾ÄÃ¼Â¸c¾¼É.     ¬ÁÃaÆ¿¸ú¼¸: 2 cÄÅÁ. 
+   ´¿¸¾ÄÃ¼Â¸c¾¼É.     ¬ÁÃaÆ¿¸ú¼¸: 3 cÄÅÁ. 
+   ´¿¸¾ÄÃ¼Â¸c¾¼É.     ¬ÁÃaÆ¿¸ú¼¸: 4 cÄÅÁ. 
+ HaºÃ¸ÆaÄ¸¿Î Ã¸º¸ú.      #1 oÄcÅÄcÄÆÅ¸Ä   
+                          ­o·a, 1 úacoc   
+   ´¿¸¾ÄÃ¼Â¸c¾¼É.     ¬ÁÃaÆ¿¸ú¼¸: 1 cÄÅÁ. 
+   ´¿¸¾ÄÃ¼Â¸c¾¼É.     ¬ÁÃaÆ¿¸ú¼¸: 2 cÄÅÁ. 
+   ´¿¸¾ÄÃ¼Â¸c¾¼É.     ¬ÁÃaÆ¿¸ú¼¸: 3 cÄÅÁ. 
+   ´¿¸¾ÄÃ¼Â¸c¾¼É.     ¬ÁÃaÆ¿¸ú¼¸: 4 cÄÅÁ. 
+ HaºÃ¸ÆaÄ¸¿Î Ã¸º¸ú.      #2 oÄcÅÄcÄÆÅ¸Ä   
+                          ­o·a, 1 úacoc   
+   ´¿¸¾ÄÃ¼Â¸c¾¼É.     ¬ÁÃaÆ¿¸ú¼¸: 1 cÄÅÁ. 
+   ´¿¸¾ÄÃ¼Â¸c¾¼É.     ¬ÁÃaÆ¿¸ú¼¸: 2 cÄÅÁ. 
+   ´¿¸¾ÄÃ¼Â¸c¾¼É.     ¬ÁÃaÆ¿¸ú¼¸: 3 cÄÅÁ. 
+   ´¿¸¾ÄÃ¼Â¸c¾¼É.     ¬ÁÃaÆ¿¸ú¼¸: 4 cÄÅÁ. 
+    OµoÃÅ·oÆaú¼¸          oÄcÅÄcÄÆÅ¸Ä     
+    ª¿acÄ¼úÂaÄËÉ          Ã¸¾ÅÁ¸ÃaÄoÃ     
+      PoÄoÃúËÉ            Ã¸º¸ú¸ÃaÄoÃ     
+  C ÁÃoÀ¸½ÅÄoÂúËÀ        Ä¸Á¿oúoc¼Ä¸¿¸À   
+    CoÃµ¶¼oúúËÉ           Ã¸º¸ú¸ÃaÄoÃ     
+  ¨oú·¸úc.+CoÃµ¶.         Ã¸º¸ú¸ÃaÄoÃ     
+     ¬Æ¿a½ú¸ú¼¸           oÄcÅÄcÄÆÅ¸Ä     
+    ¬ÁÃaÆ¿¸ú¼¸:            Æ¾¿./ÆË¾¿.     
+    ¬ÁÃaÆ¿¸ú¼¸:         ÁÃoÁoÃ¶¼oúa¿Îúo¸  
+                                          
+     ¬ÁÃaÆ¿¸ú¼¸             Áo c¸Ä¼       
+                        H¸ ¼cÁo¿ÎÊÅ¸ÄcÓ   
+100% Ã¸Ê¸ÃÆ¼ÃoÆaú¼¸    OcúoÆúaÓ ÅcÄaúoÆ¾a 
+100% Ã¸Ê¸ÃÆ¼ÃoÆaú¼¸   P¸Ê¸ÃÆúaÓ ÅcÄaúoÆ¾a 
+  H¸ ¼cÁo¿ÎÊÅ¸ÄcÓ                         
+      [Ã¸Ê¸ÃÆ]              [Ã¸Ê¸ÃÆ]      
+      [Ã¸Ê¸ÃÆ]              [Ã¸Ê¸ÃÆ]      
+      [Ã¸Ê¸ÃÆ]              [Ã¸Ê¸ÃÆ]      
+      [Ã¸Ê¸ÃÆ]              [Ã¸Ê¸ÃÆ]      
+  £oÁ. úaºÃ¸ÆaÄ¸¿Î        oÄcÅÄcÄÆÅ¸Ä     
+                          ­o·a, 1 úacoc   
+   ´¿¸¾ÄÃ¼Â¸c¾¼É.     ÁÃoÁoÃ¶. ¬ÁÃaÆ¿¸ú¼¸ 
+   ´¿¸¾ÄÃ¼Â¸c¾¼É.        ¬ÁÃaÆ¿¸ú¼¸ ®¦M   
+   ´¿¸¾ÄÃ¼Â¸c¾¼É.     ¬ÁÃaÆ¿¸ú¼¸: 1 cÄÅÁ. 
+   ´¿¸¾ÄÃ¼Â¸c¾¼É.     ¬ÁÃaÆ¿¸ú¼¸: 2 cÄÅÁ. 
+   ´¿¸¾ÄÃ¼Â¸c¾¼É.     ¬ÁÃaÆ¿¸ú¼¸: 3 cÄÅÁ. 
+   ´¿¸¾ÄÃ¼Â¸c¾¼É.     ¬ÁÃaÆ¿¸ú¼¸: 4 cÄÅÁ. 
+   ´¿¸¾ÄÃ¼Â¸c¾¼É.     ¬ÁÃaÆ¿¸ú¼¸: 5 cÄÅÁ. 
+   ´¿¸¾ÄÃ¼Â¸c¾¼É.     ¬ÁÃaÆ¿¸ú¼¸: 6 cÄÅÁ. 
+   ´¿¸¾ÄÃ¼Â¸c¾¼É.     ¬ÁÃaÆ¿¸ú¼¸: 7 cÄÅÁ. 
+   ´¿¸¾ÄÃ¼Â¸c¾¼É.     ¬ÁÃaÆ¿¸ú¼¸: 8 cÄÅÁ. 
+                            ¡¸Ê oÁ¶¼É     
+    OÁ¶¼Ó ¿¸Äú¸ºo          ox¿a½·¸ú¼Ó     
+      C oÁ¶¼¸É              Ã¸Æ¸Ãca       
+                            ¡¸Ê oÁ¶¼É     
+    CoÃµ¶¼oúúËÉ           Ã¸º¸ú¸ÃaÄoÃ     
+  ¡¸Ê ¾oú·.ÃoÄoÃa           (cx¸Àa 5)     
+   C ¾oú·.ÃoÄoÃoÀ          (cx¸Àa 5R)     
+    C ÁÃ¸·Æ.ox¿.           (cx¸Àa 5C)     
+     ¬Ä¸Á¿¸úúË¸        Êac¿oú¾¼ úaÃ.ÆoÊ·. 
+    ¡a¾Ä¸Ã¼¶¼·úaÓ             c¸¾¶¼Ó
+    HaºÃ¸ÆaÄ¸¿¼        ÁÃ¼Æo·oÆ úaÃ.Êac¿. 
+                                          
+                                          
+  HaºÃ¸ÆaÄ¸¿Î ·¿Ó       Ã¸º¸ú¸Ã.coÃµ¸úÄa  
+  ª¸Ã¸¾¿.c¾oÃocÄ¼      ÁÃ¼ ú¸·ocÄ.úaºÃ¸Æ¸ 
+  ª¸Ã¸¾¿.c¾oÃocÄ¼      ÁÃ¼ ú¸·ocÄ.ox¿a½·. 
+  P¸ºÅ¿¼Ã.c¾oÃocÄ¼       Áo ·aÄÂ¼¾Å CO2   
+  P¸ºÅ¿¼Ã.c¾oÃocÄ¼       Áo ·aÄÂ¼¾Å VOC   
+  P¸ºÅ¿¼Ã.c¾oÃocÄ¼         (ocÅÇ¸ú¼¸)     
+  ªo··¸Ã½.·aÆ¿¸ú¼Ó          Æ ÁÃ¼Äo¾¸     
+  ªo··¸Ã½.·aÆ¿¸ú¼Ó          Æ ÆËÄÓ½¾¸     
+  ±a¾ÃËÄ¼¸ Êac¿oúo¾    ÁÃ¼ ú¸·ocÄ.úaºÃ¸Æ¸ 
+ ª¸Ã¸¾¿.úaÃ. ¼ Ã¸¶.     ÆoÊ·Åxa Áo TÁoÀ¸È 
+ ªo¿o½¸ú¼¸ Êac¿oúo¾      Áo ·aÄÂ¼¾Å CO2   
+ ªo¿o½¸ú¼¸ Êac¿oúo¾      Áo ·aÄÂ¼¾Å VOC   
+ ªo¿o½¸ú¼¸ Êac¿oúo¾        (ocÅÇ¸ú¼¸)     
+  ¬ÁÃ.ox¿a·¼Ä¸¿¸À        Áo Ä¸ÀÁ¸ÃaÄÅÃ¸   
+  ¬ÁÃ.ox¿a·¼Ä¸¿¸À         ·¿Ó ocÅÇ¸ú¼Ó    
+     OcúoÆúoÉ#1                           
+    OcúoÆúoÉ#1+#2       Áoc¿¸·oÆaÄ¸¿Îúo   
+    OcúoÆúoÉ#1/#2      Áo ÆËµoÃÅ ¼¿¼ TúaÃ 
+    P¸¶¼Ã¾Å¿Ó¶¼Ó                          
+ P¸¶¼Ã¾.+OcúoÆúoÉ#1                       
+ OcúoÆúoÉ#1+P¸¶¼Ã¾.                       
+    P¸¶¼Ã¾Å¿Ó¶¼Ó         +OcúoÆúoÉ#1+#2   
+    OcúoÆúoÉ#1+#2         +P¸¶¼Ã¾Å¿Ó¶¼Ó   
+    P¸¶¼Ã¾Å¿Ó¶¼Ó         +OcúoÆúoÉ#1/#2   
+    OcúoÆúoÉ#1/#2         +P¸¶¼Ã¾Å¿Ó¶¼Ó   
+    P¸¾ÅÁ¸ÃaÄoÃ                           
+    P¸¾ÅÁ¸ÃaÄoÃ+           OcúoÆúoÉ#1     
+    P¸¾ÅÁ¸ÃaÄoÃ+          OcúoÆúoÉ#1+#2   
+    P¸¾ÅÁ¸ÃaÄoÃ+          OcúoÆúoÉ#1/#2   
+    T¸Á¿.úacoc+            OcúoÆúoÉ#1     
+    T¸Á¿.úacoc+           OcúoÆúoÉ#1+#2   
+    T¸Á¿.úacoc+           OcúoÆúoÉ#1/#2   
+    P¸¾ÅÁ¸ÃaÄoÃ+       OcúoÆúoÉ#1+P¸¶¼Ã¾. 
+     Ox¿a·¼Ä¸¿Î                           
+ P¸¶¼Ã¾.+Ox¿a·¼Ä¸¿Î     Áoc¿¸·oÆaÄ¸¿Îúo   
+ Ox¿a·¼Ä¸¿Î+P¸¶¼Ã¾.     Áoc¿¸·oÆaÄ¸¿Îúo   
+    P¸¶¼Ã¾Å¿Ó¶¼Ó                          
+     T¸Á¿.úacoc            (·¿Ó POOL)     
+ T¸Á¿.úacoc+P¸¶¼Ã¾.     Áoc¿¸·oÆaÄ¸¿Îúo   
+     T¸Á¿.úacoc             (·¿Ó ICE)     
+    Xo¿o·.ÀaÇ¼úa            (·¿Ó CCU)     
+    P¸¶¼Ã¾Å¿Ó¶¼Ó                          
+     Ox¿a·¼Ä¸¿Î                           
+   C¾oÃocÄÎ Æ¸úÄ.                         
+ P¸¶¼Ã¾.+Ox¿a·¼Ä¸¿Î     Áoc¿¸·oÆaÄ¸¿Îúo   
+  P¸¶¼Ã¾.+C¾oÃocÄÎ        Æ¸úÄ¼¿ÓÄoÃoÆ    
+  P¸¶¼Ã¾.+C¾oÃocÄÎ        +Ox¿a·¼Ä¸¿Î     
+   C¾oÃocÄÎ Æ¸úÄ.         +Ox¿a·¼Ä¸¿Î     
+     T¸Á¿.úacoc           úa ocÅÇ¸ú¼¸     
+ T¸Á¿.úacoc+P¸¶¼Ã¾.     Áoc¿¸·oÆaÄ¸¿Îúo   
+P¸¶¼Ã¾.+ T¸Á¿.úacoc     Áoc¿¸·oÆaÄ¸¿Îúo   
+CoÃµ¶.úaºÃ¸ÆaÄ¸¿Î
+HaºÃ.Ã¸º¸ú.ÁoÄo¾a 1   +CoÃµ¶.úaºÃ¸ÆaÄ¸¿Î
+HaºÃ.Ã¸º.1+HaºÃ.Ã¸º.  2+CoÃµ¶.úaºÃ¸ÆaÄ¸¿Î
+CoÃµ¶.úaºÃ¸ÆaÄ¸¿Î +   P¸¶¼Ã¾Å¿Ó¶¼Ó
+HaºÃ¸Æ.Ã¸º¸ú.1 +      CoÃµ¶.úaºÃ.+Ã¸¶¼Ã¾.
+HaºÃ.Ã¸º.1+HaºÃ.Ã.2+  CoÃµ¶.úaºÃ.+P¸¶¼Ã¾.
+P¸¾ÅÁ¸ÃaÄoÃ+CoÃµ¶.    úaºÃ¸Æ.+P¸¶¼Ã¾Å¿Ó¶¼Ó
+P¸¾ÅÁ¸Ã.+HaºÃ.Ã¸º1+ CoÃµ¶.úaºÃ.+P¸¶¼Ã¾.
+P¸¾ÅÁ¸Ã.+HaºÃ.Ã¸º.1+  H.Ã.2+CoÃ.úaºÃ.+P¸¶.
+    ¬Æ¿a½ú¼Ä¸¿Î                           
+   P¸¶¼Ã¾Å¿Ó¶¼Ó +         ¬Æ¿a½ú¼Ä¸¿Î     
+                                          
+                                          
+                                          
+   Remote control            ON/OFF       
+      Disabling         in case of fire   
+   Switching sets          parameters     
+    Power supply            failure       
+ Drop on the filter         (supply)      
+ Drop on the filter     (extractor hood)  
+  Drop on the add.          filter 1      
+  Drop on the add.          filter 2      
+                        External alarm 1  
+                        External alarm 2  
+ Drop on the filter      (regenerative)   
+  Failure: supply          fan (main)     
+  Failure: supply         fan (reserve)   
+    Supply fan.:         diff. pressure   
+  Failure: exhaust         fan (main)     
+  Failure: exhaust        fan (reserve)   
+    Exhaust fan.:        diff. pressure   
+Failure: regenerat.        fan (main)     
+Failure: regenerat.       fan (reserve)   
+ Failure: add./rem.           fan 1       
+ Failure: add./rem.           fan 2       
+ Failure: add./rem.           fan 3       
+   Regenerat.fan:        diff. pressure   
+                                          
+  Damper / supply       position: CLOSED  
+  Damper / supply        position: OPEN   
+  Damper / exhaust      position: CLOSED  
+  Damper / exhaust       position: OPEN   
+                                          
+                                          
+                                          
+                                          
+Pre-heater: failure         main pump     
+Pre-heater: failure       reserve pump    
+    Pre-heater:             frosting      
+Pre-heater: failure      diff. pressure   
+Pre-heater: failure    duct heat-transfer 
+ Electr.pre-heater:    overheating/faults 
+                                          
+  Heat #1: failure          main pump     
+  Heat #1: failure        reserve pump    
+      Heat #1:              frosting      
+  Heat #1: failure       diff. pressure   
+  Heat #1: failure     duct heat-transfer 
+  Electr.heat #1:      overheating/faults 
+                                          
+  Heat #2: failure          main pump     
+  Heat #2: failure        reserve pump    
+  Heat #2: failure       diff. pressure   
+  Heat #2: failure     duct heat-transfer 
+  Electr. heat #2:     overheating/faults 
+                                          
+  Cooler: failure             pump        
+  Cooler: failure        diff. pressure   
+  Cooler: failure       flow of a coolant 
+  Compressor unit       failure, step #1  
+  Compressor unit       failure, step #2  
+  Compressor unit       failure, step #3  
+  Compressor unit       failure, step #4  
+                                          
+                                          
+                                          
+                                          
+                                          
+    Recuperator:          pump failure    
+ Recuperator/rotor:     freezing by DPD   
+    Recuperator:       freezing by t/stat 
+                                          
+                                          
+    Regenerator         equipment failure 
+                                          
+                                          
+ Add.heater:failure           pump        
+ Add.heater:failure      diff. pressure   
+ Add.heater:failure    duct heat-transfer 
+ Electr.add.heater:    overheating/faults 
+                                          
+                                          
+                                          
+ Reserve installat.      failure signal   
+  START signal from     main installation 
+                                          
+ Universal control.     discrete imput 1  
+ Universal control.     discrete imput 2  
+                                          
+                                          
+Bactericid.section:       power failure   
+    Heated flap:          power failure   
+   Drive heating:         power failure   
+                                          
+     Humidifier         equipment failure 
+        Leak                 sensor       
+                                          
+                                          
+  High press. relay       Compressor 1    
+  High press. relay       Compressor 2    
+  High press. relay       Compressor 3    
+  Low press. relay        Compressor 1    
+  Low press. relay        Compressor 2    
+  Low press. relay        Compressor 3    
+ Supercharger termo       Compressor 1    
+ Supercharger termo       Compressor 2    
+ Supercharger termo       Compressor 3    
+    Compressor 1       failure: oil level 
+    Compressor 2       failure: oil level 
+    Compressor 3       failure: oil level 
+ERV module accident                       
+  High press. relay       Compressor 4    
+  Low press. relay        Compressor 4    
+ Supercharger termo       Compressor 4    
+    Compressor 4       failure: oil level 
+                                          
+   Regen.heat.#1:         pump failure    
+    Regen.heat.:            frosting      
+  Regen.e/heat.#1:     overheating/faults 
+                                          
+   Regen.heat.#2:         pump failure    
+  Regen.e/heat.#2:     overheating/faults 
+                                          
+Sorp.regen.e/heat.:    overheating/faults 
+                                          
+                                          
+                                          
+                                          
+                                          
+                                          
+                                          
+                                          
+                                          
+    Status signal         Accident/Norm   
+    Mode status         Downtime/Activity 
+      Universal         discrete output   
+ On/Off control box          heater       
+Air damper settings    sum.cooling.(POOL) 
+    On/Off TENs         actuator heater   
+Bactericid.section:          on/off       
+                                          
+                                          
+                                          
+    On/Off main            supply fan     
+   On/Off reserve          supply fan     
+    On/Off main           exhaust fan     
+   On/Off reserve         exhaust fan     
+    Binary speed        setting, bit #1   
+    Binary speed        setting, bit #2   
+    Binary speed        setting, bit #3   
+    On/Off main             regen.fan     
+   On/Off reserve           regen.fan     
+                                          
+  On/Off add./rem.           fan #1       
+  On/Off add./rem.           fan #2       
+  On/Off add./rem.           fan #3       
+                                          
+                                          
+     Open/Close           supply damper   
+     Open/Close          exhaust damper   
+   On/Off outdoor      damp.heating (KVU) 
+  Open/Close reg.         flow dampers    
+                                          
+    On/Off main         pump, pre-heater  
+   On/Off reserve       pump, pre-heater  
+    On/Off step 1       electr.pre-heater 
+    On/Off step 2       electr.pre-heater 
+    On/Off step 3       electr.pre-heater 
+    On/Off step 4       electr.pre-heater 
+    On/Off step 5       electr.pre-heater 
+    On/Off step 6       electr.pre-heater 
+    On/Off step 7       electr.pre-heater 
+    On/Off step 8       electr.pre-heater 
+                                          
+    On/Off main         pump, heater #1   
+   On/Off reserve       pump, heater #1   
+    On/Off step 1       electr.heater #1  
+    On/Off step 2       electr.heater #1  
+    On/Off step 3       electr.heater #1  
+    On/Off step 4       electr.heater #1  
+    On/Off step 5       electr.heater #1  
+    On/Off step 6       electr.heater #1  
+    On/Off step 7       electr.heater #1  
+    On/Off step 8       electr.heater #1  
+                                          
+    On/Off main         pump, heater #2   
+   On/Off reserve       pump, heater #2   
+    On/Off step 1       electr.heater #2  
+    On/Off step 2       electr.heater #2  
+    On/Off step 3       electr.heater #2  
+    On/Off step 4       electr.heater #2  
+    On/Off step 5       electr.heater #2  
+    On/Off step 6       electr.heater #2  
+    On/Off step 7       electr.heater #2  
+    On/Off step 8       electr.heater #2  
+                                          
+                                          
+       On/Off             cooler pump     
+    On/Off step 1       compressor unit   
+    On/Off step 2       compressor unit   
+    On/Off step 3       compressor unit   
+    On/Off step 4       compressor unit   
+                                          
+                                          
+       On/Off           rotor regenerator 
+       On/Off           pump recuperator  
+  Open/Close bypass     recuper. dampers  
+                                          
+                                          
+   On/Off reserve         installation    
+ Reserve installat.     status (for main) 
+                                          
+                                          
+ Universal control.     discrete output   
+                                          
+                                          
+                                          
+       On/Off              humidifier     
+    On/Off step 8     electr. add. heater 
+    On/Off add.           heater pump     
+    On/Off step 1     electr. add. heater 
+    On/Off step 2     electr. add. heater 
+    On/Off step 3     electr. add. heater 
+    On/Off step 4     electr. add. heater 
+    On/Off step 5     electr. add. heater 
+    On/Off step 6     electr. add. heater 
+    On/Off step 7     electr. add. heater 
+       On/Off             compressor 1    
+       On/Off             compressor 2    
+       On/Off             compressor 3    
+    On/Off liquid         solenoid (SG)   
+  On/Off capacitor      solenoid 1(SNK1)  
+  On/Off capacitor      solenoid 2(SNK2)  
+  On/Off ERV module        management     
+    On/Off TENs           receiver(s)     
+                          Bypass valve    
+    On/Off TENs           compressor 1    
+    On/Off TENs           compressor 2    
+    On/Off liquid       solenoid 1 (SG1)  
+    On/Off liquid       solenoid 2 (SG2)  
+  On/Off solenoid             SRC         
+       On/Off             compressor 4    
+  On/Off solenoid         SG (line 2)     
+    On/Off TENs         receiver (line 2) 
+    On/Off regen.         heat. pump #2   
+  On/Off sorption         regenerator     
+    On/Off step 1      sorp.regen.e/heat. 
+    On/Off step 2      sorp.regen.e/heat. 
+    On/Off step 3      sorp.regen.e/heat. 
+    On/Off step 4      sorp.regen.e/heat. 
+    On/Off regen.         heat. pump #1   
+    On/Off step 1       regen.e/heat. #1  
+    On/Off step 2       regen.e/heat. #1  
+    On/Off step 3       regen.e/heat. #1  
+    On/Off step 4       regen.e/heat. #1  
+    On/Off step 1       regen.e/heat. #2  
+    On/Off step 2       regen.e/heat. #2  
+    On/Off step 3       regen.e/heat. #2  
+    On/Off step 4       regen.e/heat. #2  
+ 
+T¸ÀÁ¸ÃaÄÅÃa
+­¿a½úocÄÎ 
+HaºÃ¸ÆaÄ¸¿Î
+P¸¶¼Ã¾Å¿Ó¶¼Ó
+¨oÃÃ. ·aÄÂ¼¾oÆ
+C¼cÄ.ÁaÃaÀ¸ÄÃË
+M¼¾Ão¾¿¼ÀaÄ
+Ox¿a·¼Ä¸¿Î
+P¸¾ÅÁ¸ÃaÄoÃ
+­¼xÃ¸ÆoÉ ·¼ûûÅÊoÃ
+Xo¿.ÀaÇ¼úa
+  ¬cÄaÆ¾a ·¿Ó PI-      Ã¸ºÅ¿ÓÄ. ÁoÀ¸È¸ú¼Ó 
+  M¼ú.úaÃÅ½.Ä¸ÀÁ.       ·¿Ó ÆËµoÃa Ã¸½¼Àa 
+  M¼ú.úaÃÅ½.Ä¸ÀÁ.       ·¿Ó ÆËµoÃa Ã¸½¼Àa 
+  M¼ú.úaÃÅ½.Ä¸ÀÁ.       ·¿Ó ÆËµoÃa Ã¸½¼Àa 
+¬cÄaÆ¾a (A) ·¿Ó PI-    Ã¸ºÅ¿ÓÄ. ÁoÀ¸È¸ú¼Ó 
+¬cÄaÆ¾a (B) ·¿Ó PI-    Ã¸ºÅ¿ÓÄ. ÁoÀ¸È¸ú¼Ó 
+¬cÄaÆ¾a (C) ·¿Ó PI-    Ã¸ºÅ¿ÓÄ. ÁoÀ¸È¸ú¼Ó 
+¬cÄaÆ¾a (D) ·¿Ó PI-    Ã¸ºÅ¿ÓÄ. ÁoÀ¸È¸ú¼Ó 
+¬cÄaÆ¾a (A) ·¿Ó PI-    Ã¸ºÅ¿ÓÄ. ÁoÀ¸È¸ú¼Ó 
+¬cÄaÆ¾a (B) ·¿Ó PI-    Ã¸ºÅ¿ÓÄ. ÁoÀ¸È¸ú¼Ó 
+¬cÄaÆ¾a (A) ·¿Ó PI-    Ã¸ºÅ¿ÓÄ. ÁoÀ¸È¸ú¼Ó 
+¬cÄaÆ¾a (A) ·¿Ó PI-    Ã¸ºÅ¿ÓÄ. ÁoÀ¸È¸ú¼Ó 
+      Setpoint             pre-heater     
+Setpoint(A) for PI-      reg. placement   
+Setpoint(B) for PI-      reg. placement   
+Setpoint(C) for PI-      reg. placement   
+Setpoint(D) for PI-      reg. placement   
+ Hyst. comfort zone    for indoor PI-reg. 
+  Min outdoor temp.     for choosing mode 
+  Min outdoor temp.     for choosing mode 
+  Min outdoor temp.     for choosing mode 
+  Max outdoor temp.     for choosing mode 
+  Max outdoor temp.     for choosing mode 
+  Max outdoor temp.     for choosing mode 
+ Hysteresis winter/     summer switching  
+    Control type        (cascade/direct)  
+    Limiting type     (absolute/relative) 
+    Scaling type      (depend./independ.) 
+Relative boundaries     set reg.tß supply 
+  Min abs. bnd. for     set reg.tß supply 
+  Max abs. bnd. for     set reg.tß supply 
+   Scale setpoint         independent     
+   Load as a per.        for comp. stop   
+   Load as a per.       for comp. start   
+    Setpoint of       humidity controller 
+    Setpoint of       humidity controller 
+ Setpoint(D) regul.     moisture content  
+  Opening diaposone    bypass pl.recovery 
+ Compar. hysteresis    in for out temp.tß 
+    Rotor heating       setpoint (summer) 
+      Set mode            winter/summer   
+ Hysteresis for set       winter/summer   
+      Setpoint           Tobr. regulat.   
+  Proportional zone      Tobr. regulat.   
+  Integration time     for Tobr regulator 
+  Min outdoor temp.    max setpnt preheat 
+    Min setpoint           pre-heater     
+    Max setpoint           pre-heater     
+Min bound. Temp for    act.def.from freez 
+Temp for start act.    def. from freezing 
+Temp for finish act    def. from freezing 
+ Max % of open act.   protect valve (t/o) 
+ Num. of autoresets      Tobr. accident   
+      Time for            pre-heating     
+    Speed reduce        setpoint (1K/10s) 
+ Min opening valves    for pump autostart 
+   Shutdown delay       water node pump   
+     Reset time           pre-heating     
+Anti-jamm. protect.         pump idle     
+    Downtime to          kick-on activ.   
+    Running time            kick-on       
+    Time to turn          3-way valve     
+      Disable              water coil     
+    Blowdown time       electric heater   
+      Setpoint             pre-heater     
+      Setpoint            add. heater     
+    Min.opening       of external dampers 
+Opening ext.dampers    in air change mode 
+  Act. long waiting     time mode (m/p)   
+  Act. long waiting     time mode (m/p)   
+    Max.opening       of external dampers 
+Min.pos.dampers for    sw.off exhaust fan 
+   Recycling type         (manual/auto)   
+  Manual task % of     opening ext.damper 
+Manual task % open.     vert.regen.damper 
+                                          
+  Min.time between      air change mode   
+    Duration of         air change mode   
+  Off delay exhaust    fan at % open<Rp05 
+ Set(A) for recirc.     by CO2/VOC sensor 
+ Set(B) for recirc.     by CO2/VOC sensor 
+ Set(C) for recirc.     by CO2/VOC sensor 
+ Set(D) for recirc.     by CO2/VOC sensor 
+    Max time with           no data       
+      Setpoint            case heater     
+ Acceleration delay         for fans      
+ Setpoint(B) regul.     moisture content  
+ Setpoint(C) regul.     moisture content  
+      Min.time           preheating KVU   
+      Max.time           preheating KVU   
+  Fire alarm reset        (manual/auto)   
+ Num.of auto.resets     of cooler alarms  
+  CCU work on sens.     temp.in exh.duct  
+     Time limit             CCU works     
+    Blowdown time           a cooler      
+    CCU idle time       in limiting mode  
+      Max.time              CCU works     
+Speed of rot.regen.     in thawing mode   
+   Shutdown delay      defrost rot.reg.md 
+      Speed of        cranking rot.regen. 
+   Cranking delay        rotor regener.   
+    Cranking time        rotor regener.   
+   Shutdown delay           for rotor     
+  Recirc.level for        locking rotor   
+   Hysteresis for         locking rotor   
+   Shutdown delay       for rotor block   
+    Rotor heating     hysteresis (summer) 
+                                          
+                                          
+  Supply temp. for         opening up     
+  Supply temp. for          wide open     
+      Min.angle           blade opening   
+      Max.angle           blade opening   
+    Return to 0%        posit.on shutdown 
+ Type of regulation       (manual/auto)   
+    Opening angle        in manual mode   
+    Setpoint for          neutral zone    
+    Neutral zone              range       
+   Max.delay time       switch comp.down  
+   Min.delay time        switch comp.up   
+ Modulat. bandwidth     switchdown time   
+   Min.delay time       switch comp.down  
+ Modulat. bandwidth       switchup time   
+ Max.tß outdoor air     for warm up KVU   
+                                          
+   Switching time             SNK         
+  Opening SG time      at low press.start 
+    Max pumping             mode time     
+      Start up              interval      
+   Min.duty cycle         of compressor   
+   Min.duty cycle         of compressor   
+   Min.duty cycle         of compressor   
+                                          
+      Setpoint                DND         
+     Hysteresis               DND         
+      Setpoint                DVD1        
+     Hysteresis               DVD1        
+    Min value DVD         for add. Fan    
+    Max value DVD         for add. Fan    
+  Proport.zone PI     indoor.(cascade mr) 
+  Integration time    PI-reg. room param. 
+  Proportional band       Main heater 1   
+  Int. time const.        main heater 1   
+      Dead band           main heater 1   
+   Setpoint speed         Main heater 1   
+  Proportional band       main heater 2   
+  Int. time const.        main heater 2   
+      Dead band           main heater 2   
+   Setpoint speed         main heater 2   
+  Proportional band        pre-heater     
+  Int. time const.        pre-heating     
+      Dead band            pre-heater     
+   Setpoint speed          pre-heater     
+  Proportional band       add. heater     
+  Int. time const.        add. Heater     
+      Dead band           add. heater     
+   Setpoint speed         add. heater     
+  Proportional band      dampers (heat)   
+  Int. time const.      dampers (heating) 
+      Dead band          dampers (heat)   
+   Setpoint speed        dampers (heat)   
+  Proportional band    recuperator (heat) 
+  Int. time const.     recovery (heating) 
+      Dead band        recuperator (heat) 
+   Setpoint speed      recuperator (heat) 
+  Proportional band     heat pump (heat)  
+  Int. time const.      heat pump (heat)  
+      Dead band         heat pump (heat)  
+   Setpoint speed       heat pump (heat)  
+  Proportional band      dampers (cool)   
+  Int. time const.      dampers (cooling) 
+      Dead band          dampers (cool)   
+   Setpoint speed        dampers (cool)   
+  Proportional band       refrigerant     
+  Int. time const.        refrigerant     
+      Dead band              cooler       
+   Setpoint speed         refrigerant     
+  Proportional band     heat pump (cool)  
+  Int. time const.      heat pump (cool)  
+      Dead band         heat pump (cool)  
+   Setpoint speed       heat pump (cool)  
+  Proportional band       dampers (dry)   
+  Int. time const.      dampers (drying)  
+      Dead band           dampers (dry)   
+   Setpoint speed         dampers (dry)   
+  Proportional band           dryer       
+  Int. time const.            dryer       
+      Dead band               dryer       
+   Setpoint speed             dryer       
+  Proportional band       fan velocity    
+  Int. time const.        fan velocity    
+      Dead band           fan velocity    
+   Setpoint speed         fan velocity    
+  Proportional band     heat pump (dry)   
+  Int. time const.      heat pump (dry)   
+      Dead band         heat pump (dry)   
+   Setpoint speed       heat pump (dryi)  
+  Proportional band    dampers (CO2 /VOC) 
+  Int. time const.     dampers (CO2 /VOC) 
+      Dead band        dampers (CO2 /VOC) 
+   Setpoint speed      dampers (CO2 /VOC) 
+     Humidifier         proportional band 
+     Humidifier           integral time   
+     Humidifier             deadband      
+     Humidifier          setpoint speed   
+Setpoint(A) for PI-      reg. placement   
+ Setpoint(D) regul.     moisture content  
+ Set(A) for recirc.     by CO2/VOC sensor 
+Setpoint(B) for PI-      reg. placement   
+  Opening diaposone    bypass pl.recovery 
+ Set(B) for recirc.     by CO2/VOC sensor 
+Setpoint(C) for PI-      reg. placement   
+ Compar. hysteresis    in for out temp.tß 
+ Set(C) for recirc.     by CO2/VOC sensor 
+Setpoint(D) for PI-      reg. placement   
+    Rotor heating       setpoint (summer) 
+ Set(D) for recirc.     by CO2/VOC sensor 
+   Humidifier max          production     
+   Operation mode     (discr./proportion.)
+  Unit of measure         (kg/h / lb/h)   
+  Alarm relay state     when CY warning   
+   Dilution drain        with contactor   
+  Drain if request      <= 2/3 cur.req.   
+  Total drain due         to inactivity   
+     Display of          CL & CP alarms   
+    Alarm relay        activated if alarm 
+     Periodical           total drain     
+        Relay             control M14     
+      Off delay               time        
+ Conductiv.compared      to rated value   
+Conductivity warning        threshold     
+ Conductivity alarm         threshold     
+    Foam control      0-no, 1-max, 100-min
+    Conductivity           production     
+Adj.duration of the   drain to dilute cycl
+Cylinder maintenance       limit time     
+ Time limit between   period.drain cycles 
+Days delay for drain    due to inactivity 
+                          CPY address     
+                                          
+  CPY net settings      (see CPY manual)  
+    Max time with           no data       
+                            Rotation      
+  Start unit with        less life time   
+      Rotation              work time     
+     Start unit            if offline     
+   ­Ã¸ÀÓ Êa·¸Ã½¾¼          ÆË¾¿ÌÂ¸ú¼Ó     
+ ´¿¸¾ÄÃoÁÃoÆo·úocÄÎ     Æo·Ë (0 - aÆÄo)   
+ªoÃoº ÁÃ¸·ÅÁÃ¸½·¸ú¼Ó  Áo Ğ¿¸¾ÄÃoÁÃoÆo·-cÄ¼
+    ªoÃoº ÄÃ¸Æoº¼     Áo Ğ¿¸¾ÄÃoÁÃoÆo·-cÄ¼
+¨oúÄÃo¿Î Á¸úooµÃaÊ.   0-ú¸Ä,1-Àa¾c,100-À¼ú
+ ´¿¸¾ÄÃoÁÃoÆo·úocÄÎ     Áo cÃaÆú.c úoÀ¼ú. 
+  ªÃo·o¿½.c¿¼Æa ·¿Ó    cú¼½.Ğ¿¸¾ÄÃoÁÃ-cÄ¼ 
+ª¸Ã¼o· oµc¿Å½¼Æaú¼Ó           µa¾a        
+­Ã¸ÀÓ À¸½·Å Á¸Ã¼o·.       ¶¼¾¿aÀ¼ c¿¼Æa   
+­Ã¸ÀÓ Êa·¸Ã½¾¼ c¿¼Æa  ÁÃ¼ µ¸Ê·¸ÉcÄÆ¼¼(·ú¼)
+                            A·Ã¸c CPY     
+C¾oÃocÄÎ co¸·¼ú¸ú¼Ó    c CPY (9600/19200) 
+  HacÄÃoÉ¾¼ co¸·.     c CPY (cÀ.¼úcÄÃ.CPY)
+Ma¾c ÆÃ¸ÀÓ o½¼·aú¼Ó    ·aúúËx oÄ ¾oúÄÃo¿. 
+                            PoÄa¶¼Ó       
+ ±aÁÅc¾ ÅcÄaúoÆ¾¼ c    À¸úÎÇ¸É úaÃaµoÄ¾oÉ 
+    ­Ã¸ÀÓ ÃaµoÄË      ÅcÄaúoÆ¾¼ ·o ÃoÄa¶¼¼
+  ±aÁÅc¾ ÅcÄaúoÆ¾¼      ÁÃ¼ ÁoÄ¸Ã¸ cÆÓÊ¼  
+ 
+  NO
+ YES
+ 
+Press ENTER to confirm
+ no
+yes
+[EN]

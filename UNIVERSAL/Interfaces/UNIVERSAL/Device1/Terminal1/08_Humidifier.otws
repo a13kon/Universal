@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Worksheet Name="08_Humidifier" Version="1.0.0">
+  <Loop Name="HUMID" X="1" Y="0">
+    <Mask Name="Humid_Prop" Type="Normal" X="1" Y="1">
+      <Fields>
+        <Field Type="Image" Name="Image_2" Row="0" Column="0" Content="BLACK_ROWS_132X8.BMP" />
+        <Field Type="Image" Name="Image_3" Row="7" Column="0" Content="BLACK_ROWS_132X8.BMP" />
+        <Field Type="Text" Name="Text" Row="0" Column="3" Content="ªaÃoÅÆ¿a½ú¼Ä¸¿Î" />
+        <Field Type="Variable" Name="Variable_5" Row="2" Column="14" Content="Display.value_REAL[1]" Class="CL_REAL_0" Format="o+3.0" Min="-999.0" Max="999.0" />
+        <Field Type="Text" Name="Text_8" Row="2" Column="19" Content="%" />
+        <Field Type="Text" Name="Text_9" Row="2" Column="1" Content="±aÁÃoc   :" />
+        <Field Type="Text" Name="Text_2" Row="4" Column="1" Content="­Ëxo·    :" />
+        <Field Type="Variable" Name="Variable" Row="4" Column="15" Content="Display.value_BOOL[1]" Class="BOOL_CHANGE_1" Format="o1" Min="0" Max="9" SimulationValue="1" />
+      </Fields>
+      <KeyBindings>
+        <KeyBinding Key="UP" BindOn="Move_UP" />
+        <KeyBinding Key="DOWN" BindOn="Move_DOWN" />
+      </KeyBindings>
+      <EnableOn>
+        <Var Name="EQ_Humid.Ctrl.Proportional" />
+      </EnableOn>
+    </Mask>
+    <Mask Name="Humid_Discr" Type="Normal" X="1" Y="2">
+      <Fields>
+        <Field Type="Image" Name="Image_2" Row="0" Column="0" Content="BLACK_ROWS_132X8.BMP" />
+        <Field Type="Image" Name="Image_3" Row="7" Column="0" Content="BLACK_ROWS_132X8.BMP" />
+        <Field Type="Text" Name="Text" Row="0" Column="3" Content="ªaÃoÅÆ¿a½ú¼Ä¸¿Î" />
+        <Field Type="Text" Name="Text_8" Row="2" Column="19" Content="%" />
+        <Field Type="Text" Name="Text_9" Row="2" Column="1" Content="±aÁÃoc   :" />
+        <Field Type="Text" Name="Text_2" Row="4" Column="1" Content="­Ëxo·    :" />
+        <Field Type="Variable" Name="Variable_2" Row="4" Column="15" Content="Display.value_BOOL[1]" Class="BOOL_CHANGE_1" Format="o1" Min="0" Max="9" SimulationValue="1" />
+        <Field Type="Variable" Name="Variable_3" Row="2" Column="14" Content="Display.value_REAL[1]" Class="CL_REAL_0" Format="o+3.0" Min="-999.0" Max="999.0" />
+      </Fields>
+      <KeyBindings>
+        <KeyBinding Key="UP" BindOn="Move_UP" />
+        <KeyBinding Key="DOWN" BindOn="Move_DOWN" />
+      </KeyBindings>
+      <EnableOn>
+        <Var Name="EQ_Humid.Ctrl.Discrete" />
+      </EnableOn>
+    </Mask>
+    <Mask Name="Humid_Net_1" Type="Normal" X="1" Y="3">
+      <Fields>
+        <Field Type="Image" Name="Image_2" Row="0" Column="0" Content="BLACK_ROWS_132X8.BMP" />
+        <Field Type="Image" Name="Image_3" Row="7" Column="0" Content="BLACK_ROWS_132X8.BMP" />
+        <Field Type="Text" Name="Text" Row="0" Column="2" Content="ªaÃoÅÆ¿a½ú¼Ä¸¿Î" />
+        <Field Type="Variable" Name="Variable" Row="7" Column="1" Content="EQ_Humid.State" Class="Humid_State_Class" Format="o2" Min="0" Max="99" SimulationValue="0" />
+        <Field Type="Variable" Name="Variable_2" Row="4" Column="11" Content="mod_CPY_2.Curr_CPY" Class="CL_REAL_1" Format="o+3.1" Min="-999.9" Max="999.9" />
+        <Field Type="Text" Name="Text_2" Row="4" Column="18" Content="A" />
+        <Field Type="Variable" Name="Variable_3" Row="5" Column="11" Content="mod_CPY_2.SteamInstantFlowRate_CPY" Class="CL_REAL_1" Format="o+3.1" Min="-999.9" Max="999.9" />
+        <Field Type="Text" Name="Text_3" Row="5" Column="18" Content="¾º/Â" />
+        <Field Type="Variable" Name="Variable_4" Row="3" Column="11" Content="mod_CPY_2.Conductivity_CPY" Class="CL_INT" Format="o+5" Min="-32768" Max="32767" />
+        <Field Type="Text" Name="Text_4" Row="3" Column="18" Content="À¾CÀ" />
+        <Field Type="Text" Name="Text_5" Row="4" Column="0" Content="To¾      :" />
+        <Field Type="Text" Name="Text_6" Row="3" Column="0" Content="ªÃoÆo·¼À.:" />
+        <Field Type="Text" Name="Text_7" Row="5" Column="0" Content="ªÃo¼ÊÆo·.:" />
+        <Field Type="Variable" Name="Variable_5" Row="2" Column="13" Content="EQ_Humid.AO" Class="CL_REAL_0" Format="o+3.0" Min="-999.0" Max="999.0" />
+        <Field Type="Text" Name="Text_8" Row="2" Column="18" Content="%" />
+        <Field Type="Text" Name="Text_9" Row="2" Column="0" Content="±aÁÃoc   :" />
+        <Field Type="Text" Name="Text_10" Row="1" Column="0" Content="¨oúû¼ºÅÃ.:" />
+        <Field Type="Variable" Name="Variable_6" Row="1" Column="10" Content="EQ_Humid.ActualType" Class="Model_CPY_Class" Format="o1" Min="0" Max="9" SimulationValue="0" />
+        <Field Type="Variable" Name="Variable_8" Row="7" Column="19" Content="Display.UoM[8]" Class="UoM_CHANGE_8" Format="o2" Min="0" Max="99" />
+        <Field Type="Variable" Name="Variable_9" Row="7" Column="14" Content="Display.value_INT[8]" Class="INT_CHANGE_8" Format="o+3" Min="-999" Max="999" SimulationValue="" />
+        <Field Type="Text" Name="Text_13" Row="0" Column="19" Content="1/2" />
+      </Fields>
+      <KeyBindings>
+        <KeyBinding Key="UP" BindOn="Move_UP" />
+        <KeyBinding Key="DOWN" BindOn="Move_DOWN" />
+      </KeyBindings>
+      <EnableOn>
+        <Var Name="EQ_Humid.Ctrl.Network" />
+      </EnableOn>
+    </Mask>
+    <Mask Name="Humid_Net_2" Type="Normal" X="1" Y="4">
+      <Fields>
+        <Field Type="Image" Name="Image_2" Row="0" Column="0" Content="BLACK_ROWS_132X8.BMP" />
+        <Field Type="Image" Name="Image_3" Row="7" Column="0" Content="BLACK_ROWS_132X8.BMP" />
+        <Field Type="Text" Name="Text" Row="0" Column="2" Content="ªaÃoÅÆ¿a½ú¼Ä¸¿Î" />
+        <Field Type="Variable" Name="Variable" Row="7" Column="1" Content="EQ_Humid.State" Class="Humid_State_Class" Format="o2" Min="0" Max="99" SimulationValue="0" />
+        <Field Type="Text" Name="Text_11" Row="3" Column="1" Content="HaÃ.µa¾a :" />
+        <Field Type="Variable" Name="Variable_7" Row="3" Column="11" Content="mod_CPY_2.CntCylHr_CPY" Class="CL_INT" Format="o6" Min="0" Max="32767" />
+        <Field Type="Text" Name="Text_12" Row="3" Column="18" Content="Â" />
+        <Field Type="Variable" Name="Variable_8" Row="7" Column="19" Content="Display.UoM[8]" Class="UoM_CHANGE_8" Format="o2" Min="0" Max="99" />
+        <Field Type="Variable" Name="Variable_9" Row="7" Column="14" Content="Display.value_INT[8]" Class="INT_CHANGE_8" Format="o+3" Min="-999" Max="999" SimulationValue="" />
+        <Field Type="Text" Name="Text_13" Row="0" Column="19" Content="2/2" />
+        <Field Type="Text" Name="Text_2" Row="2" Column="1" Content="HaÃaµoÄ¾a:" />
+        <Field Type="Variable" Name="Variable_2" Row="2" Column="11" Content="mod_CPY_2.LifeTime" Class="CL_UINT" Format="o6" Min="0" Max="65535" />
+        <Field Type="Text" Name="Text_3" Row="2" Column="18" Content="Â" />
+      </Fields>
+      <KeyBindings>
+        <KeyBinding Key="UP" BindOn="Move_UP" />
+        <KeyBinding Key="DOWN" BindOn="Move_DOWN" />
+      </KeyBindings>
+      <EnableOn>
+        <Var Name="EQ_Humid.Ctrl.Network" />
+      </EnableOn>
+    </Mask>
+  </Loop>
+</Worksheet>

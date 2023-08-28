@@ -1,0 +1,743 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Manifest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+  Version="1.0.1"
+  IsLibrary="true">
+  <Pou
+    Name="REdge_CPY"
+    Moniker="REdge_CPY.stf"
+    Language="ST"
+    IsIec61499="false"
+    Kind="FunctionBlock"
+    Password="E4BDBA2BEF6CC4DC"
+    GenerateDebugInfo="false"
+    GeneratingMonitoringSymbols="true"
+    IsVisible="false"
+    UserEdited="false"
+    Deprecated="false">
+    <Variable
+      Name="In"
+      Comment="Input value"
+      DataType="BOOL"
+      Kind="VarInput" />
+    <Variable
+      Name="Reset"
+      Comment="Reset"
+      DataType="BOOL"
+      Kind="VarInput" />
+    <Variable
+      Name="Out"
+      Comment="Edge"
+      DataType="BOOL"
+      Kind="VarOutput" />
+    <Variable
+      Name="In_Old"
+      Comment=""
+      DataType="BOOL"
+      Kind="Var" />
+  </Pou>
+  <Pou
+    Name="PriorityMng_INT_CPY"
+    Moniker="PriorityMng_INT_CPY.stf"
+    Language="ST"
+    IsIec61499="false"
+    Kind="FunctionBlock"
+    Password="E4BDBA2BEF6CC4DC"
+    GenerateDebugInfo="false"
+    GeneratingMonitoringSymbols="true"
+    IsVisible="false"
+    UserEdited="false"
+    Deprecated="false">
+    <Variable
+      Name="VariableIn"
+      Comment="Variable used on the strategy"
+      DataType="INT"
+      Kind="VarInput" />
+    <Variable
+      Name="SerialIn"
+      Comment="Variable flag as Protocol"
+      DataType="INT"
+      Kind="VarInput" />
+    <Variable
+      Name="Variable"
+      Comment="Variable flag as Protocol"
+      DataType="INT"
+      Kind="VarOutput" />
+    <Variable
+      Name="Serial"
+      Comment="Variable used on the strategy"
+      DataType="INT"
+      Kind="VarOutput" />
+    <Variable
+      Name="UpdtDn"
+      Comment="Update done"
+      DataType="BOOL"
+      Kind="Var" />
+  </Pou>
+  <Pou
+    Name="PriorityMng_REAL_CPY"
+    Moniker="PriorityMng_REAL_CPY.stf"
+    Language="ST"
+    IsIec61499="false"
+    Kind="FunctionBlock"
+    Password="E4BDBA2BEF6CC4DC"
+    GenerateDebugInfo="false"
+    GeneratingMonitoringSymbols="true"
+    IsVisible="false"
+    UserEdited="false"
+    Deprecated="false">
+    <Variable
+      Name="VariableIn"
+      Comment="Variable used on the strategy"
+      DataType="REAL"
+      Kind="VarInput" />
+    <Variable
+      Name="SerialIn"
+      Comment="Variable flag as Protocol"
+      DataType="REAL"
+      Kind="VarInput" />
+    <Variable
+      Name="Variable"
+      Comment="Variable flag as Protocol"
+      DataType="REAL"
+      Kind="VarOutput" />
+    <Variable
+      Name="Serial"
+      Comment="Variable used on the strategy"
+      DataType="REAL"
+      Kind="VarOutput" />
+    <Variable
+      Name="UpdtDn"
+      Comment="Update done"
+      DataType="BOOL"
+      Kind="Var" />
+  </Pou>
+  <Pou
+    Name="ModelChg_CPY"
+    Moniker="ModelChg_CPY.stf"
+    Language="ST"
+    IsIec61499="false"
+    Kind="FunctionBlock"
+    Password="E4BDBA2BEF6CC4DC"
+    GenerateDebugInfo="true"
+    GeneratingMonitoringSymbols="true"
+    IsVisible="false"
+    UserEdited="false"
+    Deprecated="false">
+    <Variable
+      Name="En_NewModel"
+      Comment=""
+      DataType="BOOL"
+      Kind="VarInput" />
+    <Variable
+      Name="NewModel"
+      Comment=""
+      DataType="INT"
+      Kind="VarInput" />
+    <Variable
+      Name="InstDef"
+      Comment=""
+      DataType="BOOL"
+      Kind="VarInput" />
+    <Variable
+      Name="DevicePolls"
+      Comment=""
+      DataType="UDINT"
+      Kind="VarInput" />
+    <Variable
+      Name="Reset"
+      Comment=""
+      DataType="BOOL"
+      Kind="VarInput" />
+    <Variable
+      Name="ChgRun"
+      Comment=""
+      DataType="BOOL"
+      Kind="VarOutput" />
+    <Variable
+      Name="I79_CPY_UEY_Model"
+      Comment=""
+      DataType="INT"
+      Kind="Var" />
+    <Variable
+      Name="I80_CPY_UEY_ActualModel"
+      Comment=""
+      DataType="INT"
+      Kind="Var" />
+    <Variable
+      Name="ModelChgStep"
+      Comment=""
+      DataType="INT"
+      Kind="Var" />
+    <Variable
+      Name="I42_ConfigParams"
+      Comment=""
+      DataType="INT"
+      Kind="Var" />
+    <Variable
+      Name="DevicePollsPrev"
+      Comment=""
+      DataType="UDINT"
+      Kind="Var" />
+  </Pou>
+  <Pou
+    Name="Control_CPY"
+    Moniker="Control_CPY.stf"
+    Language="ST"
+    IsIec61499="false"
+    Kind="FunctionBlock"
+    Password="5907D0888C749CE7"
+    GenerateDebugInfo="false"
+    GeneratingMonitoringSymbols="true"
+    IsVisible="false"
+    UserEdited="false"
+    Deprecated="false">
+    <Variable
+      Name="En_Operations"
+      Comment=""
+      DataType="BOOL"
+      Kind="VarInput" />
+    <Variable
+      Name="D02_DisCtrlSignal"
+      Comment=""
+      DataType="BOOL"
+      Kind="Var" />
+    <Variable
+      Name="I82_ID_Device"
+      Comment=""
+      DataType="INT"
+      Kind="Var" />
+    <Variable
+      Name="I64_MatchDigit"
+      Comment=""
+      DataType="INT"
+      Kind="Var" />
+  </Pou>
+  <Pou
+    Name="CPY_2"
+    Moniker="CPY_2.stf"
+    Language="ST"
+    IsIec61499="false"
+    Kind="FunctionBlock"
+    Password="E4BDBA2BEF6CC4DC"
+    GenerateDebugInfo="true"
+    GeneratingMonitoringSymbols="true"
+    IsVisible="true"
+    UserEdited="true"
+    Deprecated="false">
+    <Variable
+      Name="ResWorkHrsIn_CPY"
+      Comment="Reset working hours"
+      DataType="BOOL"
+      Kind="VarInput" />
+    <Variable
+      Name="ManIn_CPY"
+      Comment="Manual management"
+      DataType="MAN_MNG_CPY"
+      Kind="VarInput" />
+    <Variable
+      Name="CfgIn_CPY"
+      Comment="CPY configurations"
+      DataType="CFG_VALS_CPY"
+      Kind="VarInput" />
+    <Variable
+      Name="En_NewModelIn_CPY"
+      Comment="Write new model to CPY"
+      DataType="BOOL"
+      Kind="VarInput" />
+    <Variable
+      Name="DevAddr_CPY"
+      Comment="Device address"
+      DataType="UDINT"
+      Kind="VarInput" />
+    <Variable
+      Name="Set_CPY"
+      Comment="CPY requests"
+      DataType="REQ_CPY"
+      Kind="VarInput" />
+    <Variable
+      Name="OptionalFct_CPY"
+      Comment="Optional functions"
+      DataType="WORD_BITS_CPY"
+      Kind="VarInput" />
+    <Variable
+      Name="NewModel_CPY"
+      Comment="New humidifer model"
+      DataType="INT"
+      Kind="VarInput" />
+    <Variable
+      Name="InstDef_CPY"
+      Comment="Install defaults"
+      DataType="BOOL"
+      Kind="VarInput" />
+    <Variable
+      Name="AlrmRes_CPY"
+      Comment="Reset alarms"
+      DataType="BOOL"
+      Kind="VarInput" />
+    <Variable
+      Name="En_CPY"
+      Comment="Enable CPY block"
+      DataType="BOOL"
+      Kind="VarInput" />
+    <Variable
+      Name="ResWorkHrs_CPY"
+      Comment="Reset working hours"
+      DataType="BOOL"
+      Kind="VarOutput" />
+    <Variable
+      Name="Man_CPY"
+      Comment="Manual management"
+      DataType="MAN_MNG_CPY"
+      Kind="VarOutput" />
+    <Variable
+      Name="Cfg_CPY"
+      Comment="CPY configurations"
+      DataType="CFG_VALS_CPY"
+      Kind="VarOutput" />
+    <Variable
+      Name="En_NewModel_CPY"
+      Comment="Write new model to CPY"
+      DataType="BOOL"
+      Kind="VarOutput" />
+    <Variable
+      Name="Curr_CPY"
+      Comment="Immersed electrode current"
+      DataType="REAL"
+      Kind="VarOutput" />
+    <Variable
+      Name="Conductivity_CPY"
+      Comment="Conductivity of the water in the cylinder"
+      DataType="INT"
+      Kind="VarOutput" />
+    <Variable
+      Name="SteamInstantFlowRate_CPY"
+      Comment="Steam istant flow rate value returned by the CPY"
+      DataType="REAL"
+      Kind="VarOutput" />
+    <Variable
+      Name="HumState_CPY"
+      Comment="Humidifier satus"
+      DataType="INT"
+      Kind="VarOutput" />
+    <Variable
+      Name="CntCylHr_CPY"
+      Comment="Cylinder hours counter value"
+      DataType="INT"
+      Kind="VarOutput" />
+    <Variable
+      Name="Online_CPY"
+      Comment="Device Online"
+      DataType="BOOL"
+      Kind="VarOutput" />
+    <Variable
+      Name="CommErr_CPY"
+      Comment="Communication error structure"
+      DataType="COMM_ERR_CPY"
+      Kind="VarOutput" />
+    <Variable
+      Name="Warnings_CPY"
+      Comment="CPY warnings"
+      DataType="WARN_CPY"
+      Kind="VarOutput" />
+    <Variable
+      Name="OfflineAlrm_CPY"
+      Comment="Offline alarm"
+      DataType="BOOL"
+      Kind="VarOutput" />
+    <Variable
+      Name="ShutDwnAlrm_CPY"
+      Comment="Alarms which will shut down CPY"
+      DataType="ALRM_SHUTDOWN_CPY"
+      Kind="VarOutput" />
+    <Variable
+      Name="DisAlrm_CPY"
+      Comment="Alarms which disable CPY productioncpCOe configuration"
+      DataType="ALRM_DIS_CPY"
+      Kind="VarOutput" />
+    <Variable
+      Name="A33_C8_SerialAlrmDelay"
+      Comment=""
+      DataType="REAL"
+      Kind="Var" />
+    <Variable
+      Name="D01_HumDis"
+      Comment=""
+      DataType="BOOL"
+      Kind="Var" />
+    <Variable
+      Name="D03_HumReady"
+      Comment=""
+      DataType="BOOL"
+      Kind="Var" />
+    <Variable
+      Name="D04_ContactorStatus"
+      Comment=""
+      DataType="BOOL"
+      Kind="Var" />
+    <Variable
+      Name="D05_Status24VACDrnOut"
+      Comment=""
+      DataType="BOOL"
+      Kind="Var" />
+    <Variable
+      Name="D06_DrnK_Status"
+      Comment=""
+      DataType="BOOL"
+      Kind="Var" />
+    <Variable
+      Name="D07_CumulativeReleAlrm"
+      Comment=""
+      DataType="BOOL"
+      Kind="Var" />
+    <Variable
+      Name="D08_StatusOf24VAC"
+      Comment=""
+      DataType="BOOL"
+      Kind="Var" />
+    <Variable
+      Name="D09_FanStatus"
+      Comment=""
+      DataType="BOOL"
+      Kind="Var" />
+    <Variable
+      Name="D10_HiWLvl"
+      Comment=""
+      DataType="BOOL"
+      Kind="Var" />
+    <Variable
+      Name="A15_D3_SteamInstantFlowRate"
+      Comment=""
+      DataType="REAL"
+      Kind="Var" />
+    <Variable
+      Name="I46_HumState"
+      Comment="Humidifier status, from 0 to 11, check manual for further info"
+      DataType="INT"
+      Kind="Var" />
+    <Variable
+      Name="I55_Da_CntCylHr"
+      Comment="Cylinder counter"
+      DataType="INT"
+      Kind="Var" />
+    <Variable
+      Name="I49_Conductivity"
+      Comment="Conductibility"
+      DataType="INT"
+      Kind="Var" />
+    <Variable
+      Name="A30_D6_Curr"
+      Comment=""
+      DataType="REAL"
+      Kind="Var" />
+    <Variable
+      Name="D11_FoamDetected"
+      Comment=""
+      DataType="BOOL"
+      Kind="Var" />
+    <Variable
+      Name="D12_CleaningOn"
+      Comment=""
+      DataType="BOOL"
+      Kind="Var" />
+    <Variable
+      Name="D13_StateDrv010V"
+      Comment=""
+      DataType="BOOL"
+      Kind="Var" />
+    <Variable
+      Name="D14_StateDrvOnOff"
+      Comment=""
+      DataType="BOOL"
+      Kind="Var" />
+    <Variable
+      Name="D15_StateDrv420mA"
+      Comment=""
+      DataType="BOOL"
+      Kind="Var" />
+    <Variable
+      Name="D16_StateDrvNTC"
+      Comment=""
+      DataType="BOOL"
+      Kind="Var" />
+    <Variable
+      Name="D17_DrnMan"
+      Comment=""
+      DataType="BOOL"
+      Kind="Var" />
+    <Variable
+      Name="D18_AuxOut"
+      Comment=""
+      DataType="BOOL"
+      Kind="Var" />
+    <Variable
+      Name="D19_DisplayConnected"
+      Comment=""
+      DataType="BOOL"
+      Kind="Var" />
+    <Variable
+      Name="D20_FuncTestFlag"
+      Comment=""
+      DataType="BOOL"
+      Kind="Var" />
+    <Variable
+      Name="I02_A0_OperatMode"
+      Comment=""
+      DataType="INT"
+      Kind="Var" />
+    <Variable
+      Name="I03_A1_UnitMeasure"
+      Comment=""
+      DataType="INT"
+      Kind="Var" />
+    <Variable
+      Name="I04_A2_PrbTyp"
+      Comment=""
+      DataType="INT"
+      Kind="Var" />
+    <Variable
+      Name="I05_B1_OptionalFunctions"
+      Comment="Parameter that enables optional functions"
+      DataType="INT"
+      Kind="Var" />
+    <Variable
+      Name="I06_B2_DTOff"
+      Comment="Advanced setting, see manual for further info"
+      DataType="INT"
+      Kind="Var" />
+    <Variable
+      Name="I07_B4_ConductW"
+      Comment="Advanced setting, see manual for further info"
+      DataType="INT"
+      Kind="Var" />
+    <Variable
+      Name="I08_B5_ConductW_WarningThresh"
+      Comment="Advanced setting, see manual for further info"
+      DataType="INT"
+      Kind="Var" />
+    <Variable
+      Name="I09_B6_ConductW_AlrmThresh"
+      Comment="Advanced setting, see manual for further info"
+      DataType="INT"
+      Kind="Var" />
+    <Variable
+      Name="I10_B7_FoamDetectionThresh"
+      Comment="Advanced setting, see manual for further info"
+      DataType="INT"
+      Kind="Var" />
+    <Variable
+      Name="I11_B8_DrnDilutionFreqAdj"
+      Comment=""
+      DataType="INT"
+      Kind="Var" />
+    <Variable
+      Name="I13_C3_SerialAddr"
+      Comment=""
+      DataType="INT"
+      Kind="Var" />
+    <Variable
+      Name="I14_C4_Baudrate"
+      Comment="Communication baudrate settings between C.pCO and CPY"
+      DataType="INT"
+      Kind="Var" />
+    <Variable
+      Name="I15_C5_FrameConfig"
+      Comment="Parity, stopbit and databit settings"
+      DataType="INT"
+      Kind="Var" />
+    <Variable
+      Name="I17_B9_DrnDurationAdj"
+      Comment=""
+      DataType="INT"
+      Kind="Var" />
+    <Variable
+      Name="I18_Bb_CylinderMaintLimT"
+      Comment="Advanced setting, see manual for further info"
+      DataType="INT"
+      Kind="Var" />
+    <Variable
+      Name="I19_Be_PeriodicDrnHrsWait"
+      Comment="Advanced setting, see manual for further info"
+      DataType="INT"
+      Kind="Var" />
+    <Variable
+      Name="I20_Bf_InactivityDrnDaysWait"
+      Comment="Advanced setting, see manual for further info"
+      DataType="INT"
+      Kind="Var" />
+    <Variable
+      Name="I44_D1_0100PrbVal"
+      Comment="Percent value of the probe connected in input"
+      DataType="INT"
+      Kind="Var" />
+    <Variable
+      Name="I62_Bit1_Res_Da"
+      Comment=""
+      DataType="BOOL"
+      Kind="Var" />
+    <Variable
+      Name="I62_CtrlViaRS485"
+      Comment=""
+      DataType="INT"
+      Kind="Var" />
+    <Variable
+      Name="I63_ProductionReqViaNetwork"
+      Comment=""
+      DataType="USINT"
+      Kind="Var" />
+    <Variable
+      Name="I78_A4_MaxCfgNo"
+      Comment=""
+      DataType="INT"
+      Kind="Var" />
+    <Variable
+      Name="I83_AlrmsState"
+      Comment=""
+      DataType="INT"
+      Kind="Var" />
+    <Variable
+      Name="I84_AlrmWithShutDwn"
+      Comment=""
+      DataType="INT"
+      Kind="Var" />
+    <Variable
+      Name="I85_AlrmWithDis"
+      Comment=""
+      DataType="INT"
+      Kind="Var" />
+    <Variable
+      Name="I86_Warnings"
+      Comment=""
+      DataType="INT"
+      Kind="Var" />
+    <Variable
+      Name="ModelChg_CPY_1"
+      Comment=""
+      DataType="ModelChg_CPY"
+      Kind="Var" />
+    <Variable
+      Name="Control_CPY_1"
+      Comment=""
+      DataType="Control_CPY"
+      Kind="Var" />
+    <Variable
+      Name="TP_1"
+      Comment=""
+      DataType="TP"
+      Kind="Var" />
+    <Variable
+      Name="En_Comm"
+      Comment=""
+      DataType="BOOL"
+      Kind="Var" />
+    <Variable
+      Name="DevicePolls"
+      Comment=""
+      DataType="UDINT"
+      Kind="Var" />
+    <Variable
+      Name="DevicePollsPrev"
+      Comment=""
+      DataType="UDINT"
+      Kind="Var" />
+    <Variable
+      Name="R_TRIG_1"
+      Comment=""
+      DataType="R_TRIG"
+      Kind="Var" />
+    <Variable
+      Name="PriorityMng_INT_CPY_1"
+      Comment=""
+      DataType="PriorityMng_INT_CPY"
+      Kind="Var" />
+    <Variable
+      Name="PriorityMng_INT_CPY_2"
+      Comment=""
+      DataType="PriorityMng_INT_CPY"
+      Kind="Var" />
+    <Variable
+      Name="PriorityMng_INT_CPY_3"
+      Comment=""
+      DataType="PriorityMng_INT_CPY"
+      Kind="Var" />
+    <Variable
+      Name="PriorityMng_INT_CPY_4"
+      Comment=""
+      DataType="PriorityMng_INT_CPY"
+      Kind="Var" />
+    <Variable
+      Name="PriorityMng_INT_CPY_5"
+      Comment=""
+      DataType="PriorityMng_INT_CPY"
+      Kind="Var" />
+    <Variable
+      Name="PriorityMng_INT_CPY_6"
+      Comment=""
+      DataType="PriorityMng_INT_CPY"
+      Kind="Var" />
+    <Variable
+      Name="PriorityMng_INT_CPY_7"
+      Comment=""
+      DataType="PriorityMng_INT_CPY"
+      Kind="Var" />
+    <Variable
+      Name="PriorityMng_INT_CPY_8"
+      Comment=""
+      DataType="PriorityMng_INT_CPY"
+      Kind="Var" />
+    <Variable
+      Name="PriorityMng_INT_CPY_9"
+      Comment=""
+      DataType="PriorityMng_INT_CPY"
+      Kind="Var" />
+    <Variable
+      Name="PriorityMng_INT_CPY_10"
+      Comment=""
+      DataType="PriorityMng_INT_CPY"
+      Kind="Var" />
+    <Variable
+      Name="PriorityMng_INT_CPY_11"
+      Comment=""
+      DataType="PriorityMng_INT_CPY"
+      Kind="Var" />
+    <Variable
+      Name="PriorityMng_INT_CPY_12"
+      Comment=""
+      DataType="PriorityMng_INT_CPY"
+      Kind="Var" />
+    <Variable
+      Name="PriorityMng_INT_CPY_13"
+      Comment=""
+      DataType="PriorityMng_INT_CPY"
+      Kind="Var" />
+    <Variable
+      Name="PriorityMng_REAL_CPY_1"
+      Comment=""
+      DataType="PriorityMng_REAL_CPY"
+      Kind="Var" />
+    <Variable
+      Name="F_TRIG_1"
+      Comment=""
+      DataType="F_TRIG"
+      Kind="Var" />
+    <Variable
+      Name="R_TRIG_2"
+      Comment=""
+      DataType="R_TRIG"
+      Kind="Var" />
+    <Variable
+      Name="F_TRIG_3"
+      Comment=""
+      DataType="F_TRIG"
+      Kind="Var" />
+    <Variable
+      Name="TP_2"
+      Comment=""
+      DataType="TP"
+      Kind="Var" />
+    <Variable
+      Name="StartClean"
+      Comment=""
+      DataType="BOOL"
+      Kind="Var" />
+  </Pou>
+</Manifest>

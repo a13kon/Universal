@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Manifest Version="1.1.0">
+  <Variables>
+    <Variable Name="Err_TZR" Comment="Operation result (ERR_xxx error code)" DataType="DINT" Kind="VarOutput" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Access="ReadWrite" Min="" Max="" />
+    <Variable Name="PosixString" Comment="" DataType="STRING" Kind="Var" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Access="ReadWrite" Min="" Max="" />
+    <Variable Name="Read_TZR" Comment="Read the current time zone (works on the edge)" DataType="BOOL" Kind="VarInput" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Access="ReadWrite" Min="" Max="" />
+    <Variable Name="RTC_TZ_READ_1" Comment="" DataType="RTC_TZ_READ" Kind="Var">
+      <Variable Name="ENABLE" DataType="BOOL" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Comment="Enable read (TRUE=read timezone, FALSE=do nothing)" Kind="VarInput" Access="ReadWrite" Min="" Max="" />
+      <Variable Name="TIMEZONE" DataType="STRING" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Comment="Timezone POSIX.1 string" Kind="VarOutput" Access="ReadWrite" Min="" Max="" />
+      <Variable Name="ERROR" DataType="DINT" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Comment="Operation result (ERR_xxx error code)" Kind="VarOutput" Access="ReadWrite" Min="" Max="" />
+      <Variable Name="ENABLE_PREV" DataType="BOOL" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Comment="" Kind="Var" Access="ReadWrite" Min="" Max="" />
+    </Variable>
+    <Variable Name="Zone_TZR" Comment="Index of the zone" DataType="UINT" Kind="VarOutput" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Access="ReadWrite" Min="" Max="" />
+  </Variables>
+</Manifest>

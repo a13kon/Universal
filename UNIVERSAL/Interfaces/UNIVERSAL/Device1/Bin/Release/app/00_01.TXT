@@ -1,0 +1,2941 @@
+[EN]
+Alarms             /
+:     /  /
+Alarms
+for 3s to reset
+Press ALARM 
+ 
+ all alarms
+ Press ENTER
+ to DATA LOGGER
+ Data logger
+  Record:
+ :     /  /
+Alarms             /
+Alarms
+ 
+for 3s to reset
+Press ALARM 
+ all alarms
+  NO LOGS
+Alarms History
+ 
+ NO ALARMS
+to DATA LOGGER
+Press ENTER
+Alarms History
+ NO ALARMS
+Alarms History
+Data logger
+  Record:
+Event:
+ :     /  /
+Language
+ENGLISH
+ 
+P¨CC®¶∞
+    Unit On/Off
+  Set
+Current set:       é
+  Refridgerator
+  Refridgerator
+  Refridgerator
+Xoøo∑ºøŒ˙a” ¿a«º˙a
+Sp:
+St:
+Ac:
+Al:
+Col:
+1
+2
+NzLo:
+NzHi:
+Mode
+SV:
+RunT1:
+SV2:
+SV4:
+On:
+HPS1:
+HPS2:
+LPS:
+RunT2:
+WU:
+NZ:
+State:
+Mode:
+:
+é
+é
+é
+é
+%
+h:
+%
+h
+DP-CTRL: v.
+DP-TOP : v.
+Firmware is different!
+Necessary to upgrade
+:
+é
+é
+é
+Freq:
+Idx:
+4-61:
+CTW:
+STW:
+REF:
+MAV:
+RF:
+CW:
+SW:
+Holding Registers
+Coils
+Hz
+3:
+4:
+1:
+2:
+Xoøo∑ºøŒ˙a” ¿a«º˙a
+Sp
+St
+Ac
+Al
+£H£
+Cl
+WU
+NZ
+1:
+2:
+Up
+Lo
+Hi
+Dn
+Mode
+Cß:
+RunT
+Xoøo∑ºøŒ˙a” ¿a«º˙a
+Cß  :
+CH®1:
+CH®2:
+C°H :
+£≠£1:
+£≠£2:
+£H£:
+Dp10:
+MMode:
+SEQ1:
+SEQ2:
+SEQ3:
+SEQ4:
+SEQ5:
+SEQ6:
+no DP-TOP
+no DP-CTRL
+UnitSel
+U[4].Var
+Port_FBus2
+Port_BMS2
+CTRL_Vers
+TOP_Vers
+Tw:
+Tout:
+Tsu:
+Trm:
+Hrm:
+    Sequences
+>
+UNIVERSAL_2.2.6.0.ap
+cpCO_4.3.002_core0.a
+cpCO_4.3.002_core1.a
+cpCOmini_4.3.002_cor
+cpCOmini_4.3.002_cor
+BT V4.3.002 2018/02/27
+OS V4.3.002 2018/02/27
+REV 0000   CORE TYPE 0
+MAC 00-00-00-00-00-00
+UID 0000000000000000
+tERA 00000000
+UP/DOWN for other info
+  PCO INFO
+I/O INFO
+MEMORY INFO
+PLAN INFO
+FILESYSTEM INFO
+TASK INFO
+APPLICATION INFO
+BUILT IN INFO
+>
+  INFORMATION
+SETTINGS
+APPLICATION
+UPGRADE
+LOGGER
+DIAGNOSTICS
+>
+INITIALIZATION
+  COMPLETED
+ Wait for automatic 
+ application startup
+ATTENTION!
+:
+é
+é
+é
+é
+%
+%
+h
+h
+*
+!
+ê
+55
+22.0
+18.0
+45
+25.0
+60
+24.0
+Press ESC to go back
+ATTENTION!
+Network map
+  Device role:
+Master is
+  Connection status:
+Product line:
+   Reboot...
+       Restore             parameters?
+:
+é
+é
+é
+é
+%
+%
+h
+h
+22.0
+20.0
+ 55
+22.0
+55
+DP-CTRL-E
+≠ PA°OTE
+**
+e
+Language
+Language:
+ENGLISH
+ENTER to change
+ESC to confirm
+Show mask time
+  Eject USB!
+ ATTENTION!
+Press ENTER to YES
+Press ESC   to NO
+Information
+TechnoGroup
+SW ver.:
+OS ver.:
+.
+.
+. .
+Code:
+BOOT ver.:
+.
+.
+Information
+Board type:
+Board size:
+Core:
+Information
+Cycle/s
+ms
+Main task:
+Retain memory writes:
+Unit:                h
+Information
+PowerOff time:
+/
+/
+Length last time off:
+:
+days    hrs    min
+:
+Information
+:
+/
+/
+:
+Current time:
+Blackout info
+/
+Main Menu
+/
+Main Menu
+Press ENTER
+to Log Out
+You are
+logged as
+LogOut
+Enter password:
+Login
+Information
+/
+/
+:
+ Date/Time change
+:
+Date:
+Hour:
+Day:
+NO
+YES
+  Timezone
+Update Timezone:
+Current:
+New time zone:
+State:
+  Password manage
+Unit of Measure
+UoM zone for mask
+visualization:
+editor:
+UoM zone for tERA/web
+Unit of Measure
+/
+Common settings
+  Device role
+Current:
+/
+Group manage
+Group structure
+ Enter the number
+of slave devices
+Current number:
+ Work mode
+Current:
+/
+Group manage
+/
+/
+:
+ Date/Time change
+:
+Date:
+Hour:
+Format:
+Day:
+1/1
+Hs01        :
+%
+%
+Hd01        :
+Humidity
+Wd02        :
+Ws01        :
+Ws02        :
+Wp01        :
+Wt01        :
+Ws03        :
+é
+K
+é
+K
+s
+1/4
+   Heater
+é
+Ws05        :
+Ws06        :
+Ws04        :
+Ws07        :
+Ws08        :
+Wp02        :
+é
+%
+é
+2/4
+   Heater
+é
+é
+é
+Wt02        :
+Wp03        :
+Wp05        :
+Wp04        :
+Wt04        :
+%
+m
+s
+3/4
+   Heater
+Wt03        :
+m
+Sp100       :
+4/4
+   Heater
+Sp100       :
+1/1
+   Heater
+Et01        :
+s
+Wd02        :
+Ws01        :
+Ws02        :
+Wp01        :
+Wt01        :
+Ws03        :
+é
+K
+é
+K
+s
+1/4
+   Heater
+é
+Ws05        :
+Ws06        :
+Ws04        :
+Ws07        :
+Ws08        :
+Wp02        :
+é
+%
+é
+2/4
+   Heater
+é
+é
+é
+Wt02        :
+Wp03        :
+Wp05        :
+Wp04        :
+Wt04        :
+%
+m
+s
+3/4
+   Heater
+Ki          :
+RampStep    :
+Kp          : 
+m
+4/4
+   Heater
+DeadBand    :
+m
+m
+Sp100       :
+Ts01        :
+Td03        :
+Ts10        :
+Tp10        :
+Tb10        :
+é
+K
+é
+K
+1/3
+Temperature
+Ts02        :
+é
+Tp09        :
+Tb11        :
+Tp08        :
+Ts14        :
+Ts15        :
+é
+é
+K
+2/3
+Temperature
+Tt10        :
+s
+3/3
+Temperature
+Ts16        :
+é
+Tb101       :
+K
+Tt101       :
+s
+Tt102       :
+Tb102       :
+K
+s
+ Recycling
+1/1
+Rp01        :
+Rp02        :
+Rp03        :
+Rt01        :
+Rt02        :
+%
+%
+m
+m
+Rp01        :
+%
+P∏∂º√æ≈ø”∂º”
+1/3
+Rp04        :
+%
+Qs01        :
+ppm
+Qd01        :
+ppm
+P∏∂º√æ≈ø”∂º”
+2/3
+RStep(heat) :
+DBand(heat) :
+Ki(heat)    :
+Kp(heat)    : 
+c
+K
+K
+P∏∂º√æ≈ø”∂º”
+3/3
+RStep(cool) :
+DBand(cool) :
+Ki(cool)    :
+Kp(cool)    :
+c
+K
+K
+Ts01        :
+Td03        :
+Ts10        :
+Tp10        :
+Tb10        :
+Tt10        :
+é
+K
+é
+K
+s
+1/2
+Microclimate
+Microclimate
+Tp09        :
+Tb11        :
+Tp08        :
+Ts14        :
+Ts15        :
+Ts16        :
+é
+é
+é
+K
+2/2
+  Cooler
+1/1
+RampStep    :
+DeadBand    :
+Ki          :
+Kp          : 
+m
+m
+m
+Cp01        :
+Recuperator
+1/1
+RampStep    :
+DeadBand    :
+Ki          :
+Kp          : 
+m
+m
+m
+As02        :
+Ap01        :
+As01        :
+Ap02        :
+ Vortex diffuser
+1/1
+é
+é
+%
+%
+/
+Ventilation
+/
+Ventilation
+Delete alarm logs?
+Alarm initialization
+Initialization
+counters?
+Enable buzzer?
+1/2
+Clear AutoReset 
+Initialization
+DEFAULT INSTALLATION
+Wipe retain mem.:
+Wipe NVRAM mem.:
+Wipe all:
+2/2
+ Sensor correction
+NTC
+Current:
+Sp013:
+Sp023:
+Sp033:
+1/5
+NTC
+Current:
+Sp013:
+Sp023:
+1/5
+®o√√∏æ∂º” ∑aƒ¬ºæo∆
+Sp310:
+Current:
+é
+é
+K
+é
+Sp311:
+Sp312:
+Sp313:
+2/5
+®o√√∏æ∂º” ∑aƒ¬ºæo∆
+Current:
+Sp310:
+%
+%
+%
+%
+Sp321:
+Sp322:
+Sp323:
+3/5
+®o√√∏æ∂º” ∑aƒ¬ºæo∆
+4-20mA
+Sp411:
+Sp421:
+Sp422:
+bar
+4/5
+µa√
+Sp412:
+bar
+bar
+µa√
+µa√
+®o√√∏æ∂º” ∑aƒ¬ºæo∆
+Sp413:
+Sp423:
+4-20mA
+Sp431:
+Sp433:
+5/5
+bar
+bar
+ Sensor correction
+Sp432:
+bar
+Sp013:
+Sp023:
+Sp033:
+Sp043:
+Sp053:
+NTC
+1/4
+K
+K
+K
+K
+K
+é
+é
+é
+é
+é
+Current:
+®o√√∏æ∂º” ∑aƒ¬ºæo∆
+Sp312:
+Sp311:
+Sp313:
+2/4
+é
+é
+K
+Sp310:
+é
+Current:
+®o√√∏æ∂º” ∑aƒ¬ºæo∆
+Sp321:
+Sp322:
+Sp323:
+3/4
+%
+%
+%
+%
+Current:
+Sp310:
+®o√√∏æ∂º” ∑aƒ¬ºæo∆
+Sp331:
+Sp332:
+Sp333:
+4/4
+ppm
+ppm
+ppm
+ppm
+Current:
+Sp330:
+®o√√∏æ∂º” ∑aƒ¬ºæo∆
+Import/Export:
+Memory type :
+File name:
+Confirm?
+EXPORT_
+Params Import/Export
+ Unit configuration 
+>
+Memory type:
+File name:
+Confirm?
+>AL_EXPORT_
+ Alarm Export
+ Unit configuration
+ Digital inputs
+1/2
+DP-CTRL
+1:
+2:
+3:
+4:
+6:
+Sup. fan fail :
+Exh. fan fail :
+Compr.1 fail  :
+KV1 alarm     :
+U  Description  Status
+    IO manage
+1/2
+DP-CTRL
+Remote control:
+Fire          :
+ID Description  Status
+1:
+2:
+1/1
+ Analog inputs
+  Not involved
+DP-CTRL
+ Digital inputs
+1:
+2:
+3:
+4:
+Comp1 HP relay:
+Comp1 LP relay:
+DP-TOP
+U  Description  Status
+1/2
+ Digital inputs
+6:
+DP-TOP
+U  Description  Status
+2/2
+Comp1 CT relay:
+5:
+é
+bar
+DP-TOP
+ Analog inputs
+T ret.  :
+HPS1    :
+HPS2    :
+LPS     :
+1/1
+U  Description  Status
+7:
+8:
+9:
+10:
+µa√
+µa√
+ Digital inputs
+1/1
+7:
+8:
+Filters PDT   :
+Recup. PDT    :
+cpCOe
+U  Description  Status
+DP-TOP
+ Analog inputs
+T outdoor :
+T supply  :
+T exhaust :
+H exhaust :
+cpCOe
+é
+é
+é
+%
+1/1
+U  Description  Status
+1:
+2:
+3:
+4:
+DP-TOP
+ Digital inputs
+1/2
+DP-CTRL
+1:
+2:
+3:
+4:
+5:
+TZ water heat :
+Fire          :
+Remote contr. :
+Compr.1 fail  :
+ID  Description Status
+¢º˚√o∆À∏ ∆xo∑À
+2/2
+DP-CTRL
+6:
+7:
+8:
+9:
+10:
+Sup. fan fail:
+Exh. fan fail:
+KV1 alarm    :
+Filters PDT  :
+Recup. PDT   :
+ID  Description Status
+1/1
+ Analog inputs
+DP-CTRL
+é
+é
+é
+é
+%
+U  Description  Status
+1:
+2:
+3:
+4:
+5:
+T ret.water:
+T outdoor  :
+T supply   :
+T exhaust  :
+H exhaust  :
+ Digital inputs
+4:
+6:
+Comp1 HP relay:
+DP-TOP
+5:
+Comp1 LP relay:
+U  Description  Status
+7:
+1/2
+ Digital inputs
+9:
+DP-TOP
+U  Description  Status
+2/2
+Comp1 CT relay:
+8:
+DP-TOP
+ Analog inputs
+HPS1     :
+HPS2     :
+U  Description  Status
+1/1
+LPS      :
+1:
+2:
+3:
+µa√
+µa√
+bar
+ Digital inputs
+1/2
+DP-CTRL
+2:
+3:
+4:
+5:
+Fire          :
+Remote contr. :
+Compr.1 fail  :
+ID  Description Status
+Sup. fan fail :
+6:
+¢º˚√o∆À∏ ∆xo∑À
+2/2
+DP-CTRL
+7:
+8:
+9:
+10:
+Exh. fan fail:
+KV1 alarm    :
+Filters PDT  :
+Recup. PDT   :
+ID  Description Status
+E/Heat alarm :
+11:
+1/1
+ Analog inputs
+DP-CTRL
+é
+é
+é
+%
+U  Description  Status
+2:
+3:
+4:
+5:
+T outdoor  :
+T supply   :
+T exhaust  :
+H exhaust  :
+ Digital inputs
+4:
+6:
+Comp1 HP relay:
+DP-TOP
+5:
+Comp1 LP relay:
+U  Description  Status
+7:
+1/2
+ Digital inputs
+9:
+DP-TOP
+U  Description  Status
+2/2
+Comp1 CT relay:
+8:
+DP-TOP
+ Analog inputs
+HPS1     :
+HPS2     :
+U  Description  Status
+1/1
+LPS      :
+1:
+2:
+3:
+µa√
+µa√
+bar
+ Digital inputs
+1/3
+1:
+2:
+3:
+4:
+5:
+ID Description  Status
+Remote control:
+Fire          :
+Sup. fan fail :
+Exh. fan fail :
+Pump fail     :
+ Digital inputs
+2/3
+6:
+7:
+8:
+9:
+10:
+ID Description  Status
+Circ.1 fail   :
+TZ water heat :
+Circ.2 fail   :
+Pre. filt. PDT:
+Sup. filt. PDT:
+ Digital inputs
+3/3
+11:
+12:
+17:
+ID Description  Status
+Driv.heat fail:
+Valv.heat fail:
+Exh. filt. PDT:
+ Analog inputs
+U  Description  Status
+1/2
+1:
+2:
+3:
+é
+é
+é
+é
+4:
+T outdoor :
+T exhaust2:
+T supply  :
+T ret.  :
+ Analog inputs
+U  Description  Status
+2/2
+é
+é
+10:
+8:
+7:
+6:
+T exhaust :
+H exhaust :
+CO2 exh.  :
+T case    :
+%
+Work schedule
+Mon:
+Tue:
+Wed:
+Thu:
+Fri:
+Sat:
+Sun:
+--:--
+--:--
+--:--
+--:--
+--:--
+--:--
+--:--
+--:--
+--:--
+--:--
+--:--
+--:--
+--:--
+--:--
+--:--
+--:--
+:
+Digital outputs
+DP-CTRL
+1:
+3:
+4:
+6:
+Fans manage   :
+Comp.1 manage :
+System alarm  :
+DO Description  Status
+1/1
+1/1
+ Analog outputs
+  Not involved
+DP-CTRL
+Digital outputs
+1:
+3:
+4:
+5:
+SV liquid     :
+SV disch.cond2:
+SV bypass dis.:
+Pump manage   :
+DO Description  Status
+2:
+SV disch.cond1:
+DP-TOP
+1/1
+1/1
+ Analog outputs
+DP-TOP
+Y  Description  Status
+3-way valve  :
+Su.&exh.valve:
+1:
+2:
+≠
+≠
+Digital outputs
+1:
+3:
+4:
+5:
+SV liquid     :
+SV disch.cond2:
+SV bypass dis.:
+Pump manage   :
+DO Description  Status
+2:
+SV disch.cond1:
+DP-TOP
+1/1
+1/1
+ Analog outputs
+DP-TOP
+Y  Description  Status
+3-way valve  :
+Su.&exh.valve:
+1:
+2:
+≠
+≠
+Digital outputs
+1:
+6:
+TEHS comp.1   :
+Addit.valves  :
+DO Description  Status
+2:
+cpCOe
+1/1
+DP-TOP
+1/1
+ Analog outputs
+U  Description  Status
+Recyc.valve1:
+Recyc.valve2:
+9:
+10:
+cpCOe
+DP-TOP
+≠
+≠
+Digital outputs
+1/2
+DP-CTRL
+1:
+4:
+Comp.1 manage :
+DO Description  Status
+2:
+Pump manage   :
+7:
+8:
+FC 1 manage   :
+FC 2 manage   :
+Digital outputs
+DP-CTRL
+13:
+System alarm  :
+DO Description  Status
+Addit. valves :
+2/2
+12:
+1/1
+ Analog outputs
+Y  Description  Status
+3-way valve  :
+Su.&exh.valve:
+1:
+2:
+4:
+3:
+Recyc.valve 1:
+Recyc.valve 1:
+DP-CTRL
+≠
+≠
+≠
+≠
+Digital outputs
+1/2
+1:
+3:
+4:
+SV liquid     :
+SV disch.cond2:
+SV bypass dis.:
+DO Description  Status
+2:
+SV disch.cond1:
+DP-TOP
+Digital outputs
+1/2
+5:
+TEHS comp.1   :
+DO Description  Status
+DP-TOP
+6:
+Digital outputs
+1/2
+1:
+3:
+4:
+SV liquid     :
+SV disch.cond2:
+SV bypass dis.:
+DO Description  Status
+2:
+SV disch.cond1:
+DP-TOP
+Digital outputs
+1/2
+5:
+TEHS comp.1   :
+DO Description  Status
+DP-TOP
+6:
+1/1
+ Analog outputs
+  Not involved
+DP-TOP
+Digital outputs
+DP-CTRL
+1:
+4:
+Comp.1 manage :
+DO Description  Status
+2:
+E/heat 1 step :
+5:
+6:
+E/heat 2 step :
+E/heat 3 step :
+1/3
+Digital outputs
+DP-CTRL
+DO Description  Status
+2/3
+FC 1 manage   :
+FC 2 manage   :
+7:
+8:
+9:
+10:
+11:
+E/heat 4 step :
+E/heat 5 step :
+E/heat 6 step :
+Digital outputs
+DP-CTRL
+13:
+System alarm  :
+DO Description  Status
+Addit. valves :
+3/3
+12:
+E/heat 7 step :
+E/heat 8 step :
+16:
+17:
+1/1
+ Analog outputs
+Y  Description  Status
+Su.&exh.valve:
+1:
+2:
+3:
+Recyc.valve 1:
+Recyc.valve 1:
+DP-CTRL
+V
+≠
+≠
+Digital outputs
+1/2
+1:
+3:
+4:
+SV liquid     :
+SV disch.cond2:
+SV bypass dis.:
+DO Description  Status
+2:
+SV disch.cond1:
+DP-TOP
+Digital outputs
+1/2
+5:
+TEHS comp.1   :
+DO Description  Status
+DP-TOP
+6:
+Digital outputs
+1/2
+1:
+3:
+4:
+SV liquid     :
+SV disch.cond2:
+SV bypass dis.:
+DO Description  Status
+2:
+SV disch.cond1:
+DP-TOP
+Digital outputs
+1/2
+5:
+TEHS comp.1   :
+DO Description  Status
+DP-TOP
+6:
+1/1
+ Analog outputs
+  Not involved
+DP-TOP
+1/2
+1:
+2:
+3:
+4:
+5:
+DO Description  Status
+Pump manage   :
+Valve heat mng:
+Valve TEHs mng:
+Case  TEHs mng:
+Circ. 1 manage:
+Circ. 1 manage:
+6:
+ Digital outputs
+ Digital outputs
+2/2
+DO Description  Status
+10:
+9:
+8:
+7:
+Sup.fan manage:
+Exh.fan manage:
+12:
+13:
+System run RTF:
+Sys.alarm  RTF:
+System run    :
+System alarm  :
+Y  Description  Status
+1/1
+1:
+2:
+4:
+3-way heater:
+3-way cooler:
+Recycle mng :
+Vort.dif.mng:
+5:
+6:
+Bypass recup:
+ Analog outputs
+≠
+≠
+≠
+≠
+V
+Unit config
+Current:
+Summer cooling option (R4.x.1):
+Model:
+1/2
+Unit config
+Current:
+Heater type:
+2/2
+Unit config
+Current:
+CT inversion:
+®o˙ƒ√oøø∏√:
+  Device role
+Current:
+  Upgrade OS
+PRG - upgrade,
+OS v.
+.
+.
+ Upgrade OS?
+ESC - cancel
+Upgrade is available:
+  Upgrade
+ENTER - search retry
+  Upgrade
+Firmware:
+Error
+Err_R
+R ver
+Cur ver
+EQ:
+System parameters
+1/1
+Sp05        :
+sec
+Gs01        :
+é
+Gs02        :
+é
+Gt02        :
+min
+Gt01        :
+min
+System parameters
+Sp013:
+é
+1/1
+Gt02        :
+Gt01        :
+Gs01        :
+Gs02        :
+Sp05        :
+sec
+é
+é
+min
+min
+ModBus settings
+Port:
+  Equipment
+1/3
+Current:
+Type:
+  Equipment
+2/3
+Upper section:
+CO2 sensor:
+Valves heat:
+Supply filter:
+  Equipment
+2/3
+Upper section:
+CO2 sensor:
+Valves heat:
+Preliminary           supply filter:
+Troom sensor: 
+  Equipment
+2/3
+Upper section:
+CO2 sensor:
+Valves heat:
+Preliminary           supply filter:
+Troom sensor: 
+  Equipment
+2/3
+Upper section:
+Valves heat:
+Preliminary           supply filter:
+  Equipment
+2/3
+Upper section:
+Valves heat:
+Preliminary           supply filter:
+  Equipment
+3/3
+Lower section:
+Vortex diffusor:
+Heat type:
+Cool type:
+Exhaust filter:
+  Equipment
+3/3
+Lower section:
+Heat type:
+Cool type:
+Vortex diffusor:
+  Equipment
+3/3
+Lower section:
+Heat type:
+Cool type:
+Vortex diffusor:
+  Equipment
+3/3
+Lower section:
+Heat type:
+Cool type:
+Vortex diffusor:
+  Equipment
+3/3
+Lower section:
+Heat type:
+Cool type:
+Vortex diffusor:
+˝ºøŒƒ√ ∆Àƒ”Ω˙o…:
+ Work priority
+ Reset configuration?
+Configuration
+Type:
+Current:
+Troom sensor
+ CO2 sensor
+    Heat valves
+  Supply pre-filter
+   Heat type
+   Cool type
+ Exhaust filter
+ Vortex diffuser
+Current:
+Model
+   Heat type
+Current:
+Current:
+     O¡∂º” ø∏ƒ˙∏∫o      oxøaΩ∑∏˙º” (R4.x.1)
+1/3
+Upper section:
+                       Valves heat:
+                       Supply filter:
+Configuration
+2/3
+Configuration
+Lower section:
+ Heat type:
+ Cool type:
+Vortex diffusor:
+3/3
+Configuration
+Role:
+Back to config - ESC
+Confirm config - PRG
+Configuration
+Back to config - ESC
+Confirm config - PRG
+2/3
+Upper section:
+CO2 sensor:
+Valves heat:
+Supply filter:
+ ®o˙˚º∫≈√a∂º”
+2/3
+Upper section:
+CO2 sensor:
+Valves heat:
+Preliminary           supply filter:
+Troom sensor: 
+ ®o˙˚º∫≈√a∂º”
+2/3
+Upper section:
+CO2 sensor:
+Valves heat:
+Preliminary           supply filter:
+Troom sensor: 
+ ®o˙˚º∫≈√a∂º”
+2/3
+Upper section:
+Valves heat:
+Preliminary           supply filter:
+ ®o˙˚º∫≈√a∂º”
+2/3
+Upper section:
+Valves heat:
+Preliminary           supply filter:
+ ®o˙˚º∫≈√a∂º”
+3/3
+Lower section:
+Vortex diffusor:
+Heat type:
+Cool type:
+Exhaust filter:
+ ®o˙˚º∫≈√a∂º”
+3/3
+Lower section:
+Heat type:
+Cool type:
+Vortex diffusor:
+ ®o˙˚º∫≈√a∂º”
+3/3
+Lower section:
+Heat type:
+Cool type:
+Vortex diffusor:
+ ®o˙˚º∫≈√a∂º”
+3/3
+Lower section:
+Heat type:
+Cool type:
+Vortex diffusor:
+ ®o˙˚º∫≈√a∂º”
+3/3
+Lower section:
+Heat type:
+Cool type:
+Vortex diffusor:
+Exhaust filter:
+Configuration
+  Device role
+Current:
+Configuration
+Cox√a˙ºƒŒ æo˙˚º∫≈√a∂ºÃ
+/
+Service
+Press ESC to back
+ Operation result
+Press ESC to back
+ATTENTION!
+Imp/Exp parameters
+is not allowed
+with the unit on
+Press ESC to back
+ Operation result
+  Device role
+Current:
+Press ESC to back
+ATTENTION!
+  Alarm Log
+is cleared!
+/
+Service
+    Work schedule
+Mon:
+Tue:
+Wed:
+Thu:
+Fri:
+Sat:
+Sun:
+--:--
+--:--
+--:--
+--:--
+--:--
+--:--
+--:--
+--:--
+--:--
+--:--
+--:--
+--:--
+--:--
+--:--
+--:--
+--:--
+/
+Service
+SEQ  :
+T∏æ≈»º…:           
+  Upgrade
+/
+Configurator
+ Work priority
+ Work priority
+  Device role
+Current:
+    Work schedule
+Mon:
+Tue:
+Wed:
+Thu:
+Fri:
+Sat:
+Sun:
+Statistics
+Life time:
+Compressor 1
+Turn on number:
+h
+min
+Statistics
+Last turn off time;
+Compressor 1
+.
+:
+:
+Statistics
+Life time:
+Compressor 2
+Turn on number:
+h
+min
+Statistics
+Last turn off time;
+Compressor 2
+.
+:
+:
+Statistics
+Life time:
+Compressor 3
+Turn on number:
+h
+min
+Statistics
+Last turn off time;
+Compressor 3
+.
+:
+:
+Dd01      :
+Dp01      :
+Ds01      :
+Dp02      :
+Dp03      :
+Dp04      :
+Parameters
+bar
+bar
+sec
+sec
+sec
+bar
+bar
+Dp05      :
+Parameters
+sec
+min
+min
+hrs
+hrs
+2/3
+Dt02      :
+Dt11      :
+Dt12      :
+Dt1213    :
+Dt1214    :
+Dt01      :
+c∏æ
+Parameters
+bar
+bar
+Ds03      :
+Dd03      :
+bar
+Dd04      :
+Ds04      :
+bar
+3/3
+/
+Refrigerator
+Ds05      :
+Dd05      :
+Ds06      :
+Dd06      :
+2/4
+Parameters
+bar
+bar
+bar
+bar
+  NO
+ YES
+Too many mem writings
+Retain mem write error
+Supply fan failure
+Exhaust fan failure
+Pump failure
+Alarm 'Fire'
+Preheating fail
+Freeze water
+Freeze TZ
+DX failure
+High pressure relay 1
+High pressure relay 2
+High pressure relay 3
+Low pressure relay 1
+Low pressure relay 2
+Low pressure relay 3
+Discharge thermostat 1
+Discharge thermostat 2
+Discharge thermostat 3
+High pressure sensor 1
+High pressure sensor 2
+Low pressure sensor
+Compressor 1
+Compressor 2
+Compressor 3
+Fase control alarm
+CTRL is offline
+TOP is offline
+cpCOe offline alarm
+Wrong config on cpCOe
+Broken Tw sensor
+Broken high pressure  sensor 1
+Broken high pressure  sensor 2
+Broken low pressure   sensor
+Broken T out sensor
+Broken T supply sensor
+Broken T room sensor
+Broken H room sensor
+Broken T room NTC sensor
+Broken CO sensor
+Broken T exhaust sensor
+Broken humidity sensor
+Broken T case sensor
+Circuit 1 failure
+Circuit 2 failure
+Main supply filter warning
+Pre supply filter warning
+Exhaust filter warning
+Electric heat case failure
+FW version is mismatch
+   Freezing cooler's        water coil
+ Warning Troom2 (NTC)         sensor
+ Gate heater failure 
+Start
+ Stop
+AL#01
+AL#02
+FLR#01
+FLR#02
+FLR#03
+FLR#04
+FLR#05
+FLR#06
+FLR#07
+FLR#08
+FLR#09
+FLR#10
+FLR#11
+FLR#12
+FLR#13
+FLR#14
+FLR#15
+FLR#16
+FLR#17
+FLR#18
+FLR#19
+FLR#20
+FLR#21
+FLR#22
+FLR#23
+FLR#24
+FLR#25
+FLR#26
+FLR#27
+FLR#28
+FLR#29
+FLR#30
+FLR#31
+FLR#32
+FLR#33
+FLR#34
+FLR#35
+FLR#36
+WRN#01
+WRN#02
+WRN#03
+WRN#04
+WRN#05
+ 
+ê
+ 
+B
+é
+é
+è
+é
+è
+-
+é
+Board Temp.:          
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+     Large
+    Medium
+     Small
+        XL
+ 
+ 
+ 
+ 
+ 
+ 
+     Basic
+  Enhanced
+  High End
+  NO
+ YES
+ 
+Å
+ﬂC
+  NO
+ YES
+ms
+s
+m
+h
+%
+CO2 sensor:
+ 
+     BY CO2 SENSOR
+Compr.2 fail  :
+Comp2 CT relay:
+Comp2 HP relay:
+P∏ø∏ H£ æo¿¡.2:
+ 
+ 
+ 
+ 
+x
+ 
+     NO
+    YES
+ 
+!
+  NO
+ YES
+Device role
+Config. reset
+Equipment
+Device role
+Config. reset
+Config. wizard
+Equipment
+Device role
+Config. reset
+DP-TOP!
+DP-CTRL!
+Not set
+Water coil
+Recuperator
+Recycling
+ 
+Heating
+Heating
+Cooling
+Cooling
+Recycling
+Recuperator
+Rotor
+ 
+Slave 1
+Slave 2
+Slave 3
+Slave 4
+Slave 5
+Slave 6
+Slave 7
+Slave 8
+Slave 9
+Slave 10
+Slave 11
+Slave 12
+Slave 13
+Slave 14
+Slave 15
+Slave 16
+Slave 17
+Slave 18
+Slave 19
+Slave 20
+Slave 21
+Slave 22
+Slave 23
+Slave 24
+Slave 25
+Slave 26
+Slave 27
+Slave 28
+Slave 29
+Slave 30
+ ---------
+ Online
+ Offline
+ Run
+ Warning!
+ Alarm!
+ 
+     Monday
+    Tuesday
+  Wednesday
+   Thursday
+     Friday
+   Saturday
+     Sunday
+.
+  Master
+ Slave 1
+ Slave 2
+ Slave 3
+ Slave 4
+ Slave 5
+ Slave 6
+ Slave 7
+ Slave 8
+ Slave 9
+ Slave 10
+ Slave 11
+ Slave 12
+ Slave 13
+ Slave 14
+ Slave 15
+ Slave 16
+ Slave 17
+ Slave 18
+ Slave 19
+ Slave 20
+ Slave 21
+ Slave 22
+ Slave 23
+ Slave 24
+ Slave 25
+ Slave 26
+ Slave 27
+ Slave 28
+ Slave 29
+ Slave 30
+ 
+    DLE1
+    DLE2
+    DLE3
+    DLE4
+    DLE5
+         none
+        freon,               1 stage
+        freon,               2 stages
+        water
+>INTERNAL
+>USB 
+S
+ 
+ Port number:     502  Protocol:        TCP
+  NO
+ YES
+  NO
+ YES
+Operation done
+Filename is not valid
+Cannot access disk
+Cannot access file
+File I/O error
+File is not valid
+Value is not valid
+Memory buffer is too small
+File is empty
+Time parameters are not correct
+Module is currently busy  retry is required
+Logger is not running
+Log exporting failed
+Input parameter value is not valid
+Function not implemented on the target
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Unknown/uncategorized error
+ 
+-1
+-2
+File not found
+-4
+-5
+-6
+-7
+-8
+-9
+-10
+-11
+-12
+-13
+-14
+-15
+-16
+Parameters are saved
+Exhaust filter:
+NO
+YES
+  Master
+ Slave 1
+ Slave 2
+ Slave 3
+ Slave 4
+ Slave 5
+ Slave 6
+ Slave 7
+ Slave 8
+ Slave 9
+ Slave 10
+ Slave 11
+ Slave 12
+ Slave 13
+ Slave 14
+ Slave 15
+ Slave 16
+ Slave 17
+ Slave 18
+ Slave 19
+ Slave 20
+ Slave 21
+ Slave 22
+ Slave 23
+ Slave 24
+ Slave 25
+ Slave 26
+ Slave 27
+ Slave 28
+ Slave 29
+ Slave 30
+         none
+        water
+     electrical,            1 stage
+     electrical,            2 stages
+     electrical,            3 stages
+     electrical,            4 stages
+     electrical,            5 stages
+     electrical,            6 stages
+     electrical,            7 stages
+     electrical,            8 stages
+NO
+YES
+ 
+50-30
+60-35
+70-40
+90-50
+  6.1
+  7.1
+   10
+   18
+   23
+ 
+Parameters
+Statistics
+Parameters
+ 
+     Upgrade FW?       PRG - upgrade,
+Group structure
+ 
+Group settings
+Group structure
+Group settings
+Device role
+Group settings
+Group structure
+Device role
+Group settings
+Address:
+Baudrate:
+TEHS comp.2   :
+TEHS comp.2   :
+Comp.2 manage :
+Stop/Start    :
+Setpoint      :      é
+DD/MM/YY
+MM/DD/YY
+YY/MM/DD
+ 
+    DLE1
+    DLE2
+    DLE3
+    DLE4
+    DLE5
+    none
+   freon              1 stages
+   freon              2 stages
+   water
+    none
+   water
+ electro               1 stage
+ electro              2 stages
+ electro              3 stages
+ electro              4 stages
+ 
+     AIR QUALITY
+  ECONOMY MAXIMUM
+    ECONOMY HEAT
+    ECONOMY COOL
+ 
+     water coil
+   electrical heat            1 step
+   electrical heat           2 steps
+   electrical heat           3 steps
+   electrical heat           4 steps
+   electrical heat           5 steps
+   electrical heat           6 steps
+   electrical heat           7 steps
+   electrical heat           8 steps
+not involved
+    Ethernet
+    BMS card
+        BMS2
+ Group
+ Individual
+Mode :
+ none
+  odd
+ even
+Parity:
+Manufact:
+Service:
+User:
+ 
+ 
+ 
+0-10 V
+4-20 mA
+Configurator
+System parameters
+ModBus settings
+Upgrade
+Work mode schedule
+Initialization
+Import/Export
+Sensors correction
+Configurator
+System parameters
+ModBus settings
+Upgrade
+Work mode schedule
+Initialization
+Import/Export
+IO manage
+Sensors correction
+Configurator
+System parameters
+ModBus settings
+Upgrade
+Work mode schedule
+Initialization
+Import/Export
+Stop bits:
+ 
+50-30
+60-35
+70-40
+90-50
+  6.1
+  7.1
+   10
+   18
+   23
+DP-CTRL-W
+DP-TOP-W
+DP-CTRL-E
+DP-TOP-E
+DP-CTRL-ir
+DP-TOP-ir
+DP-CTRL
+DP-TOP
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+>IMPORT
+>EXPORT
+ 
+Outputs manage
+ 
+Inputs monitoring
+Outputs manage
+ 
+Show mask time
+Group
+Individual
+ 
+*
+ Stop
+ Stop
+ Run
+ Run
+Alarm
+ online
+ offline
+ 
+Humidity
+ 
+Temperature
+Humidity
+ 
+         404:               not found!
+  Turn off the unit         to  change          unit settings
+   To access select      the devise role:           MASTER
+                        Slave is offline!
+    Insert Service      password to modify    Service parameters
+    Insert Manufact.    password to modify   Manufact. parameters
+     The group is          not declared!
+   Time settings is   available only on the         MASTER
+  No connection with         control!
+  Only for control!
+  Available only for          MASTER
+   Troom2 sensor is    disabled or broken!
+ Parameter manage is  available only in mode      A."SUMMER"
+                      The schedule is empty!
+ Group
+ Individual
+Mode :
+ 
+T
+ 
+ POOL
+ TOP
+PRECISE
+ 
+       devices
+       devices
+       devices
+ 
+No manage
+ 
+     AIR QUALITY
+  ECONOMY MAXIMUM
+    ECONOMY HEAT
+    ECONOMY COOL
+Memory writes:
+Example1:
+Example1:
+Example1:
+Example1:
+Example2:
+Example2:
+Example2:
+Example2:
+Example2:
+ 
+e
+Address:
+Baudrate:
+Comp.2 manage :
+TEHS comp.2   :
+Stop/Start    :
+Setpoint      :      é
+DD/MM/YY
+MM/DD/YY
+YY/MM/DD
+ 
+    DLE1
+    DLE2
+    DLE3
+    DLE4
+    DLE5
+    none
+   freon              1 stages
+   freon              2 stages
+   water
+    none
+   water
+ electro               1 stage
+ electro              2 stages
+ electro              3 stages
+ electro              4 stages
+ 
+     water coil
+   electrical heat            1 step
+   electrical heat           2 steps
+   electrical heat           3 steps
+   electrical heat           4 steps
+   electrical heat           5 steps
+   electrical heat           6 steps
+   electrical heat           7 steps
+   electrical heat           8 steps
+not involved
+    Ethernet
+    BMS card
+        BMS2
+ Group
+ Individual
+Mode :
+ 
+     AIR QUALITY
+  ECONOMY MAXIMUM
+    ECONOMY HEAT
+    ECONOMY COOL
+ none
+  odd
+ even
+Parity:
+Manufact:
+Service:
+User:
+ 
+ 
+ 
+0-10 V
+4-20 mA
+Stop bits:
+ 
+50-30
+60-35
+70-40
+90-50
+  6.1
+  7.1
+   10
+   18
+   23
+DP-CTRL-W
+DP-TOP-W
+DP-CTRL-E
+DP-TOP-E
+DP-CTRL-ir
+DP-TOP-ir
+DP-CTRL
+DP-TOP
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+     c.pCO
+ 
+c.pCO mini
+Alarm logs
+Common settings
+Service
+Logout
+Refridgerator
+Alarm logs
+Common settings
+Service
+Logout
+Ventilation
+Refridgerator
+Alarm logs
+Common settings
+Service
+Logout
+ 
+ 
+Wrong Password! 
+ 
+user
+service
+manufacturer
+developer
+         404:               not found!
+      Switch to             individual              mode?
+       To reset            configuration    reboot is required!
+      To change             heat type        reboot is required!
+      To change             device role      reboot is required!
+      To change          MODBUS settings     reboot is required!
+       Complete           configuration?
+ Return to the start     of configuration?
+  Clear compressor 1       statistics?
+  Clear compressor 2       statistics?
+  Clear compressor 3       statistics?
+ Launch configuration        wizard?
+  Exit configuration         wizard?
+ 
+1/1
+1/1
+1/3
+1/3
+ 
+Stopping DP-TOP...
+  Postpone until the        next boot 
+  Restore parameters
+     Delete seved           parameters
+H∏ƒ,≈∑aøºƒŒ cox√a˙∏˙º∏
+Configurator
+System parameters
+ModBus settings
+Upgrade
+Work mode schedule
+Initialization
+Import/Export
+Sensors correction
+Configurator
+System parameters
+ModBus settings
+Upgrade
+Work mode schedule
+Initialization
+Import/Export
+IO manage
+Sensors correction
+Configurator
+System parameters
+ModBus settings
+Upgrade
+Work mode schedule
+Initialization
+Import/Export
+  NO
+ YES
+  NO
+ YES
+Password manage
+Group manage
+Language
+Password manage
+Group manage
+Date/Time
+Language
+Password manage
+Group manage
+Master
+Slave  1
+Slave  2
+Slave  3
+Slave  4
+Slave  5
+Slave  6
+Slave  7
+Slave  8
+Slave  9
+Slave 10
+Slave 11
+Slave 12
+Slave 13
+Slave 14
+Slave 15
+Slave 16
+Slave 17
+Slave 18
+Slave 19
+Slave 20
+Slave 21
+Slave 22
+Slave 23
+Slave 24
+Slave 25
+Slave 26
+Slave 27
+Slave 28
+Slave 29
+Slave 30
+ 
+-WH
+-E1
+-E2
+-E3
+-E4
+-E5
+-E6
+-E7
+-E8
+:group
+:indiv.
+Current :      é
+ Group
+ Individual
+Current :
+ 
+%
+ 
+'
+ 
+v
+x
+ã
+!
+ê
+ 
+-SM
+ 
+Firmware upgrade...
+ 
+ Mismatch FW version!
+ 
+ATTENTION!All settings    will be reset!
+ 
+DLE1
+DLE2
+DLE3
+DLE4
+DLE5
+h    %
+é
+ 
+GMT+12
+GMT+11
+HONOLULU -10
+ANCHORAGE -9
+SANTA ISABEL -3
+LOS ANGELES -8
+PHOENIX -7
+CHIHUAHUA -7
+DENVER -7
+GUATEMALA/REGINA -6
+CHICAGO -6
+MEXICO CITY -6
+BOGOTA -5
+NEW YORK/INDIANAPOLIS -5
+CARACAS -4
+ASUNCION -3
+HALIFAX -4
+CUIABA -3
+LA PAZ -4
+SANTIAGO -4
+ST JOHNS -4
+SAO PAULO -3
+BUENOS AIRES -3
+CAYENNE -3
+GODTHAB -3
+MONTEVIDEO -3
+BAHIA -3
+GMT-2
+MID-ATLANTIC STD TIME
+AZORES -1
+CAPE VERDE -1
+CASABLANCA
+GMT
+LONDON
+REYKJAVIK
+BERL/BUDAP/PARIS/WARS +1
+LAGOS +1
+WINDHOEK +2
+AMMAN +2
+BUCHAREST/KIEV/ISTANB. +2
+BEIRUT +2
+CAIRO +2
+DAMASCUS +2
+E.EUROPE STD TIME
+JOHANNESBURG +2
+JERUSALEM +2
+TRIPOLI +2
+BAGHDAD +3
+KALININGRAD +2
+RIYADH +3
+NAIROBI +3
+TEHRAN +3.3
+DUBAI +4
+BAKU +4
+MOSCOW +3
+MAURITIUS +4
+TBILISI +4
+YEREVAN +4
+KABUL +4.3
+TASHKENT +5
+KARACHI +5
+CALCUTTA/COLOMBO +5.3
+KATMANDU +5.45
+ALMATY +6
+DHAKA +6
+YEKATERINBURG +5
+RANGOON +6.3
+BANGKOK +7
+NOVOSIBIRSK +7
+SHANGHAI +8
+KRASNOYARSK +7
+SINGAPORE +8
+PERTH +8
+TAIPEI +8
+ULAANBAATAR +8
+IRKUTSK +8
+TOKYO +9
+SEOUL +9
+ADELAIDE +10.3
+DARWIN +9.3
+BRISBANE +10
+SYDNEY/HOBART +11
+PORT MORESBY +10
+YAKUTSK +9
+GUADALCANAL +9
+VLADIVOSTOK +10
+AUCKLAND +13
+GMT-12
+FIJI +13
+MAGADAN +11
+KAMCHATKA +12
+TONGATAPU +13
+APIA +14
+LINE ISLANDS +14
+ 
+GMT+12
+GMT+11
+HONOLULU -10
+ANCHORAGE -9
+SANTA ISABEL -3
+LOS ANGELES -8
+PHOENIX -7
+CHIHUAHUA -7
+DENVER -7
+GUATEMALA/REGINA -6
+CHICAGO -6
+MEXICO CITY -6
+BOGOTA -5
+NEW YORK/INDIANAPOLIS -5
+CARACAS -4
+ASUNCION -3
+HALIFAX -4
+CUIABA -3
+LA PAZ -4
+SANTIAGO -4
+ST JOHNS -4
+SAO PAULO -3
+BUENOS AIRES -3
+CAYENNE -3
+GODTHAB -3
+MONTEVIDEO -3
+BAHIA -3
+GMT-2
+MID-ATLANTIC STD TIME
+AZORES -1
+CAPE VERDE -1
+CASABLANCA
+GMT
+LONDON
+REYKJAVIK
+BERL/BUDAP/PARIS/WARS +1
+LAGOS +1
+WINDHOEK +2
+AMMAN +2
+BUCHAREST/KIEV/ISTANB. +2
+BEIRUT +2
+CAIRO +2
+DAMASCUS +2
+E.EUROPE STD TIME
+JOHANNESBURG +2
+JERUSALEM +2
+TRIPOLI +2
+BAGHDAD +3
+®A©¶H¶H•PA£
+RIYADH +3
+NAIROBI +3
+TEHRAN +3.3
+DUBAI +4
+BAKU +4
+MOC®≠A
+MAURITIUS +4
+TBILISI +4
+YEREVAN +4
+KABUL +4.3
+TASHKENT +5
+KARACHI +5
+CALCUTTA/COLOMBO +5.3
+KATMANDU +5.45
+ALMATY +6
+DHAKA +6
+E®ATEP¶H°¨P•
+RANGOON +6.3
+BANGKOK +7
+HO≠OC¶°¶PC®
+SHANGHAI +8
+®PACHO—PC®
+SINGAPORE +8
+PERTH +8
+TAIPEI +8
+ULAANBAATAR +8
+¶P®¨TC®
+TOKYO +9
+SEOUL +9
+ADELAIDE +10.3
+DARWIN +9.3
+BRISBANE +10
+SYDNEY/HOBART +11
+PORT MORESBY +10
+—®¨TC®
+GUADALCANAL +9
+≠©A£¶≠OCTO®
+AUCKLAND +13
+GMT-12
+FIJI +13
+MA•A£AH
+®AM´AT®A
+TONGATAPU +13
+APIA +14
+LINE ISLANDS +14
+GMT
+®A©¶H¶H•PA£
+MOC®≠A
+CAMAPA
+E®ATEP¶H°¨P•
+OMC®
+®PACHO—PC®
+¶P®¨TC®
+—®¨TC®
+≠©A£¶≠OCTO®
+MA•A£AH
+®AM´AT®A
+Common settings
+Service
+Logout
+Alarm logs
+Common settings
+Service
+Logout
+Ventilation
+Alarm logs
+Common settings
+Service
+Logout
+Troom sensor:
+é
+ 
+50-30
+60-35
+70-40
+90-50
+  6.1
+  7.1
+   10
+   18
+   23
+DP-CTRL-W
+DP-TOP-W
+DP-CTRL-E
+DP-TOP-E
+DP-CTRL-ir
+DP-TOP-ir
+DP-CTRL
+DP-TOP
+ 
+UNIT ON
+OFF BY ALARM
+OFF BY BMS
+OFF BY SCHED
+OFF BY RC
+OFF BY KEYBOARD
+OFF BY MASTER
+COIL P/HEAT
+GATE P/HEAT:
+COIL COOL  :
+FANS ACCEL.:
+     No
+     SI
+    USA
+     UK
+    CAN
+    Lon
+SI(bar)
+     No
+     SI
+    USA
+     UK
+    CAN
+    Lon
+SI(bar)
+ 
+ 
+ 
+File is not found
+ 
+ 
+ 
+ 
+File is empty
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Upgrade is available:   UNIVERSAL_ . . .
+ 
+ 
+Upgrade is not found!
+ 
+ 
+ 
+ 
+File is empty
+ 
+LOADING
+WAITING
+RELOADING
+ 
+User Password
+Service Password
+Manufacturer Password
+Developer Password
+Recycling
+Cooler
+Recuperator
+Vortex diffusor
+Heater
+Recycling
+Cooler
+Recuperator
+Vortex diffusor
+Microclimate
+Heater
+Recycling
+Cooler
+Recuperator
+Vortex diffusor
+ 
+ 
+!
+  NO
+ YES
+ 
+Press ENTER to confirm
+[EN]

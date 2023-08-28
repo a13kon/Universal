@@ -1,0 +1,23 @@
+Для управления CPY:
+DevAddr_CPY = 1 (?)
+Cfg_CPY.Baudrate = 0 (9600)
+Cfg_CPY.FrameCfg = 0 (8N2)
+Set_CPY.En_Operations = 1
+Set_CPY.En_SerReq = 1 (управление по сети)
+Set_CPY.SerReq = 1 (управление по сети)
+Set_CPY.OperationMode = 1 (пропорциональное управление, 0 - дискретное)
+Cfg_CPY.UnitOfMeasure = 0 (кг/ч)
+
+humidifier status (read-only)
+0 = not active (no request, shutdown or disabled); 
+1 = start evaporation cycle; 
+2 = water fill in progress; 
+3 = evaporation in progress ; 
+4 = AFS drain ; 
+5 = water drain (to dilute or manual); 
+6 = end of water drain; 
+7 = complete drain for long inactivity; 
+8 = complete drain from manual or network control; 
+9 = no water management; 
+10 = pre-wash; 
+11 = periodical drain

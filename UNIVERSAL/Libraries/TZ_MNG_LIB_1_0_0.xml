@@ -1,0 +1,219 @@
+﻿<Manifest
+  Version="1.0.0"
+  IsLibrary="true">
+  <Libraries />
+  <Pou
+    Name="TZ_Write"
+    Moniker="TZ_Write.stf"
+    Language="ST"
+    IsIec61499="false"
+    Kind="FunctionBlock"
+    Password="E4BDBA2BEF6CC4DC"
+    GenerateDebugInfo="false"
+    GeneratingMonitoringSymbols="true"
+    UserEdited="false"
+    Deprecated="false"
+    IsVisible="true">
+    <Variable
+      Name="Zone_TZW"
+      Comment="Index of the zone"
+      AccessRights="Read"
+      DataType="UINT"
+      Kind="VarInput" />
+    <Variable
+      Name="Set_TZW"
+      Comment="Set the timezone (works on the edge)"
+      AccessRights="Read"
+      DataType="BOOL"
+      Kind="VarInput" />
+    <Variable
+      Name="Err_TZW"
+      Comment="Operation result (ERR_xxx error code)"
+      AccessRights="Write"
+      DataType="DINT"
+      Kind="VarOutput" />
+    <Variable
+      Name="CurrDateTime_1"
+      Comment=""
+      AccessRights="ReadWrite"
+      DataType="CurrDateTime_TZ"
+      Kind="Var" />
+    <Variable
+      Name="Init"
+      Comment=""
+      AccessRights="ReadWrite"
+      DataType="BOOL"
+      Kind="Var" />
+    <Variable
+      Name="PrevYear"
+      Comment=""
+      AccessRights="ReadWrite"
+      DataType="UINT"
+      Kind="Var" />
+    <Variable
+      Name="RTC_TZ_WRITE_1"
+      Comment=""
+      AccessRights="ReadWrite"
+      DataType="RTC_TZ_WRITE"
+      Kind="Var" />
+    <Variable
+      Name="PosixString"
+      Comment=""
+      AccessRights="ReadWrite"
+      DataType="STRING"
+      Kind="Var" />
+  </Pou>
+  <Pou
+    Name="WeekDay_TZ"
+    Moniker="WeekDay_TZ.stf"
+    Language="ST"
+    IsIec61499="false"
+    Kind="Function"
+    Password="E4BDBA2BEF6CC4DC"
+    GenerateDebugInfo="false"
+    GeneratingMonitoringSymbols="true"
+    UserEdited="false"
+    Deprecated="false"
+    IsVisible="false">
+    <Variable
+      Name="MonthTmp"
+      Comment=""
+      AccessRights="ReadWrite"
+      DataType="UINT"
+      Kind="Var" />
+    <Variable
+      Name="YearTmp"
+      Comment=""
+      AccessRights="ReadWrite"
+      DataType="UINT"
+      Kind="Var" />
+    <Variable
+      Name="Day"
+      Comment="Number of the day (between 1 and 31)"
+      AccessRights="Read"
+      DataType="UINT"
+      Kind="VarInput" />
+    <Variable
+      Name="Month"
+      Comment="Number of the month (between 1 and 12)"
+      AccessRights="Read"
+      DataType="UINT"
+      Kind="VarInput" />
+    <Variable
+      Name="Year"
+      Comment="Number of the year, in form 20YY or YYYY"
+      AccessRights="Read"
+      DataType="UINT"
+      Kind="VarInput" />
+    <Variable
+      Name="WeekDay_TZ"
+      Comment="Day of the week (between 1 and 7)"
+      AccessRights="Write"
+      DataType="UINT"
+      Kind="VarOutput" />
+  </Pou>
+  <Pou
+    Name="TZ_Read"
+    Moniker="TZ_Read.stf"
+    Language="ST"
+    IsIec61499="false"
+    Kind="FunctionBlock"
+    Password="E4BDBA2BEF6CC4DC"
+    GenerateDebugInfo="false"
+    GeneratingMonitoringSymbols="true"
+    UserEdited="false"
+    Deprecated="false"
+    IsVisible="true">
+    <Variable
+      Name="Read_TZR"
+      Comment="Read the current time zone (works on the edge)"
+      AccessRights="Read"
+      DataType="BOOL"
+      Kind="VarInput" />
+    <Variable
+      Name="Zone_TZR"
+      Comment="Index of the zone"
+      AccessRights="Write"
+      DataType="UINT"
+      Kind="VarOutput" />
+    <Variable
+      Name="Err_TZR"
+      Comment="Operation result (ERR_xxx error code)"
+      AccessRights="Write"
+      DataType="DINT"
+      Kind="VarOutput" />
+    <Variable
+      Name="PosixString"
+      Comment=""
+      AccessRights="ReadWrite"
+      DataType="STRING"
+      Kind="Var" />
+    <Variable
+      Name="RTC_TZ_READ_1"
+      Comment=""
+      AccessRights="ReadWrite"
+      DataType="RTC_TZ_READ"
+      Kind="Var" />
+  </Pou>
+  <Pou
+    Name="CurrDateTime_TZ"
+    Moniker="CurrDateTime_TZ.stf"
+    Language="ST"
+    IsIec61499="false"
+    Kind="FunctionBlock"
+    Password="E4BDBA2BEF6CC4DC"
+    GenerateDebugInfo="false"
+    GeneratingMonitoringSymbols="true"
+    UserEdited="false"
+    Deprecated="false"
+    IsVisible="false">
+    <Variable
+      Name="Second"
+      Comment="Current second (0-59)"
+      AccessRights="Write"
+      DataType="UINT"
+      Kind="VarOutput" />
+    <Variable
+      Name="Minute"
+      Comment="Current minute (0-59)"
+      AccessRights="Write"
+      DataType="UINT"
+      Kind="VarOutput" />
+    <Variable
+      Name="Hour"
+      Comment="Current hour (0-23)"
+      AccessRights="Write"
+      DataType="UINT"
+      Kind="VarOutput" />
+    <Variable
+      Name="Day"
+      Comment="Current day (1-31)"
+      AccessRights="Write"
+      DataType="UINT"
+      Kind="VarOutput" />
+    <Variable
+      Name="Month"
+      Comment="Current month (1-12)"
+      AccessRights="Write"
+      DataType="UINT"
+      Kind="VarOutput" />
+    <Variable
+      Name="Year"
+      Comment="Current year"
+      AccessRights="Write"
+      DataType="UINT"
+      Kind="VarOutput" />
+    <Variable
+      Name="DayOfWeek"
+      Comment="Current day of the week (between 1 and 7)"
+      AccessRights="Write"
+      DataType="UINT"
+      Kind="VarOutput" />
+    <Variable
+      Name="DateToUint"
+      Comment=""
+      AccessRights="ReadWrite"
+      DataType="DATE_TO_UINT"
+      Kind="Var" />
+  </Pou>
+</Manifest>

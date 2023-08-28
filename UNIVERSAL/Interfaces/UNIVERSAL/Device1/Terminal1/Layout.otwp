@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Terminal Name="Terminal1" Display="PGD1" Language="EN" BeginFromMask="LogoMask" Layout="SixKeys" Font="CAREL_TERM_EAST" ZoomCode="0" LoopFunction="TIMED_LOOP" Version="1.0">
+  <ShortCuts>
+    <ShortCut Name="ALARM" Code="12" />
+    <ShortCut Name="PRG" Code="5" />
+    <ShortCut Name="ESC" Code="0" />
+    <ShortCut Name="UP" Code="14" />
+    <ShortCut Name="ENTER" Code="13" />
+    <ShortCut Name="DOWN" Code="15" />
+    <ShortCut Name="DOWN+ENTER" Keys="DOWN,ENTER" Code="134" />
+    <ShortCut Name="UP+ENTER" Keys="UP,ENTER" Code="133" />
+    <ShortCut Name="ALARM+ESC" Keys="ALARM,ESC" Code="27" />
+    <ShortCut Name="ESC+DOWN" Keys="ESC,DOWN" Code="30" />
+  </ShortCuts>
+  <KeyBindings>
+    <KeyBinding Key="ALARM" BindOn="CheckActiveAlarm" />
+    <KeyBinding Key="PRG" BindOn="GotoMainMenu" />
+    <KeyBinding Key="ESC" BindOn="GlobalEsc" />
+    <KeyBinding Key="DOWN+ENTER" BindOn="DOWN_ENTER_Move" />
+    <KeyBinding Key="UP+ENTER" BindOn="UP_ENTER_Move" />
+  </KeyBindings>
+</Terminal>

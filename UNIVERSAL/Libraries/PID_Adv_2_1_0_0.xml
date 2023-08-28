@@ -1,0 +1,188 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Manifest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+  Version="1.0.0"
+  IsLibrary="true">
+  <Pou
+    Name="PID_Adv_2"
+    Language="ST"
+    Kind="FunctionBlock"
+    Moniker="PID_Adv_2.stf"
+    IsIec61499="false"
+    Password="E4BDBA2BEF6CC4DC"
+    GenerateDebugInfo="true"
+    GeneratingMonitoringSymbols="true"
+    IsVisible="true"
+    UserEdited="true"
+    Deprecated="false">
+    <Variable
+      Name="Input"
+      Comment="Regulation value"
+      DataType="REAL"
+      Kind="VarInput" />
+    <Variable
+      Name="SetP"
+      Comment="Setpoint of regulation"
+      DataType="REAL"
+      Kind="VarInput" />
+    <Variable
+      Name="DeadBand"
+      Comment="Dead band in which the output is kept unchanged"
+      DataType="REAL"
+      Kind="VarInput" />
+    <Variable
+      Name="Kp"
+      Comment="Proportinality constant"
+      DataType="REAL"
+      Kind="VarInput" />
+    <Variable
+      Name="Ti"
+      Comment="Integral time constant (in seconds)"
+      DataType="UINT"
+      Kind="VarInput" />
+    <Variable
+      Name="Td"
+      Comment="Derivative time constant (in seconds)"
+      DataType="UINT"
+      Kind="VarInput" />
+    <Variable
+      Name="Cycle"
+      Comment="Period of time (ms) that elapses between two updates of Out"
+      DataType="TIME"
+      Kind="VarInput" />
+    <Variable
+      Name="LowLim"
+      Comment="Low limit. It is only a limitation of the output, but it doesen't affect the calculationof the output"
+      DataType="REAL"
+      Kind="VarInput" />
+    <Variable
+      Name="HighLim"
+      Comment="High limit. It is only a limitation of the output, but it doesen't affect the calculationof the output"
+      DataType="REAL"
+      Kind="VarInput" />
+    <Variable
+      Name="ManMode"
+      Comment="Manual mode enable"
+      DataType="BOOL"
+      Kind="VarInput" />
+    <Variable
+      Name="ManOut"
+      Comment="Value of output when ManMode is true."
+      DataType="REAL"
+      Kind="VarInput" />
+    <Variable
+      Name="EnAntiBump"
+      Comment="Enables anti bump function"
+      DataType="BOOL"
+      Kind="VarInput" />
+    <Variable
+      Name="En_PID"
+      Comment="Enables the regulation (if false, output is 0)"
+      DataType="BOOL"
+      Kind="VarInput" />
+    <Variable
+      Name="Output"
+      Comment="Calculated power request"
+      DataType="REAL"
+      Kind="VarOutput" />
+    <Variable
+      Name="DeltaT"
+      Comment="Time elapsed since last execution"
+      DataType="REAL"
+      Kind="Var" />
+    <Variable
+      Name="Deriv"
+      Comment="Derivative term, for internal use. See DerivativeTerm"
+      DataType="REAL"
+      Kind="Var" />
+    <Variable
+      Name="Integr"
+      Comment="Integral term, for internal use. See IntegralTerm"
+      DataType="REAL"
+      Kind="Var" />
+    <Variable
+      Name="Dx1"
+      Comment="For D-term, as std 61131"
+      DataType="REAL"
+      Kind="Var" />
+    <Variable
+      Name="Dx2"
+      Comment="For D-term, as std 61131"
+      DataType="REAL"
+      Kind="Var" />
+    <Variable
+      Name="Dx3"
+      Comment="For D-term, as std 61131"
+      DataType="REAL"
+      Kind="Var" />
+    <Variable
+      Name="Error"
+      Comment="Error of regulation (RegTemp-SetP)"
+      DataType="REAL"
+      Kind="Var" />
+    <Variable
+      Name="PrevTime"
+      Comment="Time at last algorithm execution"
+      DataType="TIME"
+      Kind="Var" />
+    <Variable
+      Name="AntiBump"
+      Comment="If true, anti bump must be applied (internal use)"
+      DataType="BOOL"
+      Kind="Var" />
+    <Variable
+      Name="PrevOutput"
+      Comment="Previous output value"
+      DataType="REAL"
+      Kind="Var" />
+    <Variable
+      Name="PrevSetP"
+      Comment="Previous setpoint"
+      DataType="REAL"
+      Kind="Var" />
+    <Variable
+      Name="PrevDeadBand"
+      Comment="Previous deadband"
+      DataType="REAL"
+      Kind="Var" />
+    <Variable
+      Name="PrevKp"
+      Comment="Previous proportional gain"
+      DataType="REAL"
+      Kind="Var" />
+    <Variable
+      Name="PrevTi"
+      Comment="Previous intergal time"
+      DataType="UINT"
+      Kind="Var" />
+    <Variable
+      Name="PrevTd"
+      Comment="Previous derivative time"
+      DataType="UINT"
+      Kind="Var" />
+    <Variable
+      Name="tmp"
+      Comment="Internal use"
+      DataType="REAL"
+      Kind="Var" />
+    <Variable
+      Name="Run"
+      Comment="Internal use"
+      DataType="BOOL"
+      Kind="Var" />
+    <Variable
+      Name="ProportionalTerm"
+      Comment="Proportional term (P)"
+      DataType="REAL"
+      Kind="Var" />
+    <Variable
+      Name="IntegralTerm"
+      Comment="Integral term (I)"
+      DataType="REAL"
+      Kind="Var" />
+    <Variable
+      Name="DerivativeTerm"
+      Comment="Derivative term (D)"
+      DataType="REAL"
+      Kind="Var" />
+  </Pou>
+</Manifest>

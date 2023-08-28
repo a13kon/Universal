@@ -1,0 +1,395 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Worksheet Name="07_Refrigerator" Version="1.0.0">
+  <Loop Name="FRIDGE_STATS" X="1" Y="0">
+    <Mask Name="Stats_1" Type="Normal" X="1" Y="1" Color="100, 149, 237" Foreground="240, 248, 255" ReferToMask="REF_FridgeMask">
+      <Fields>
+        <Field Type="Image" Name="Image_1" Row="0" Column="0" Content="BLACK_ROWS_132X8.BMP" />
+        <Field Type="Text" Name="Text" Row="1" Column="1" Content="HaÃaµoÄ¾a:" />
+        <Field Type="Image" Name="Image_2" Row="7" Column="0" Content="BLACK_ROWS_132X8.BMP" />
+        <Field Type="Text" Name="Text_2" Row="7" Column="5" Content="¨oÀÁÃ¸ccoÃ" />
+        <Field Type="Text" Name="Text_3" Row="3" Column="1" Content="«¼c¿o Æ¾¿ÌÂ¸ú¼É:" />
+        <Field Type="Text" Name="Text_4" Row="2" Column="13" Content="Â" />
+        <Field Type="Text" Name="Text_5" Row="2" Column="18" Content="À¼ú" />
+        <Field Type="Variable" Name="Variable" Row="2" Column="6" Content="Display.value_DINT[1]" Class="CL_DINT" Format="o6" Min="0" Max="999999" SimulationValue="" />
+        <Field Type="Variable" Name="Variable_3" Row="2" Column="15" Content="Display.value_DINT[2]" Class="CL_DINT" Format="o2" Min="0" Max="99" SimulationValue="" />
+        <Field Type="Text" Name="Text_6" Row="0" Column="6" Content="CÄaÄ¼cÄ¼¾a" />
+        <Field Type="Variable" Name="Variable_4" Row="6" Column="10" Content="Display.UoM[5]" Class="CL_USINT" Format="o2z" Min="0" Max="99" />
+        <Field Type="Variable" Name="Variable_5" Row="6" Column="13" Content="Display.UoM[1]" Class="CL_USINT" Format="o2z" Min="0" Max="99" />
+        <Field Type="Variable" Name="Variable_6" Row="6" Column="16" Content="Display.UoM[2]" Class="CL_USINT" Format="o2z" Min="0" Max="99" />
+        <Field Type="Text" Name="Text_7" Row="6" Column="15" Content="." />
+        <Field Type="Variable" Name="Variable_7" Row="6" Column="7" Content="Display.UoM[4]" Min="0" Max="99" Class="CL_USINT" Format="o2z" />
+        <Field Type="Variable" Name="Variable_8" Row="6" Column="4" Content="Display.UoM[3]" Class="CL_USINT" Format="o2z" Min="0" Max="99" />
+        <Field Type="Text" Name="Text_8" Row="6" Column="6" Content=":" />
+        <Field Type="Text" Name="Text_9" Row="6" Column="9" Content=":" />
+        <Field Type="Text" Name="Text_10" Row="5" Column="1" Content="ªoc¿¸·ú¸¸ ÆË¾¿ÌÂ¸ú¼¸:" />
+        <Field Type="Variable" Name="Variable_9" Row="7" Column="16" Content="Display.Index" Class="CL_DINT" Format="o1" Min="0" Max="9" />
+        <Field Type="Variable" Name="Variable_2" Row="4" Column="16" Content="Display.value_DINT[3]" Class="CL_DINT" Format="o5" Min="0" Max="32767" SimulationValue="151" />
+      </Fields>
+      <KeyBindings>
+        <KeyBinding Key="PRG" BindOn="Stats_1_PRG" />
+        <KeyBinding Key="UP" BindOn="Stats_1_UP" />
+        <KeyBinding Key="DOWN" BindOn="Stats_1_DOWN" />
+      </KeyBindings>
+      <EnableOn>
+        <Var Name="CM.Circ[1].Use" />
+        <Var Name="mod_CM_Circ2.Not_Use_Circ2" />
+      </EnableOn>
+    </Mask>
+    <Mask Name="Stats_Circ_2" Type="Normal" X="1" Y="2" Color="100, 149, 237" Foreground="240, 248, 255" ReferToMask="REF_FridgeMask">
+      <Fields>
+        <Field Type="Image" Name="Image_1" Row="0" Column="0" Content="BLACK_ROWS_132X8.BMP" />
+        <Field Type="Text" Name="Text" Row="1" Column="1" Content="HaÃaµoÄ¾a:" />
+        <Field Type="Image" Name="Image_2" Row="7" Column="0" Content="BLACK_ROWS_132X8.BMP" />
+        <Field Type="Variable" Name="Variable" Row="2" Column="6" Content="Display.value_DINT[1]" Class="CL_DINT" Format="o6" Min="0" Max="999999" SimulationValue="" />
+        <Field Type="Variable" Name="Variable_3" Row="2" Column="15" Content="Display.value_DINT[2]" Class="CL_DINT" Format="o2" Min="0" Max="99" SimulationValue="" />
+        <Field Type="Text" Name="Text_6" Row="0" Column="6" Content="CÄaÄ¼cÄ¼¾a" />
+        <Field Type="Variable" Name="Variable_4" Row="6" Column="10" Content="Display.UoM[5]" Class="CL_USINT" Format="o2z" Min="0" Max="99" />
+        <Field Type="Variable" Name="Variable_5" Row="6" Column="13" Content="Display.UoM[1]" Class="CL_USINT" Format="o2z" Min="0" Max="99" />
+        <Field Type="Variable" Name="Variable_6" Row="6" Column="16" Content="Display.UoM[2]" Class="CL_USINT" Format="o2z" Min="0" Max="99" />
+        <Field Type="Text" Name="Text_7" Row="6" Column="15" Content="." />
+        <Field Type="Variable" Name="Variable_7" Row="6" Column="7" Content="Display.UoM[4]" Min="0" Max="99" Class="CL_USINT" Format="o2z" />
+        <Field Type="Variable" Name="Variable_8" Row="6" Column="4" Content="Display.UoM[3]" Class="CL_USINT" Format="o2z" Min="0" Max="99" />
+        <Field Type="Text" Name="Text_8" Row="6" Column="6" Content=":" />
+        <Field Type="Text" Name="Text_9" Row="6" Column="9" Content=":" />
+        <Field Type="Variable" Name="Variable_9" Row="7" Column="11" Content="Display.Index" Class="CL_DINT" Format="o1" Min="0" Max="9" />
+        <Field Type="Variable" Name="Variable_2" Row="4" Column="16" Content="Display.value_DINT[3]" Class="CL_DINT" Format="o5" Min="0" Max="32767" SimulationValue="151" />
+        <Field Type="Variable" Name="Variable_10" Row="7" Column="12" Content="Display.Hint" Class="Circ_Num_Class" Format="o1" Min="0" Max="9" SimulationValue="2" />
+        <Field Type="Text" Name="Text_3" Row="2" Column="13" Content="Â" />
+        <Field Type="Text" Name="Text_4" Row="2" Column="18" Content="À¼ú" />
+        <Field Type="Text" Name="Text_5" Row="3" Column="1" Content="«¼c¿o Æ¾¿ÌÂ¸ú¼É:" />
+        <Field Type="Text" Name="Text_10" Row="5" Column="1" Content="ªoc¿¸·ú¸¸ ÆË¾¿ÌÂ¸ú¼¸:" />
+        <Field Type="Text" Name="Text_2" Row="7" Column="0" Content="¨oÀÁÃ¸ccoÃ" />
+      </Fields>
+      <KeyBindings>
+        <KeyBinding Key="PRG" BindOn="Stats_1_PRG" />
+        <KeyBinding Key="UP" BindOn="Stats_1_UP" />
+        <KeyBinding Key="DOWN" BindOn="Stats_1_DOWN" />
+      </KeyBindings>
+      <EnableOn>
+        <Var Name="CM.Circ[2].Use" />
+      </EnableOn>
+    </Mask>
+  </Loop>
+  <Mask Name="REF_FridgeMask" Type="Normal" X="0" Y="1" Color="100, 149, 237" Foreground="0, 255, 255">
+    <Fields />
+    <KeyBindings>
+      <KeyBinding Key="DOWN" BindOn="DOWN_button" />
+      <KeyBinding Key="PRG" BindOn="PRG_button" />
+      <KeyBinding Key="ENTER" BindOn="Goto_FRIDGE_STATS" />
+      <KeyBinding Key="UP" BindOn="UP_button" />
+    </KeyBindings>
+  </Mask>
+  <Loop Name="FRIDGE" X="2" Y="0">
+    <Mask Name="Fridge_1x1" Type="Normal" X="2" Y="1" ReferToMask="REF_FridgeMask" Color="30, 144, 255" Foreground="240, 248, 255" ZoomCode="">
+      <Fields>
+        <Field Type="Text" Name="Text_2" Row="0" Column="2" Content="Xo¿o·¼¿ÎúaÓ ÀaÇ¼úa" />
+        <Field Type="Image" Name="Image_2" Row="0" Column="0" Content="BLACK_ROWS_132X8.BMP" />
+        <Field Type="Image" Name="Image_4" Row="7" Column="0" Content="BLACK_ROWS_132X8.BMP" />
+        <Field Type="Variable" Name="Variable" Row="2" Column="8" Content="mod_CM.mask_StateComp[1]" Class="mask_StateComp_Class" Format="o1" Min="0" Max="5" SimulationValue="0" />
+        <Field Type="Variable" Name="Variable_3" Row="4" Column="10" Content="mod_CM.mask_StateComp[1]" Min="0" Max="5" Class="CompAlarm_Class" Format="o1" SimulationValue="4" />
+        <Field Type="Variable" Name="Variable_7" Row="7" Column="8" Content="mod_CM.mask_StateComp[1]" Min="0" Max="5" Class="mask_StateCompWord_Class" Format="o1" SimulationValue="3" />
+        <Field Type="Variable" Name="Variable_4" Row="3" Column="10" Content="CM.Circ[1].Comp[1].Warning" Min="0" Max="1" Class="CompWarning_Class" Format="ob" SimulationValue="1" />
+        <Field Type="Variable" Name="Variable_9" Row="1" Column="9" Content="FLR_DX_CTComp1.Active" Min="0" Max="1" Class="Hot_Class" Format="ob" SimulationValue="1" />
+        <Field Type="Variable" Name="Variable_11" Row="4" Column="9" Content="mod_CM.mask_CntDown[1]" Class="mask_CntDown[1]_Class" Format="o3" Min="0" Max="999" SimulationValue="" />
+        <Field Type="Variable" Name="Variable_13" Row="3" Column="13" Content="FLR_DX_HPComp1.Active" Min="0" Max="1" Class="Warning_Class" Format="ob" SimulationValue="1" />
+        <Field Type="Variable" Name="Variable_15" Row="5" Column="13" Content="FLR_DX_LPComp1.Active" Min="0" Max="1" Class="Warning_Class" Format="ob" SimulationValue="1" />
+        <Field Type="Variable" Name="Variable_2" Row="1" Column="20" Content="SV.DO" Min="0" Max="1" Class="SV_Class" Format="ob" SimulationValue="1" />
+      </Fields>
+      <KeyBindings>
+        <KeyBinding Key="ESC" BindOn="GotoMain" />
+        <KeyBinding Key="UP" BindOn="Move_UP" />
+        <KeyBinding Key="DOWN" BindOn="Move_DOWN" />
+      </KeyBindings>
+      <EnableOn>
+        <Var Name="mod_CM.en_Comp[1]" />
+        <Var Name="mod_CM.dis_Comp[2]" />
+        <Var Name="mod_CM.dis_Comp[3]" />
+        <Var Name="mod_CM.dis_Comp[4]" />
+        <Var Name="CM.Circ[1].Use" />
+      </EnableOn>
+    </Mask>
+    <Mask Name="Fridge_1x2" Type="Normal" X="2" Y="2" ReferToMask="REF_FridgeMask" Color="30, 144, 255" Foreground="240, 248, 255" ZoomCode="">
+      <Fields>
+        <Field Type="Text" Name="Text_2" Row="0" Column="2" Content="Xo¿o·¼¿ÎúaÓ ÀaÇ¼úa" />
+        <Field Type="Image" Name="Image_2" Row="0" Column="0" Content="BLACK_ROWS_132X8.BMP" />
+        <Field Type="Image" Name="Image_4" Row="7" Column="0" Content="BLACK_ROWS_132X8.BMP" />
+        <Field Type="Variable" Name="Variable" Row="2" Column="3" Content="mod_CM.mask_StateComp[1]" Class="mask_StateComp_Class" Format="o1" Min="0" Max="5" SimulationValue="0" />
+        <Field Type="Variable" Name="Variable_3" Row="4" Column="5" Content="mod_CM.mask_StateComp[1]" Min="0" Max="5" Class="CompAlarm_Class" Format="o1" SimulationValue="4" />
+        <Field Type="Variable" Name="Variable_7" Row="7" Column="3" Content="mod_CM.mask_StateComp[1]" Min="0" Max="5" Class="mask_StateCompWord_Class" Format="o1" SimulationValue="3" />
+        <Field Type="Variable" Name="Variable_4" Row="3" Column="5" Content="CM.Circ[1].Comp[1].Warning" Min="0" Max="1" Class="CompWarning_Class" Format="ob" SimulationValue="1" />
+        <Field Type="Variable" Name="Variable_9" Row="1" Column="4" Content="FLR_DX_CTComp1.Active" Min="0" Max="1" Class="Hot_Class" Format="ob" SimulationValue="1" />
+        <Field Type="Variable" Name="Variable_11" Row="4" Column="4" Content="mod_CM.mask_CntDown[1]" Class="mask_CntDown[1]_Class" Format="o3" Min="0" Max="999" />
+        <Field Type="Variable" Name="Variable_13" Row="3" Column="8" Content="FLR_DX_HPComp1.Active" Min="0" Max="1" Class="Warning_Class" Format="ob" SimulationValue="1" />
+        <Field Type="Variable" Name="Variable_15" Row="5" Column="8" Content="FLR_DX_LPComp1.Active" Min="0" Max="1" Class="Warning_Class" Format="ob" SimulationValue="1" />
+        <Field Type="Variable" Name="Variable_2" Row="2" Column="13" Content="mod_CM.mask_StateComp[2]" Class="mask_StateComp_Class" Format="o1" Min="0" Max="5" SimulationValue="0" />
+        <Field Type="Variable" Name="Variable_5" Row="1" Column="14" Content="FLR_DX_CTComp2.Active" Min="0" Max="1" Class="Hot_Class" Format="ob" SimulationValue="1" />
+        <Field Type="Variable" Name="Variable_6" Row="3" Column="18" Content="FLR_DX_HPComp2.Active" Min="0" Max="1" Class="Warning_Class" Format="ob" SimulationValue="1" />
+        <Field Type="Variable" Name="Variable_8" Row="4" Column="15" Content="mod_CM.mask_StateComp[2]" Min="0" Max="5" Class="CompAlarm_Class" Format="o1" SimulationValue="4" />
+        <Field Type="Variable" Name="Variable_10" Row="3" Column="15" Content="CM.Circ[1].Comp[2].Warning" Min="0" Max="1" Class="CompWarning_Class" Format="ob" SimulationValue="1" />
+        <Field Type="Variable" Name="Variable_12" Row="4" Column="14" Content="mod_CM.mask_CntDown[2]" Class="mask_CntDown[2]_Class" Format="o3" Min="0" Max="999" />
+        <Field Type="Variable" Name="Variable_14" Row="5" Column="18" Content="FLR_DX_LPComp2.Active" Min="0" Max="1" Class="Warning_Class" Format="ob" SimulationValue="1" />
+        <Field Type="Variable" Name="Variable_16" Row="7" Column="13" Content="mod_CM.mask_StateComp[2]" Min="0" Max="5" Class="mask_StateCompWord_Class" Format="o1" SimulationValue="3" />
+        <Field Type="Text" Name="Text_3" Row="2" Column="2" Content="1" />
+        <Field Type="Text" Name="Text_4" Row="2" Column="12" Content="2" />
+        <Field Type="Variable" Name="Variable_17" Row="1" Column="20" Content="SV.DO" Min="0" Max="1" Class="SV_Class" Format="ob" SimulationValue="1" />
+      </Fields>
+      <KeyBindings>
+        <KeyBinding Key="ESC" BindOn="GotoMain" />
+        <KeyBinding Key="UP" BindOn="Move_UP" />
+        <KeyBinding Key="DOWN" BindOn="Move_DOWN" />
+      </KeyBindings>
+      <EnableOn>
+        <Var Name="mod_CM.en_Comp[2]" />
+        <Var Name="mod_CM.dis_Comp[3]" />
+        <Var Name="mod_CM.en_Comp[1]" />
+        <Var Name="mod_CM.dis_Comp[4]" />
+        <Var Name="CM.Circ[1].Use" />
+      </EnableOn>
+    </Mask>
+    <Mask Name="Fridge_1x3" Type="Normal" X="2" Y="3" ReferToMask="REF_FridgeMask" Color="30, 144, 255" Foreground="240, 248, 255" ZoomCode="">
+      <Fields>
+        <Field Type="Text" Name="Text_2" Row="0" Column="2" Content="Xo¿o·¼¿ÎúaÓ ÀaÇ¼úa" />
+        <Field Type="Image" Name="Image_2" Row="0" Column="0" Content="BLACK_ROWS_132X8.BMP" />
+        <Field Type="Image" Name="Image_4" Row="7" Column="0" Content="BLACK_ROWS_132X8.BMP" />
+        <Field Type="Variable" Name="Variable" Row="2" Column="1" Content="mod_CM.mask_StateComp[1]" Class="mask_StateComp_Class" Format="o1" Min="0" Max="5" SimulationValue="0" />
+        <Field Type="Variable" Name="Variable_3" Row="4" Column="3" Content="mod_CM.mask_StateComp[1]" Min="0" Max="5" Class="CompAlarm_Class" Format="o1" SimulationValue="4" />
+        <Field Type="Variable" Name="Variable_7" Row="7" Column="1" Content="mod_CM.mask_StateComp[1]" Min="0" Max="5" Class="mask_StateCompWord_Class" Format="o1" SimulationValue="3" />
+        <Field Type="Variable" Name="Variable_4" Row="3" Column="3" Content="CM.Circ[1].Comp[1].Warning" Min="0" Max="1" Class="CompWarning_Class" Format="ob" SimulationValue="1" />
+        <Field Type="Variable" Name="Variable_9" Row="1" Column="2" Content="FLR_DX_CTComp1.Active" Min="0" Max="1" Class="Hot_Class" Format="ob" SimulationValue="1" />
+        <Field Type="Variable" Name="Variable_11" Row="4" Column="2" Content="mod_CM.mask_CntDown[1]" Class="mask_CntDown[1]_Class" Format="o3" Min="0" Max="999" />
+        <Field Type="Variable" Name="Variable_13" Row="3" Column="6" Content="FLR_DX_HPComp1.Active" Min="0" Max="1" Class="Warning_Class" Format="ob" SimulationValue="1" />
+        <Field Type="Variable" Name="Variable_15" Row="5" Column="6" Content="FLR_DX_LPComp1.Active" Min="0" Max="1" Class="Warning_Class" Format="ob" SimulationValue="1" />
+        <Field Type="Variable" Name="Variable_2" Row="2" Column="8" Content="mod_CM.mask_StateComp[2]" Class="mask_StateComp_Class" Format="o1" Min="0" Max="5" SimulationValue="0" />
+        <Field Type="Variable" Name="Variable_5" Row="1" Column="9" Content="FLR_DX_CTComp2.Active" Min="0" Max="1" Class="Hot_Class" Format="ob" SimulationValue="1" />
+        <Field Type="Variable" Name="Variable_6" Row="3" Column="13" Content="FLR_DX_HPComp2.Active" Min="0" Max="1" Class="Warning_Class" Format="ob" SimulationValue="1" />
+        <Field Type="Variable" Name="Variable_8" Row="4" Column="10" Content="mod_CM.mask_StateComp[2]" Min="0" Max="5" Class="CompAlarm_Class" Format="o1" SimulationValue="4" />
+        <Field Type="Variable" Name="Variable_10" Row="3" Column="10" Content="CM.Circ[1].Comp[2].Warning" Min="0" Max="1" Class="CompWarning_Class" Format="ob" SimulationValue="1" />
+        <Field Type="Variable" Name="Variable_12" Row="4" Column="9" Content="mod_CM.mask_CntDown[2]" Class="mask_CntDown[2]_Class" Format="o3" Min="0" Max="999" />
+        <Field Type="Variable" Name="Variable_14" Row="5" Column="13" Content="FLR_DX_LPComp2.Active" Min="0" Max="1" Class="Warning_Class" Format="ob" SimulationValue="1" />
+        <Field Type="Variable" Name="Variable_16" Row="7" Column="8" Content="mod_CM.mask_StateComp[2]" Min="0" Max="5" Class="mask_StateCompWord_Class" Format="o1" SimulationValue="3" />
+        <Field Type="Variable" Name="Variable_17" Row="2" Column="15" Content="mod_CM.mask_StateComp[3]" Class="mask_StateComp_Class" Format="o1" Min="0" Max="5" SimulationValue="0" />
+        <Field Type="Variable" Name="Variable_19" Row="7" Column="15" Content="mod_CM.mask_StateComp[3]" Min="0" Max="5" Class="mask_StateCompWord_Class" Format="o1" SimulationValue="3" />
+        <Field Type="Variable" Name="Variable_18" Row="3" Column="17" Content="CM.Circ[1].Comp[3].Warning" Min="0" Max="1" Class="CompWarning_Class" Format="ob" SimulationValue="1" />
+        <Field Type="Variable" Name="Variable_20" Row="4" Column="16" Content="mod_CM.mask_CntDown[3]" Class="mask_CntDown[3]_Class" Format="o3" Min="0" Max="999" />
+        <Field Type="Variable" Name="Variable_21" Row="4" Column="17" Content="mod_CM.mask_StateComp[3]" Min="0" Max="5" Class="CompAlarm_Class" Format="o1" SimulationValue="4" />
+        <Field Type="Variable" Name="Variable_22" Row="1" Column="16" Content="FLR_DX_CTComp3.Active" Min="0" Max="1" Class="Hot_Class" Format="ob" SimulationValue="1" />
+        <Field Type="Variable" Name="Variable_23" Row="3" Column="20" Content="FLR_DX_HPComp3.Active" Min="0" Max="1" Class="Warning_Class" Format="ob" SimulationValue="1" />
+        <Field Type="Variable" Name="Variable_24" Row="5" Column="20" Content="FLR_DX_LPComp3.Active" Min="0" Max="1" Class="Warning_Class" Format="ob" SimulationValue="1" />
+        <Field Type="Text" Name="Text_3" Row="2" Column="0" Content="1" />
+        <Field Type="Text" Name="Text_4" Row="2" Column="7" Content="2" />
+        <Field Type="Text" Name="Text_5" Row="2" Column="14" Content="3" />
+        <Field Type="Variable" Name="Variable_25" Row="1" Column="20" Content="SV.DO" Min="0" Max="1" Class="SV_Class" Format="ob" SimulationValue="1" />
+      </Fields>
+      <KeyBindings>
+        <KeyBinding Key="ESC" BindOn="GotoMain" />
+        <KeyBinding Key="UP" BindOn="Move_UP" />
+        <KeyBinding Key="DOWN" BindOn="Move_DOWN" />
+      </KeyBindings>
+      <EnableOn>
+        <Var Name="mod_CM.en_Comp[3]" />
+        <Var Name="mod_CM.en_Comp[1]" />
+        <Var Name="mod_CM.en_Comp[3]" />
+        <Var Name="mod_CM.dis_Comp[4]" />
+        <Var Name="CM.Circ[1].Use" />
+      </EnableOn>
+    </Mask>
+    <Mask Name="Fridge_Sens_1" Type="Normal" X="2" Y="4" ReferToMask="REF_FridgeMask" Color="30, 144, 255" Foreground="240, 248, 255" ZoomCode="">
+      <Fields>
+        <Field Type="Image" Name="Image_2" Row="0" Column="0" Content="BLACK_ROWS_132X8.BMP" />
+        <Field Type="Variable" Name="Variable_12" Row="7" Column="2" Content="CM.Circ[1].NZ.Low" Class="CL_REAL_1" Format="o+2.1" Min="-99.9" Max="99.9" />
+        <Field Type="Variable" Name="Variable_13" Row="6" Column="2" Content="CM.Circ[1].NZ.High" Class="CL_REAL_1" Format="o+2.1" Min="-99.9" Max="99.9" />
+        <Field Type="Text" Name="Text_14" Row="7" Column="0" Content="H.:" />
+        <Field Type="Text" Name="Text_15" Row="6" Column="0" Content="­.:" />
+        <Field Type="Variable" Name="Variable_33" Row="1" Column="19" Content="SV.DO" Min="0" Max="1" Class="BOOL_SWAP_1" Format="ob" SimulationValue="1" />
+        <Field Type="Text" Name="Text_18" Row="1" Column="15" Content="C§  :" />
+        <Field Type="Variable" Name="Variable_4" Row="2" Column="19" Content="SNK1.DO" Min="0" Max="1" Class="BOOL_SWAP_SNK1" Format="ob" SimulationValue="0" />
+        <Field Type="Variable" Name="Variable_17" Row="7" Column="19" Content="SBN.DO" Min="0" Max="1" Class="BOOL_SWAP_SBN" Format="ob" SimulationValue="0" />
+        <Field Type="Text" Name="Text_8" Row="1" Column="0" Content="£­£1:" />
+        <Field Type="Text" Name="Text_9" Row="2" Column="0" Content="£­£2:" />
+        <Field Type="Variable" Name="Variable_7" Row="1" Column="4" Content="SNSR_DVD1.Value" Class="NotHide_CL_REAL_1" Format="o+2.1" Min="-99.9" Max="99.9" />
+        <Field Type="Variable" Name="Variable_9" Row="2" Column="4" Content="SNSR_DVD2.Value" Class="NotHide_CL_REAL_1" Format="o+2.1" Min="-99.9" Max="99.9" />
+        <Field Type="Text" Name="Text_13" Row="3" Column="0" Content="£H£ :" />
+        <Field Type="Variable" Name="Variable_11" Row="3" Column="4" Content="SNSR_DND.Value" Class="NotHide_CL_REAL_1" Format="o+2.1" Min="-99.9" Max="99.9" />
+        <Field Type="Variable" Name="Variable_10" Row="5" Column="10" Content="CM.Circ[1].NZ.Active" Min="0" Max="1" Class="BOOL_SWAP_1" Format="ob" />
+        <Field Type="Variable" Name="Variable_2" Row="3" Column="19" Content="SNK2.DO" Min="0" Max="1" Class="BOOL_SWAP_SNK2" Format="ob" SimulationValue="1" />
+        <Field Type="Text" Name="Text" Row="5" Column="0" Content="H¸ÉÄÃ.Êoúa:" />
+        <Field Type="Text" Name="Text_4" Row="6" Column="8" Content="µaÃ" />
+        <Field Type="Text" Name="Text_5" Row="7" Column="8" Content="µaÃ" />
+        <Field Type="Text" Name="Text_2" Row="0" Column="2" Content="Xo¿o·¼¿ÎúaÓ ÀaÇ¼úa" />
+        <Field Type="Text" Name="Text_6" Row="1" Column="10" Content="µaÃ" />
+        <Field Type="Text" Name="Text_7" Row="2" Column="10" Content="µaÃ" />
+        <Field Type="Text" Name="Text_10" Row="3" Column="10" Content="µaÃ" />
+        <Field Type="Variable" Name="Variable_3" Row="1" Column="19" Content="EVD.On" Min="0" Max="1" Class="BOOL_SWAP_EVD" Format="ob" SimulationValue="1" />
+      </Fields>
+      <KeyBindings>
+        <KeyBinding Key="ESC" BindOn="GotoMain" />
+      </KeyBindings>
+      <EnableOn>
+        <Var Name="EnPwdChgS" />
+        <Var Name="mod_CM_Circ2.Not_Use_Circ2" />
+      </EnableOn>
+    </Mask>
+    <Mask Name="Fridge_Comps_1" Type="Normal" X="2" Y="5" ReferToMask="REF_FridgeMask" Color="30, 144, 255" Foreground="240, 248, 255" ZoomCode="">
+      <Fields>
+        <Field Type="Image" Name="Image_2" Row="0" Column="0" Content="BLACK_ROWS_132X8.BMP" />
+        <Field Type="Text" Name="Text_10" Row="1" Column="14" Content="1" />
+        <Field Type="Text" Name="Text_11" Row="1" Column="16" Content="2" />
+        <Field Type="Variable" Name="Variable_19" Row="3" Column="14" Content="CM.Circ[1].Comp[1].R2Start" Min="0" Max="1" Class="CL_BOOL_SWAP" Format="ob" />
+        <Field Type="Variable" Name="Variable_20" Row="3" Column="16" Content="CM.Circ[1].Comp[2].R2Start" Min="0" Max="1" Class="Circ1_Comp2_Visible_Bool_Class" Format="ob" />
+        <Field Type="Variable" Name="Variable_22" Row="4" Column="14" Content="CM.Circ[1].Comp[1].R2Stop" Min="0" Max="1" Class="CL_BOOL_SWAP" Format="ob" />
+        <Field Type="Variable" Name="Variable_23" Row="4" Column="16" Content="CM.Circ[1].Comp[2].R2Stop" Min="0" Max="1" Class="Circ1_Comp2_Visible_Bool_Class" Format="ob" />
+        <Field Type="Variable" Name="Variable_25" Row="2" Column="14" Content="CM.Circ[1].Comp[1].Active" Min="0" Max="1" Class="CL_BOOL_SWAP" Format="ob" />
+        <Field Type="Variable" Name="Variable_26" Row="2" Column="16" Content="CM.Circ[1].Comp[2].Active" Min="0" Max="1" Class="Circ1_Comp2_Visible_Bool_Class" Format="ob" />
+        <Field Type="Variable" Name="Variable_28" Row="5" Column="14" Content="CM.Circ[1].Comp[1].Alarm" Min="0" Max="1" Class="CL_BOOL_SWAP" Format="ob" />
+        <Field Type="Variable" Name="Variable_29" Row="5" Column="16" Content="CM.Circ[1].Comp[2].Alarm" Min="0" Max="1" Class="Circ1_Comp2_Visible_Bool_Class" Format="ob" />
+        <Field Type="Text" Name="Text_7" Row="1" Column="20" Content="4" />
+        <Field Type="Variable" Name="Variable_5" Row="3" Column="20" Content="CM.Circ[1].Comp[4].R2Start" Min="0" Max="1" Class="Circ1_Comp4_Visible_Bool_Class" Format="ob" />
+        <Field Type="Variable" Name="Variable_6" Row="4" Column="20" Content="CM.Circ[1].Comp[4].R2Stop" Min="0" Max="1" Class="Circ1_Comp4_Visible_Bool_Class" Format="ob" />
+        <Field Type="Variable" Name="Variable_7" Row="2" Column="20" Content="CM.Circ[1].Comp[4].Active" Min="0" Max="1" Class="Circ1_Comp4_Visible_Bool_Class" Format="ob" />
+        <Field Type="Variable" Name="Variable_8" Row="5" Column="20" Content="CM.Circ[1].Comp[4].Alarm" Min="0" Max="1" Class="Circ1_Comp4_Visible_Bool_Class" Format="ob" />
+        <Field Type="Text" Name="Text_8" Row="1" Column="18" Content="3" />
+        <Field Type="Variable" Name="Variable_10" Row="3" Column="18" Content="CM.Circ[1].Comp[3].R2Start" Min="0" Max="1" Class="Circ1_Comp3_Visible_Bool_Class" Format="ob" />
+        <Field Type="Variable" Name="Variable_11" Row="4" Column="18" Content="CM.Circ[1].Comp[3].R2Stop" Min="0" Max="1" Class="Circ1_Comp3_Visible_Bool_Class" Format="ob" />
+        <Field Type="Variable" Name="Variable_12" Row="2" Column="18" Content="CM.Circ[1].Comp[3].Active" Min="0" Max="1" Class="Circ1_Comp3_Visible_Bool_Class" Format="ob" />
+        <Field Type="Variable" Name="Variable_13" Row="5" Column="18" Content="CM.Circ[1].Comp[3].Alarm" Min="0" Max="1" Class="Circ1_Comp3_Visible_Bool_Class" Format="ob" />
+        <Field Type="Text" Name="Text_2" Row="0" Column="2" Content="Xo¿o·¼¿ÎúaÓ ÀaÇ¼úa" />
+        <Field Type="Text" Name="Text_3" Row="2" Column="0" Content="±aÁÅÈ¸ú     :" />
+        <Field Type="Text" Name="Text_4" Row="3" Column="0" Content="¥oÄ.¾ cÄaÃÄÅ:" />
+        <Field Type="Text" Name="Text_5" Row="4" Column="0" Content="¥oÄ.¾ ocÄaú.:" />
+        <Field Type="Text" Name="Text_6" Row="5" Column="0" Content="­ aÆaÃ¼¼    :" />
+        <Field Type="Variable" Name="Variable" Row="7" Column="14" Content="EQ_SorptionHeater.ECoil.NumSteps" Class="CL_DINT" Format="o1" Min="0" Max="9" />
+        <Field Type="Text" Name="Text" Row="7" Column="0" Content="CÄÅÁ¸ú¼ coÃµ:" />
+      </Fields>
+      <KeyBindings>
+        <KeyBinding Key="ESC" BindOn="GotoMain" />
+      </KeyBindings>
+      <EnableOn>
+        <Var Name="EnPwdChgS" />
+        <Var Name="mod_CM_Circ2.Not_Use_Circ2" />
+      </EnableOn>
+    </Mask>
+    <Mask Name="Fridge_2x2" Type="Normal" X="2" Y="6" ReferToMask="REF_FridgeMask" Color="30, 144, 255" Foreground="240, 248, 255" ZoomCode="">
+      <Fields>
+        <Field Type="Image" Name="Image_2" Row="0" Column="0" Content="BLACK_ROWS_132X8.BMP" />
+        <Field Type="Image" Name="Image_4" Row="7" Column="0" Content="BLACK_ROWS_132X8.BMP" />
+        <Field Type="Variable" Name="Variable" Row="2" Column="3" Content="mod_CM_Circ2.mask_StateComp[1]" Class="mask_StateComp_Class" Format="o1" Min="0" Max="5" SimulationValue="0" />
+        <Field Type="Variable" Name="Variable_3" Row="4" Column="5" Content="mod_CM_Circ2.mask_StateComp[1]" Min="0" Max="5" Class="CompAlarm_Class" Format="o1" SimulationValue="4" />
+        <Field Type="Variable" Name="Variable_7" Row="7" Column="3" Content="mod_CM_Circ2.mask_StateComp[1]" Min="0" Max="5" Class="mask_StateCompWord_Class" Format="o1" SimulationValue="3" />
+        <Field Type="Variable" Name="Variable_4" Row="3" Column="5" Content="CM.Circ[2].Comp[1].Warning" Min="0" Max="1" Class="CompWarning_Class" Format="ob" SimulationValue="1" />
+        <Field Type="Variable" Name="Variable_9" Row="1" Column="4" Content="FLR_DX_CTComp3.Active" Min="0" Max="1" Class="Hot_Class" Format="ob" SimulationValue="1" />
+        <Field Type="Variable" Name="Variable_11" Row="4" Column="4" Content="mod_CM_Circ2.mask_CntDown[1]" Class="mask_Circ2_CntDown[1]_Class" Format="o3" Min="0" Max="999" />
+        <Field Type="Variable" Name="Variable_13" Row="3" Column="8" Content="FLR_DX_HPComp3.Active" Min="0" Max="1" Class="Warning_Class" Format="ob" SimulationValue="1" />
+        <Field Type="Variable" Name="Variable_15" Row="5" Column="8" Content="FLR_DX_LPComp3.Active" Min="0" Max="1" Class="Warning_Class" Format="ob" SimulationValue="1" />
+        <Field Type="Variable" Name="Variable_2" Row="2" Column="13" Content="mod_CM_Circ2.mask_StateComp[2]" Class="mask_StateComp_Class" Format="o1" Min="0" Max="5" SimulationValue="0" />
+        <Field Type="Variable" Name="Variable_5" Row="1" Column="14" Content="FLR_DX_CTComp4.Active" Min="0" Max="1" Class="Hot_Class" Format="ob" SimulationValue="1" />
+        <Field Type="Variable" Name="Variable_6" Row="3" Column="18" Content="FLR_DX_HPComp4.Active" Min="0" Max="1" Class="Warning_Class" Format="ob" SimulationValue="1" />
+        <Field Type="Variable" Name="Variable_8" Row="4" Column="15" Content="mod_CM_Circ2.mask_StateComp[2]" Min="0" Max="5" Class="CompAlarm_Class" Format="o1" SimulationValue="4" />
+        <Field Type="Variable" Name="Variable_10" Row="3" Column="15" Content="CM.Circ[2].Comp[2].Warning" Min="0" Max="1" Class="CompWarning_Class" Format="ob" SimulationValue="1" />
+        <Field Type="Variable" Name="Variable_12" Row="4" Column="14" Content="mod_CM_Circ2.mask_CntDown[2]" Class="mask_Circ2_CntDown[2]_Class" Format="o3" Min="0" Max="999" />
+        <Field Type="Variable" Name="Variable_14" Row="5" Column="18" Content="FLR_DX_LPComp4.Active" Min="0" Max="1" Class="Warning_Class" Format="ob" SimulationValue="1" />
+        <Field Type="Variable" Name="Variable_16" Row="7" Column="13" Content="mod_CM_Circ2.mask_StateComp[2]" Min="0" Max="5" Class="mask_StateCompWord_Class" Format="o1" SimulationValue="3" />
+        <Field Type="Text" Name="Text_3" Row="2" Column="2" Content="3" />
+        <Field Type="Text" Name="Text_4" Row="2" Column="12" Content="4" />
+        <Field Type="Text" Name="Text_2" Row="0" Column="1" Content="Xo¿.ÀaÇ¼úa(¾oúÄÅÃ 2)" />
+        <Field Type="Variable" Name="Variable_17" Row="1" Column="20" Content="SV_Circ2.DO" Min="0" Max="1" Class="SV_Circ2_Class" Format="ob" SimulationValue="1" />
+      </Fields>
+      <KeyBindings>
+        <KeyBinding Key="ESC" BindOn="GotoMain" />
+        <KeyBinding Key="UP" BindOn="Move_UP" />
+        <KeyBinding Key="DOWN" BindOn="Move_DOWN" />
+      </KeyBindings>
+      <EnableOn>
+        <Var Name="CM.Circ[2].Use" />
+        <Var Name="mod_CM_Circ2.en_Comp[1]" />
+        <Var Name="mod_CM_Circ2.en_Comp[2]" />
+        <Var Name="mod_CM_Circ2.dis_Comp[3]" />
+        <Var Name="mod_CM_Circ2.dis_Comp[4]" />
+      </EnableOn>
+    </Mask>
+    <Mask Name="Fridge_Sens_2" Type="Normal" X="2" Y="7" ReferToMask="REF_FridgeMask" Color="30, 144, 255" Foreground="240, 248, 255" ZoomCode="">
+      <Fields>
+        <Field Type="Image" Name="Image_2" Row="0" Column="0" Content="BLACK_ROWS_132X8.BMP" />
+        <Field Type="Variable" Name="Variable_12" Row="7" Column="2" Content="CM.Circ[1].NZ.Low" Class="CL_REAL_1" Format="o+2.1" Min="-99.9" Max="99.9" />
+        <Field Type="Variable" Name="Variable_13" Row="6" Column="2" Content="CM.Circ[1].NZ.High" Class="CL_REAL_1" Format="o+2.1" Min="-99.9" Max="99.9" />
+        <Field Type="Variable" Name="Variable_33" Row="4" Column="2" Content="SV.DO" Min="0" Max="1" Class="BOOL_SWAP_1" Format="ob" />
+        <Field Type="Text" Name="Text_18" Row="4" Column="0" Content="C§:" />
+        <Field Type="Text" Name="Text_8" Row="1" Column="12" Content="£­£1:" />
+        <Field Type="Text" Name="Text_9" Row="2" Column="12" Content="£­£2:" />
+        <Field Type="Variable" Name="Variable_7" Row="1" Column="17" Content="SNSR_DVD1_Circ2.Value" Class="NotHide_CL_REAL_1" Format="o+2.1" Min="-99.9" Max="99.9" />
+        <Field Type="Variable" Name="Variable_9" Row="2" Column="17" Content="SNSR_DVD2_Circ2.Value" Class="NotHide_CL_REAL_1" Format="o+2.1" Min="-99.9" Max="99.9" />
+        <Field Type="Text" Name="Text_13" Row="3" Column="12" Content="£H£ :" />
+        <Field Type="Variable" Name="Variable_11" Row="3" Column="17" Content="SNSR_DND_Circ2.Value" Class="NotHide_CL_REAL_1" Format="o+2.1" Min="-99.9" Max="99.9" />
+        <Field Type="Text" Name="Text_3" Row="5" Column="0" Content="H¸ÉÄÃ.Êoúa" />
+        <Field Type="Text" Name="Text_5" Row="6" Column="0" Content="­:" />
+        <Field Type="Text" Name="Text_6" Row="7" Column="0" Content="H:" />
+        <Field Type="Text" Name="Text_2" Row="0" Column="2" Content="Xo¿o·¼¿ÎúaÓ ÀaÇ¼úa" />
+        <Field Type="Variable" Name="Variable_2" Row="2" Column="5" Content="SNSR_DVD2.Value" Class="NotHide_CL_REAL_1" Format="o+2.1" Min="-99.9" Max="99.9" />
+        <Field Type="Variable" Name="Variable_3" Row="3" Column="5" Content="SNSR_DND.Value" Class="NotHide_CL_REAL_1" Format="o+2.1" Min="-99.9" Max="99.9" />
+        <Field Type="Text" Name="Text_16" Row="2" Column="0" Content="£­£2:" />
+        <Field Type="Text" Name="Text_17" Row="3" Column="0" Content="£H£ :" />
+        <Field Type="Variable" Name="Variable_4" Row="1" Column="5" Content="SNSR_DVD1.Value" Class="NotHide_CL_REAL_1" Format="o+2.1" Min="-99.9" Max="99.9" />
+        <Field Type="Text" Name="Text_20" Row="1" Column="0" Content="£­£1:" />
+        <Field Type="Text" Name="Text" Row="1" Column="11" Content="" />
+        <Field Type="Text" Name="Text_14" Row="5" Column="11" Content="" />
+        <Field Type="Text" Name="Text_15" Row="6" Column="11" Content="" />
+        <Field Type="Variable" Name="Variable_5" Row="7" Column="14" Content="CM.Circ[2].NZ.Low" Class="CL_REAL_1" Format="o+2.1" Min="-99.9" Max="99.9" />
+        <Field Type="Variable" Name="Variable_6" Row="6" Column="14" Content="CM.Circ[2].NZ.High" Class="CL_REAL_1" Format="o+2.1" Min="-99.9" Max="99.9" />
+        <Field Type="Text" Name="Text_7" Row="5" Column="12" Content="H¸ÉÄÃ.Êoúa" />
+        <Field Type="Text" Name="Text_10" Row="6" Column="12" Content="­:" />
+        <Field Type="Text" Name="Text_21" Row="7" Column="12" Content="H:" />
+        <Field Type="Variable" Name="Variable_8" Row="4" Column="14" Content="SV_Circ2.DO" Min="0" Max="1" Class="BOOL_SWAP_1" Format="ob" />
+        <Field Type="Text" Name="Text_22" Row="4" Column="12" Content="C§:" />
+        <Field Type="Text" Name="Text_4" Row="2" Column="11" Content="" />
+        <Field Type="Text" Name="Text_11" Row="3" Column="11" Content="" />
+        <Field Type="Text" Name="Text_12" Row="4" Column="11" Content="" />
+        <Field Type="Text" Name="Text_19" Row="7" Column="11" Content="" />
+      </Fields>
+      <KeyBindings>
+        <KeyBinding Key="ESC" BindOn="GotoMain" />
+      </KeyBindings>
+      <EnableOn>
+        <Var Name="EnPwdChgS" />
+        <Var Name="CM.Circ[2].Use" />
+      </EnableOn>
+    </Mask>
+    <Mask Name="Fridge_Comps_2" Type="Normal" X="2" Y="8" ReferToMask="REF_FridgeMask" Color="30, 144, 255" Foreground="240, 248, 255" ZoomCode="">
+      <Fields>
+        <Field Type="Image" Name="Image_2" Row="0" Column="0" Content="BLACK_ROWS_132X8.BMP" />
+        <Field Type="Variable" Name="Variable_19" Row="4" Column="18" Content="CM.Circ[2].Comp[1].R2Start" Min="0" Max="1" Class="Circ2_Comp1_Visible_Bool_Class" Format="ob" />
+        <Field Type="Variable" Name="Variable_20" Row="4" Column="20" Content="CM.Circ[2].Comp[2].R2Start" Min="0" Max="1" Class="Circ2_Comp2_Visible_Bool_Class" Format="ob" />
+        <Field Type="Variable" Name="Variable_22" Row="5" Column="18" Content="CM.Circ[2].Comp[1].R2Stop" Min="0" Max="1" Class="Circ2_Comp1_Visible_Bool_Class" Format="ob" />
+        <Field Type="Variable" Name="Variable_23" Row="5" Column="20" Content="CM.Circ[2].Comp[2].R2Stop" Min="0" Max="1" Class="Circ2_Comp2_Visible_Bool_Class" Format="ob" />
+        <Field Type="Variable" Name="Variable_25" Row="3" Column="18" Content="CM.Circ[2].Comp[1].Active" Min="0" Max="1" Class="Circ2_Comp1_Visible_Bool_Class" Format="ob" />
+        <Field Type="Variable" Name="Variable_26" Row="3" Column="20" Content="CM.Circ[2].Comp[2].Active" Min="0" Max="1" Class="Circ2_Comp2_Visible_Bool_Class" Format="ob" />
+        <Field Type="Variable" Name="Variable_28" Row="6" Column="18" Content="CM.Circ[2].Comp[1].Alarm" Min="0" Max="1" Class="Circ2_Comp1_Visible_Bool_Class" Format="ob" />
+        <Field Type="Variable" Name="Variable_29" Row="6" Column="20" Content="CM.Circ[2].Comp[2].Alarm" Min="0" Max="1" Class="Circ2_Comp2_Visible_Bool_Class" Format="ob" />
+        <Field Type="Variable" Name="Variable_5" Row="4" Column="16" Content="CM.Circ[1].Comp[2].R2Start" Min="0" Max="1" Class="Circ1_Comp2_Visible_Bool_Class" Format="ob" />
+        <Field Type="Variable" Name="Variable_6" Row="5" Column="16" Content="CM.Circ[1].Comp[2].R2Stop" Min="0" Max="1" Class="Circ1_Comp2_Visible_Bool_Class" Format="ob" />
+        <Field Type="Variable" Name="Variable_7" Row="3" Column="16" Content="CM.Circ[1].Comp[2].Active" Min="0" Max="1" Class="Circ1_Comp2_Visible_Bool_Class" Format="ob" />
+        <Field Type="Variable" Name="Variable_8" Row="6" Column="16" Content="CM.Circ[1].Comp[2].Alarm" Min="0" Max="1" Class="Circ1_Comp2_Visible_Bool_Class" Format="ob" />
+        <Field Type="Variable" Name="Variable_10" Row="4" Column="14" Content="CM.Circ[1].Comp[1].R2Start" Min="0" Max="1" Class="CL_BOOL_SWAP" Format="ob" />
+        <Field Type="Variable" Name="Variable_11" Row="5" Column="14" Content="CM.Circ[1].Comp[1].R2Stop" Min="0" Max="1" Class="CL_BOOL_SWAP" Format="ob" />
+        <Field Type="Variable" Name="Variable_12" Row="3" Column="14" Content="CM.Circ[1].Comp[1].Active" Min="0" Max="1" Class="CL_BOOL_SWAP" Format="ob" />
+        <Field Type="Variable" Name="Variable_13" Row="6" Column="14" Content="CM.Circ[1].Comp[1].Alarm" Min="0" Max="1" Class="CL_BOOL_SWAP" Format="ob" />
+        <Field Type="Text" Name="Text_3" Row="3" Column="0" Content="±aÁÅÈ¸ú     :" />
+        <Field Type="Text" Name="Text_4" Row="4" Column="0" Content="¥oÄ.¾ cÄaÃÄÅ:" />
+        <Field Type="Text" Name="Text_5" Row="5" Column="0" Content="¥oÄ.¾ ocÄaú.:" />
+        <Field Type="Text" Name="Text_6" Row="6" Column="0" Content="­ aÆaÃ¼¼    :" />
+        <Field Type="Text" Name="Text_2" Row="2" Column="14" Content="1" />
+        <Field Type="Text" Name="Text_7" Row="2" Column="16" Content="2" />
+        <Field Type="Text" Name="Text_8" Row="2" Column="18" Content="3" />
+        <Field Type="Text" Name="Text_9" Row="2" Column="20" Content="4" />
+        <Field Type="Text" Name="Text_10" Row="0" Column="2" Content="Xo¿o·¼¿ÎúaÓ ÀaÇ¼úa" />
+        <Field Type="Text" Name="Text" Row="1" Column="14" Content="¨.1" />
+        <Field Type="Text" Name="Text_11" Row="1" Column="18" Content="¨.2" />
+      </Fields>
+      <KeyBindings>
+        <KeyBinding Key="ESC" BindOn="GotoMain" />
+      </KeyBindings>
+      <EnableOn>
+        <Var Name="EnPwdChgS" />
+        <Var Name="CM.Circ[2].Use" />
+      </EnableOn>
+    </Mask>
+  </Loop>
+</Worksheet>

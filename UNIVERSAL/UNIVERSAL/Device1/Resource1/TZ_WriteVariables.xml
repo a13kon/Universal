@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Manifest Version="1.1.0">
+  <Variables>
+    <Variable Name="CurrDateTime_1" Comment="" DataType="CurrDateTime_TZ" Kind="Var">
+      <Variable Name="Second" DataType="UINT" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Comment="Current second (0-59)" Kind="VarOutput" Access="ReadWrite" Min="" Max="" StringSize="0" />
+      <Variable Name="Minute" DataType="UINT" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Comment="Current minute (0-59)" Kind="VarOutput" Access="ReadWrite" Min="" Max="" StringSize="0" />
+      <Variable Name="Hour" DataType="UINT" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Comment="Current hour (0-23)" Kind="VarOutput" Access="ReadWrite" Min="" Max="" StringSize="0" />
+      <Variable Name="Day" DataType="UINT" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Comment="Current day (1-31)" Kind="VarOutput" Access="ReadWrite" Min="" Max="" StringSize="0" />
+      <Variable Name="Month" DataType="UINT" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Comment="Current month (1-12)" Kind="VarOutput" Access="ReadWrite" Min="" Max="" StringSize="0" />
+      <Variable Name="Year" DataType="UINT" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Comment="Current year" Kind="VarOutput" Access="ReadWrite" Min="" Max="" StringSize="0" />
+      <Variable Name="DayOfWeek" DataType="UINT" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Comment="Current day of the week (between 1 and 7)" Kind="VarOutput" Access="ReadWrite" Min="" Max="" StringSize="0" />
+      <Variable Name="DateToUint" DataType="DATE_TO_UINT">
+        <Variable Name="DATE_IN" DataType="DATE" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Comment="Input date" Kind="VarInput" Access="ReadWrite" Min="" Max="" StringSize="0" />
+        <Variable Name="SECOND" DataType="UINT" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Comment="Seconds from date" Kind="VarOutput" Access="ReadWrite" Min="" Max="" StringSize="0" />
+        <Variable Name="MINUTE" DataType="UINT" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Comment="Minutes from date" Kind="VarOutput" Access="ReadWrite" Min="" Max="" StringSize="0" />
+        <Variable Name="HOUR" DataType="UINT" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Comment="Hours from date" Kind="VarOutput" Access="ReadWrite" Min="" Max="" StringSize="0" />
+        <Variable Name="DAY" DataType="UINT" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Comment="Days from date" Kind="VarOutput" Access="ReadWrite" Min="" Max="" StringSize="0" />
+        <Variable Name="MONTH" DataType="UINT" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Comment="Months from date" Kind="VarOutput" Access="ReadWrite" Min="" Max="" StringSize="0" />
+        <Variable Name="YEAR" DataType="UINT" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Comment="Years from date" Kind="VarOutput" Access="ReadWrite" Min="" Max="" StringSize="0" />
+      </Variable>
+    </Variable>
+    <Variable Name="Err_TZW" Comment="Operation result (ERR_xxx error code)" DataType="DINT" Kind="VarOutput" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Access="ReadWrite" Min="" Max="" StringSize="0" />
+    <Variable Name="Init" Comment="" DataType="BOOL" Kind="Var" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Access="ReadWrite" Min="" Max="" StringSize="0" />
+    <Variable Name="PosixString" Comment="" DataType="STRING" Kind="Var" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Access="ReadWrite" Min="" Max="" StringSize="80" />
+    <Variable Name="PrevYear" Comment="" DataType="UINT" Kind="Var" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Access="ReadWrite" Min="" Max="" StringSize="0" />
+    <Variable Name="RTC_TZ_WRITE_1" Comment="" DataType="RTC_TZ_WRITE" Kind="Var">
+      <Variable Name="TIMEZONE" DataType="STRING" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Comment="Timezone POSIX.1 string" Kind="VarInput" Access="ReadWrite" Min="" Max="" StringSize="80" />
+      <Variable Name="ENABLE" DataType="BOOL" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Comment="Enable write (TRUE=write timezone, FALSE=do nothing)" Kind="VarInput" Access="ReadWrite" Min="" Max="" StringSize="0" />
+      <Variable Name="ERROR" DataType="DINT" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Comment="Operation result (ERR_xxx error code)" Kind="VarOutput" Access="ReadWrite" Min="" Max="" StringSize="0" />
+      <Variable Name="ENABLE_PREV" DataType="BOOL" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Comment="" Kind="Var" Access="ReadWrite" Min="" Max="" StringSize="0" />
+    </Variable>
+    <Variable Name="Set_TZW" Comment="Set the timezone (works on the edge)" DataType="BOOL" Kind="VarInput" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Access="ReadWrite" Min="" Max="" StringSize="0" />
+    <Variable Name="Zone_TZW" Comment="Index of the zone" DataType="UINT" Kind="VarInput" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Access="ReadWrite" Min="" Max="" StringSize="0" />
+  </Variables>
+</Manifest>

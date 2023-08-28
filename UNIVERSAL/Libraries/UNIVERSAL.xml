@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Libraries LibVersion="1.0.1">
+  <Library Name="cpCOe_2" Version="1.3.1" IsSystem="true" ConcreteType="Pou" Moniker="\Libraries\cpCOe_2_1_3_1.pp1" GUID="ed8550d1-09df-4e24-80cc-71f0a31295dd">
+    <Dependencies />
+  </Library>
+  <Library Name="CPY_2" Version="1.1.5" IsSystem="true" ConcreteType="Pou" Moniker="\Libraries\CPY_2_1_1_5.pp1" GUID="fd97497d-e652-4748-9451-75434acfecd3">
+    <Dependencies />
+  </Library>
+</Libraries>

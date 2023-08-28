@@ -1,0 +1,64 @@
+Version 1.1 ModbusMasterDevice RepoVersion 3.6.3
+
+Settings
+NameLine	NetworkAddress	NetworkAddressText	HostNameVariable	HostName	UnitAddress	Status	Timeout	PeekTime	UoM	DelayCommandTime	DeviceError	DeviceErrorCode	ErrorsID	PollsID	Priority	Endianess	ReadPoints	WritePoints	Cmd17ArrayVarName	Cmd17ReadMode	ReadBoolPoints	WriteBoolPoints	Instance
+CPY_Mng	CPY_2_Mng.CPY_2_1.DevAddr_CPY					CPY_2_Mng.CPY_2_1.En_Comm	400	200	0	4	CPY_2_Mng.CPY_2_1.CommErr_CPY.DevErr	CPY_2_Mng.CPY_2_1.CommErr_CPY.ErrCode		CPY_2_Mng.CPY_2_1.DevicePolls	Normal	BigEndian	8	8		NoRead	8	8	CPY_2_Mng.CPY_2_1
+
+Variables
+Status	Type	Index	Variable	Occupation	ReadWriteMode	Priority	Hysteresis	Description
+True	Coil	1	CPY_2_Mng.CPY_2_1.D01_HumDis		ReadPoll_NoWrite	Normal	1	
+True	Coil	2	CPY_2_Mng.CPY_2_1.Control_CPY_1.D02_DisCtrlSignal		ReadPoll_WriteChange_WriteOnline	Normal	1	
+True	Coil	3	CPY_2_Mng.CPY_2_1.D03_HumReady		ReadPoll_NoWrite	Normal	1	
+True	Coil	4	CPY_2_Mng.CPY_2_1.D04_ContactorStatus		ReadPoll_NoWrite	Normal	1	
+True	Coil	5	CPY_2_Mng.CPY_2_1.D05_Status24VACDrnOut		ReadPoll_NoWrite	Normal	1	
+True	Coil	6	CPY_2_Mng.CPY_2_1.D06_DrnK_Status		ReadPoll_NoWrite	Normal	1	
+True	Coil	7	CPY_2_Mng.CPY_2_1.D07_CumulativeReleAlrm		ReadPoll_NoWrite	Normal	1	
+True	Coil	8	CPY_2_Mng.CPY_2_1.D08_StatusOf24VAC		ReadPoll_NoWrite	Normal	1	
+True	Coil	9	CPY_2_Mng.CPY_2_1.D09_FanStatus		ReadPoll_NoWrite	Normal	1	
+True	Coil	10	CPY_2_Mng.CPY_2_1.D10_HiWLvl		ReadPoll_NoWrite	Normal	1	
+True	Coil	11	CPY_2_Mng.CPY_2_1.D11_FoamDetected		ReadPoll_NoWrite	Normal	1	
+True	Coil	12	CPY_2_Mng.CPY_2_1.D12_CleaningOn		ReadPoll_NoWrite	Normal	1	
+True	Coil	13	CPY_2_Mng.CPY_2_1.D13_StateDrv010V		NoRead_WritePoll	Normal	1	
+True	Coil	14	CPY_2_Mng.CPY_2_1.D14_StateDrvOnOff		ReadPoll_NoWrite	Normal	1	
+True	Coil	15	CPY_2_Mng.CPY_2_1.D15_StateDrv420mA		ReadPoll_NoWrite	Normal	1	
+True	Coil	16	CPY_2_Mng.CPY_2_1.D16_StateDrvNTC		ReadPoll_NoWrite	Normal	1	
+True	Coil	17	CPY_2_Mng.CPY_2_1.D17_DrnMan		ReadPoll_WriteChange_WriteOnline	Normal	1	
+True	Coil	18	CPY_2_Mng.CPY_2_1.D18_AuxOut		ReadPoll_NoWrite	Normal	1	
+True	Coil	19	CPY_2_Mng.CPY_2_1.D19_DisplayConnected		ReadPoll_NoWrite	Normal	1	
+True	Coil	20	CPY_2_Mng.CPY_2_1.D20_FuncTestFlag		ReadPoll_NoWrite	Normal	1	
+True	HoldingRegister	15	CPY_2_Mng.CPY_2_1.A15_D3_SteamInstantFlowRate	2	ReadPoll_NoWrite	Normal	1	
+True	HoldingRegister	30	CPY_2_Mng.CPY_2_1.A30_D6_Curr	1	ReadPoll_NoWrite	Normal	1	
+True	HoldingRegister	33	CPY_2_Mng.CPY_2_1.A33_C8_SerialAlrmDelay	1	ReadPoll_WriteChange_WriteOnline	Normal	1	
+True	HoldingRegister	257	CPY_2_Mng.CPY_2_1.I02_A0_OperatMode		ReadPoll_WriteChange_WriteOnline	Normal	1	
+True	HoldingRegister	258	CPY_2_Mng.CPY_2_1.I03_A1_UnitMeasure		ReadPoll_WriteChange_WriteOnline	Normal	1	
+True	HoldingRegister	259	CPY_2_Mng.CPY_2_1.I04_A2_PrbTyp		ReadPoll_WriteChange_WriteOnline	Normal	1	
+True	HoldingRegister	260	CPY_2_Mng.CPY_2_1.I05_B1_OptionalFunctions		ReadPoll_WriteChange_WriteOnline	Normal	1	
+True	HoldingRegister	261	CPY_2_Mng.CPY_2_1.I06_B2_DTOff		ReadPoll_WriteChange_WriteOnline	Normal	1	
+True	HoldingRegister	262	CPY_2_Mng.CPY_2_1.I07_B4_ConductW		ReadPoll_WriteChange_WriteOnline	Normal	1	
+True	HoldingRegister	263	CPY_2_Mng.CPY_2_1.I08_B5_ConductW_WarningThresh		ReadPoll_WriteChange_WriteOnline	Normal	1	
+True	HoldingRegister	264	CPY_2_Mng.CPY_2_1.I09_B6_ConductW_AlrmThresh		ReadPoll_WriteChange_WriteOnline	Normal	1	
+True	HoldingRegister	265	CPY_2_Mng.CPY_2_1.I10_B7_FoamDetectionThresh		ReadPoll_WriteChange_WriteOnline	Normal	1	
+True	HoldingRegister	266	CPY_2_Mng.CPY_2_1.I11_B8_DrnDilutionFreqAdj		ReadPoll_WriteChange_WriteOnline	Normal	1	
+True	HoldingRegister	268	CPY_2_Mng.CPY_2_1.I13_C3_SerialAddr		ReadPoll_WriteChange	Normal	1	
+True	HoldingRegister	269	CPY_2_Mng.CPY_2_1.I14_C4_Baudrate		ReadPoll_WriteChange	Normal	1	
+True	HoldingRegister	270	CPY_2_Mng.CPY_2_1.I15_C5_FrameConfig		ReadPoll_WriteChange	Normal	1	
+True	HoldingRegister	272	CPY_2_Mng.CPY_2_1.I17_B9_DrnDurationAdj		ReadPoll_WriteChange_WriteOnline	Normal	1	
+True	HoldingRegister	273	CPY_2_Mng.CPY_2_1.I18_Bb_CylinderMaintLimT		ReadPoll_WriteChange_WriteOnline	Normal	1	
+True	HoldingRegister	274	CPY_2_Mng.CPY_2_1.I19_Be_PeriodicDrnHrsWait		ReadPoll_WriteChange_WriteOnline	Normal	1	
+True	HoldingRegister	275	CPY_2_Mng.CPY_2_1.I20_Bf_InactivityDrnDaysWait		ReadPoll_WriteChange_WriteOnline	Normal	1	
+True	HoldingRegister	297	CPY_2_Mng.CPY_2_1.ModelChg_CPY_1.I42_ConfigParams		ReadPoll_WriteChange_WriteOnline	Normal	1	
+True	HoldingRegister	299	CPY_2_Mng.CPY_2_1.I44_D1_0100PrbVal		ReadPoll_NoWrite	Normal	1	
+True	HoldingRegister	301	CPY_2_Mng.CPY_2_1.I46_HumState		ReadPoll_NoWrite	Normal	1	
+True	HoldingRegister	304	CPY_2_Mng.CPY_2_1.I49_Conductivity		ReadPoll_NoWrite	Normal	1	
+True	HoldingRegister	310	CPY_2_Mng.CPY_2_1.I55_Da_CntCylHr		ReadPoll_WriteChange_WriteOnline	Normal	1	
+True	HoldingRegister	317	CPY_2_Mng.CPY_2_1.I62_CtrlViaRS485		ReadPoll_WriteChange_WriteOnline	Normal	1	
+True	HoldingRegister	318	CPY_2_Mng.CPY_2_1.I63_ProductionReqViaNetwork		NoRead_WriteChange_WriteOnline	Normal	1	
+True	HoldingRegister	319	CPY_2_Mng.CPY_2_1.Control_CPY_1.I64_MatchDigit		ReadPoll_NoWrite	Normal	1	
+True	HoldingRegister	333	CPY_2_Mng.CPY_2_1.I78_A4_MaxCfgNo		ReadPoll_NoWrite	Normal	1	
+True	HoldingRegister	334	CPY_2_Mng.CPY_2_1.ModelChg_CPY_1.I79_CPY_UEY_Model		ReadPoll_WriteChange	Normal	1	
+True	HoldingRegister	335	CPY_2_Mng.CPY_2_1.ModelChg_CPY_1.I80_CPY_UEY_ActualModel		ReadPoll_WriteChange	Normal	1	
+True	HoldingRegister	337	CPY_2_Mng.CPY_2_1.Control_CPY_1.I82_ID_Device		ReadPoll_NoWrite	Normal	1	
+True	HoldingRegister	338	CPY_2_Mng.CPY_2_1.I83_AlrmsState		ReadPoll_NoWrite	Normal	1	
+True	HoldingRegister	339	CPY_2_Mng.CPY_2_1.I84_AlrmWithShutDwn		ReadPoll_NoWrite	Normal	1	
+True	HoldingRegister	340	CPY_2_Mng.CPY_2_1.I85_AlrmWithDis		ReadPoll_NoWrite	Normal	1	
+True	HoldingRegister	341	CPY_2_Mng.CPY_2_1.I86_Warnings		ReadPoll_NoWrite	Normal	1	

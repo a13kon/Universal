@@ -1,0 +1,21 @@
+Version 1.1 Alarms RepoVersion 3.6.3
+Name	Type	Edge	Description	CounterMax	TimeValue	StorVar1	StorVar2
+Offline_CPY	Auto reset	Positive	CPY offline					
+ExpCylLife_CPY	Auto reset	Positive	Mn alarm					
+HiConduct_CPY	Auto reset	Positive	EC alarm					
+ParamsNotDwnld_CPY	Auto reset	Positive	E1 alarm					
+CalibrationParams_CPY	Auto reset	Positive	E0 alarm					
+HiCurr_CPY	Auto reset	Positive	EH alarm					
+LowProduction_CPY	Auto reset	Positive	Ep alarm					
+CylFull_CPY	Auto reset	Positive	EU alarm					
+PrbNotConnected_CPY	Auto reset	Positive	E3 alarm					
+MissingW_CPY	Auto reset	Positive	EF alarm					
+AlrmDrn_CPY	Auto reset	Positive	Ed alarm					
+HiHum_CPY	Auto reset	Positive	Eh1 alarm					
+LowHum_CPY	Auto reset	Positive	Eh2 alarm					
+SerialDisconnected_CPY	Auto reset	Positive	SU alarm					
+CylLifeWarn_CPY	Auto reset	Positive	CY warn					
+FoamWarn_CPY	Auto reset	Positive	EA  warn					
+PreExhaustWarn_CPY	Auto reset	Positive	CP warn					
+CylExhaustWarn_CPY	Auto reset	Positive	CL warn					
+BkpMemExhaustWarn_CPY	Auto reset	Positive						

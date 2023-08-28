@@ -1,0 +1,272 @@
+#Ver.1.0 cpCO Family Exported Configuration file 
+#Variable	Description	DataType	DefaultValue
+ADR_DX	Адрес (порядковый номер модуля) ККБ	DINT	2
+ADR_RECUP	Адрес (порядковый номер модуля) рекуператора	DINT	1
+ADR_RECYCLE_COOL	Адрес (порядковый номер модуля) рециркуляции при охлаждении	DINT	5
+ADR_RECYCLE_HEAT	Адрес (порядковый номер модуля) рециркуляции при нагреве	DINT	3
+ADR_WCOIL	Адрес (порядковый номер модуля) водяного т/о 	DINT	1
+ADR_WCOIL_COOL	Адрес (порядковый номер модуля) водяного т/о при охлаждении	DINT	4
+ADR_WCOIL_HEAT	Адрес (порядковый номер модуля) водяного т/о при нагреве	DINT	2
+AlarmMng_2.Irkutsk_CT_inversion	Флаг инверсии СТ на 10-ке в Иркутске	BOOL	FALSE
+Alarms_Dt1213	Время для 5/12 для аварии по датчику LPS	UDINT	12
+Alarms_Dt1214	Время для 5/12 для аварии по датчику HPS	UDINT	12
+BMS2_Baudrate	BMS2 скорость передачи данных	UDINT	19200
+BMS2_Parity	BMS2 четность	USINT	0
+BMS2_StopBits	BMS2 стоп биты	USINT	1
+BMS_Card_Baudrate	BMS_Card скорость передачи данных	UDINT	19200
+BMS_Card_Parity	BMS_Card четность	USINT	0
+BMS_Card_StopBits	BMS_Card стоп биты	USINT	1
+Cascade_ST.AntiBump	-	BOOL	FALSE
+Comp[1].LastStopDate	Структура компрессоров - Дата последней остановки компрессора в сек (UNIX)	UDINT	0
+Comp[1].LifeTimeRetain	Структура компрессоров - Наработка компрессора (пост.память)	UDINT	0
+Comp[1].N	Структура компрессоров - Количество включений компрессора	UINT	0
+Comp[2].LastStopDate	Структура компрессоров - Дата последней остановки компрессора в сек (UNIX)	UDINT	0
+Comp[2].LifeTimeRetain	Структура компрессоров - Наработка компрессора (пост.память)	UDINT	0
+Comp[2].N	Структура компрессоров - Количество включений компрессора	UINT	0
+Comp[3].LastStopDate	Структура компрессоров - Дата последней остановки компрессора в сек (UNIX)	UDINT	0
+Comp[3].LifeTimeRetain	Структура компрессоров - Наработка компрессора (пост.память)	UDINT	0
+Comp[3].N	Структура компрессоров - Количество включений компрессора	UINT	0
+CurDLE	Текущая конфигурация бесканальника	USINT	1
+DeFrostOnOff	Флаг включения режима ОТТАЙКИ	BOOL	FALSE
+DeFrost[1].Enable	Расписание для режима оттайки (массив по дням недели, 1-понедельник) - 0-нет расписания, 1- есть	BOOL	FALSE
+DeFrost[1].StartHour	Расписание для режима оттайки (массив по дням недели, 1-понедельник) - Запуск. Минуты	UINT	21
+DeFrost[1].StartMinute	Расписание для режима оттайки (массив по дням недели, 1-понедельник) - Запуск. Часы	UINT	0
+DeFrost[1].StopHour	Расписание для режима оттайки (массив по дням недели, 1-понедельник) - Останов. Минуты	UINT	7
+DeFrost[1].StopMinute	Расписание для режима оттайки (массив по дням недели, 1-понедельник) - Останов. Часы	UINT	0
+DeFrost[2].Enable	Расписание для режима оттайки (массив по дням недели, 1-понедельник) - 0-нет расписания, 1- есть	BOOL	FALSE
+DeFrost[2].StartHour	Расписание для режима оттайки (массив по дням недели, 1-понедельник) - Запуск. Минуты	UINT	21
+DeFrost[2].StartMinute	Расписание для режима оттайки (массив по дням недели, 1-понедельник) - Запуск. Часы	UINT	0
+DeFrost[2].StopHour	Расписание для режима оттайки (массив по дням недели, 1-понедельник) - Останов. Минуты	UINT	7
+DeFrost[2].StopMinute	Расписание для режима оттайки (массив по дням недели, 1-понедельник) - Останов. Часы	UINT	0
+DeFrost[3].Enable	Расписание для режима оттайки (массив по дням недели, 1-понедельник) - 0-нет расписания, 1- есть	BOOL	FALSE
+DeFrost[3].StartHour	Расписание для режима оттайки (массив по дням недели, 1-понедельник) - Запуск. Минуты	UINT	21
+DeFrost[3].StartMinute	Расписание для режима оттайки (массив по дням недели, 1-понедельник) - Запуск. Часы	UINT	0
+DeFrost[3].StopHour	Расписание для режима оттайки (массив по дням недели, 1-понедельник) - Останов. Минуты	UINT	7
+DeFrost[3].StopMinute	Расписание для режима оттайки (массив по дням недели, 1-понедельник) - Останов. Часы	UINT	0
+DeFrost[4].Enable	Расписание для режима оттайки (массив по дням недели, 1-понедельник) - 0-нет расписания, 1- есть	BOOL	FALSE
+DeFrost[4].StartHour	Расписание для режима оттайки (массив по дням недели, 1-понедельник) - Запуск. Минуты	UINT	21
+DeFrost[4].StartMinute	Расписание для режима оттайки (массив по дням недели, 1-понедельник) - Запуск. Часы	UINT	0
+DeFrost[4].StopHour	Расписание для режима оттайки (массив по дням недели, 1-понедельник) - Останов. Минуты	UINT	7
+DeFrost[4].StopMinute	Расписание для режима оттайки (массив по дням недели, 1-понедельник) - Останов. Часы	UINT	0
+DeFrost[5].Enable	Расписание для режима оттайки (массив по дням недели, 1-понедельник) - 0-нет расписания, 1- есть	BOOL	FALSE
+DeFrost[5].StartHour	Расписание для режима оттайки (массив по дням недели, 1-понедельник) - Запуск. Минуты	UINT	21
+DeFrost[5].StartMinute	Расписание для режима оттайки (массив по дням недели, 1-понедельник) - Запуск. Часы	UINT	0
+DeFrost[5].StopHour	Расписание для режима оттайки (массив по дням недели, 1-понедельник) - Останов. Минуты	UINT	7
+DeFrost[5].StopMinute	Расписание для режима оттайки (массив по дням недели, 1-понедельник) - Останов. Часы	UINT	0
+DeFrost[6].Enable	Расписание для режима оттайки (массив по дням недели, 1-понедельник) - 0-нет расписания, 1- есть	BOOL	FALSE
+DeFrost[6].StartHour	Расписание для режима оттайки (массив по дням недели, 1-понедельник) - Запуск. Минуты	UINT	21
+DeFrost[6].StartMinute	Расписание для режима оттайки (массив по дням недели, 1-понедельник) - Запуск. Часы	UINT	0
+DeFrost[6].StopHour	Расписание для режима оттайки (массив по дням недели, 1-понедельник) - Останов. Минуты	UINT	7
+DeFrost[6].StopMinute	Расписание для режима оттайки (массив по дням недели, 1-понедельник) - Останов. Часы	UINT	0
+DeFrost[7].Enable	Расписание для режима оттайки (массив по дням недели, 1-понедельник) - 0-нет расписания, 1- есть	BOOL	FALSE
+DeFrost[7].StartHour	Расписание для режима оттайки (массив по дням недели, 1-понедельник) - Запуск. Минуты	UINT	21
+DeFrost[7].StartMinute	Расписание для режима оттайки (массив по дням недели, 1-понедельник) - Запуск. Часы	UINT	0
+DeFrost[7].StopHour	Расписание для режима оттайки (массив по дням недели, 1-понедельник) - Останов. Минуты	UINT	7
+DeFrost[7].StopMinute	Расписание для режима оттайки (массив по дням недели, 1-понедельник) - Останов. Часы	UINT	0
+GeneralMng_ST.DefDone	Default done. Enable for End default mask. If FALSE, default have been succesfully installed	BOOL	TRUE
+GeneralMng_ST.ID_Lang	Language ID (0: Russian; 1:English ). ID_Language = -1 after a wipe retain, so Language selection mask is shown	DINT	0
+GeneralMng_ST.PwdService	Service password	UINT	1
+GeneralMng_ST.RESERVED1	RESERVED	UINT	7523
+GeneralMng_ST.RESERVED2	RESERVED	UINT	4276
+GeneralMng_ST.RESERVED3	RESERVED	BOOL	FALSE
+HeatType	Тип нагрева (0-Водяной т/о, 1-8 - Электрический (1-8 ступеней))	USINT	0
+LocalMode	Режим работы текущего устройства (0-групповой, 1-индивидуальный)	BOOL	TRUE
+MB_Address	ModBus адрес	USINT	1
+MB_port	Порт для ModBus (0-не задан, 1-Ethernet, 2-BMS card, 3-BMS2)	USINT	0
+ModelLine	Номер линейки моделей (0-не определено, 1-бассейны, 2-бесканальники, 3-прецизионники) 	USINT	2
+Num_Slaves	Количество ведомых устройств в сети	USINT	1
+Par_Ap01	Минимальный угол открытия лопаток	REAL	30.000000
+Par_Ap02	Максимальный угол открытия лопаток	REAL	90.000000
+Par_As01	Tsu для минимального открытия	REAL	10.000000
+Par_As02	Tsu для максимального открытия	REAL	40.000000
+Par_Dd01	Диапазон нейтральной зоны	REAL	2.800000
+Par_Dd03	Гистерезис ДНД	REAL	1.500000
+Par_Dd04	Гистерезис ДВД1	REAL	5.000000
+Par_Dd05	Гистерезис для СНК	REAL	2.000000
+Par_Dd06	Гистерезис для СБН	REAL	2.000000
+Par_Dp01	Максимальное время задержки переключения компрессора вниз	UDINT	5
+Par_Dp02	Минимальное время задержки переключения компрессора вверх	UDINT	5
+Par_Dp03	Максимальная разница давления и верхней границы нейтральной зоны для задержки	REAL	4.000000
+Par_Dp04	Минимальное время задержки переключения компрессора вниз	UDINT	5
+Par_Dp05	Максимальная  разница давления и нижней границы нейтральной зоны для задержки	REAL	4.000000
+Par_Dp10	Параметр определяет состав соленоидов: 0-СНК1, 1-СНК1+СНК2	BOOL	FALSE
+Par_Ds01	Уставка для нейтральной зоны	REAL	7.600000
+Par_Ds03	Уставка ДНД	REAL	4.500000
+Par_Ds04	Уставка ДВД1	REAL	38.000000
+Par_Ds05	Уставка для СНК	REAL	10.000000
+Par_Ds06	Уставка для СБН	REAL	17.000000
+Par_Dt01	Время переключения СНК при Par_Cp01 = 1 	UDINT	4
+Par_Dt02	Ширина импульса SV при WarmUp	UDINT	2
+Par_Dt03	Макс. длительность PumpDown	UDINT	2
+Par_Dt11	Интервал между пусками (Anticycling)	UDINT	6
+Par_Dt12	Минимальный рабочий цикл компрессора (Oil return)	UDINT	2
+Par_Dt1213	Время для 5/12 для аварии по датчику LPS	UDINT	12
+Par_Dt1214	Время для 5/12 для аварии по датчику HPS	UDINT	12
+Par_Et01	Задержка на отключение вентиляторов (при электронагреве)	UDINT	180
+Par_Hd01	Pband/2 для регулятора влажности	UINT	5
+Par_Hs01	Уставка регулятора влажности	UINT	40
+Par_Rp01	Минимальное открытие наружных заслонок	REAL	20.000000
+Par_Rp02	Максимальное открытие наружных заслонок	REAL	80.000000
+Par_Rp03	Режим замены	BOOL	TRUE
+Par_Rt01	Задержка на переключение режима Замена	UINT	120
+Par_Rt02	Задержка на удержание режима Замена	UINT	10
+Par_Sp013	Коррекция датчика Tout	REAL	0.000000
+Par_Sp023	Коррекция датчика Tsu	REAL	0.000000
+Par_Sp033	Коррекция датчика Tw	REAL	0.000000
+Par_Sp043	Коррекция датчика Troom	REAL	0.000000
+Par_Sp05	Время разгона вентиляторов	UDINT	60
+Par_Sp053	Коррекция датчика Tcase	REAL	0.000000
+Par_Sp100	Параметр: FALSE-вода есть. TRUE-вода слита. Изменяет Оператор в меню Сервис	BOOL	FALSE
+Par_Sp311	OUTmin для датчика Troom2	REAL	-30.000000
+Par_Sp312	OUTmax для датчика Troom2	REAL	70.000000
+Par_Sp313	Коррекция датчика Troom2	REAL	0.000000
+Par_Sp321	OUTmin для датчика Hroom2	REAL	0.000000
+Par_Sp322	OUTmax для датчика Hroom2	REAL	100.000000
+Par_Sp323	Коррекция датчика Hroom2	REAL	0.000000
+Par_Sp331	OUTmin для датчика COroom2 (шаг 10)	REAL	0.000000
+Par_Sp332	OUTmax для датчика COroom2 (шаг 10)	REAL	2000.000000
+Par_Sp333	Коррекция датчика COroom2 (шаг 10)	REAL	0.000000
+Par_Sp413	Коррекция датчика Tout	REAL	0.000000
+Par_Sp423	Коррекция датчика Tsu	REAL	0.000000
+Par_Sp433	Коррекция датчика Tw	REAL	0.000000
+Par_Sp450	Типа датчика темп.и влаж. (3 - 0-10В, 4 - 4-20мА)	USINT	4
+Par_Sp451	OUTmin для датчика Troom	REAL	0.000000
+Par_Sp452	OUTmax для датчика Troom	REAL	50.000000
+Par_Sp453	Коррекция датчика Troom	REAL	0.000000
+Par_Sp461	OUTmin для датчика Hroom	REAL	0.000000
+Par_Sp462	OUTmax для датчика Hroom	REAL	100.000000
+Par_Sp463	Коррекция датчика Hroom	REAL	0.000000
+Par_Sp511	OUTmin для датчика ДВД1	REAL	0.000000
+Par_Sp512	OUTmax для датчика ДВД1	REAL	44.799999
+Par_Sp521	OUTmin для датчика ДВД2	REAL	0.000000
+Par_Sp522	OUTmax для датчика ДВД2	REAL	44.799999
+Par_Sp531	OUTmin для датчика ДНД	REAL	0.000000
+Par_Sp532	OUTmax для датчика ДНД	REAL	18.200001
+Par_Tb10	Зона пропорциональности для ПИ-регулятора помещения (каскадный мастер)	REAL	3.000000
+Par_Tb101	-	REAL	3.000000
+Par_Tb102	-	REAL	3.000000
+Par_Tb11	Относительные границы для уставки регулятора Tsu	REAL	5.000000
+Par_Tb40	Гистерезис комфортной зоны для ПИ-регулятора помещения.	REAL	1.000000
+Par_Td03	Гистерезис (+-) перехода ЗИМА-ЛЕТО	REAL	2.000000
+Par_Tp08	Тип ограничения регулятора Troom (0-абсолютное, 1-относительное)	BOOL	FALSE
+Par_Tp09	Выбор типа уставки для абсолютного режима.  0 - зависисмая уставка, 1 - независисмая.	BOOL	FALSE
+Par_Tp10	0 - каскадное регулирование, 1 - регулирование Tsu	BOOL	FALSE
+Par_Ts01	Нижняя граница Tout для выбора режима	REAL	0.000000
+Par_Ts02	Верхняя граница Tout для выбора режима	REAL	22.000000
+Par_Ts10	 Оснавная уставка для ПИ-регулятора помещения	REAL	25.000000
+Par_Ts14	Минимальная абсолютная граница для уставки регулятора Tsu	REAL	15.000000
+Par_Ts15	Максимальная абсолютная граница для уставки регулятора Tsu	REAL	40.000000
+Par_Ts16	Независимая уставка масштабирования для абсолютного режима.	REAL	40.000000
+Par_Tt10	Время интегрирования (в секундах) для ПИ-регулятора помещения (каскадный мастер)	UINT	240
+Par_Tt101	-	UINT	60
+Par_Tt102	-	UINT	60
+Par_Wd02	Гистерезис для уставки режима зима/лето	REAL	2.000000
+Par_Wp01	Пропорциональная зона для регулятора Tw	REAL	5.000000
+Par_Wp02	Максимальный процент открытия клапана для активной защиты Tw от замерзания	UINT	70
+Par_Wp03	Темп снижения уставки. 1K/10s	REAL	0.100000
+Par_Wp04	Порог для включения насоса водяного узла по положению 3-ходового клапана	UINT	5
+Par_Wp05	Число повторений тревоги 'Угроза замерзания Tw' до отказа	UINT	3
+Par_Ws01	Уставка для регулятора Tw	REAL	25.000000
+Par_Ws02	Уставка режима зима/лето	REAL	6.000000
+Par_Ws03	Минимальная наружная температура при максимальной уставке предпрогрева	REAL	-30.000000
+Par_Ws04	Мнимальная уставка предпрогрева	REAL	25.000000
+Par_Ws05	Максимальная уставка предпрогрева	REAL	90.000000
+Par_Ws06	Нижняя граница температуры активной защиты от замерзания	REAL	6.000000
+Par_Ws07	Температура начала превентивных действий активной защиты от замерзания	REAL	12.000000
+Par_Ws08	Температура окончания превентивных действий активной защиты  от замерзания	REAL	8.000000
+Par_Wt01	Время интегрирования для регулятора Tw	UINT	300
+Par_Wt02	Время на предпрогрев. Если за это время Tw не достиг уставки - авария.	UDINT	10
+Par_Wt03	Время сброса аварии преднагрева	UDINT	5
+Par_Wt04	Задержка выключения насоса водяного узла	UINT	10
+Port_BMS2	Номер протокола  для BMS2 в c.design	USINT	255
+Port_BMS_Card	Номер протокола  для BMS card в c.design	USINT	255
+Port_Ethernet	Номер протоколма для ethernet порта   в c.design	USINT	255
+Port_FBus2	Номер протокола  для FieldBus2  в c.design	UINT	0
+Port_FBus_Card	Номер протокола  для FieldBus card  в c.design	UINT	255
+Retain_CNT_Sec	Сохранение счетчика секунд 	UDINT	0
+Role	Роль устройства( 0-мастер 1-30: номер ведомого)	USINT	0
+SEQs[1].DeadBand	Параметры последовательностей - Neutral zone	REAL	0.100000
+SEQs[1].Pband	Параметры последовательностей - Proportional band	REAL	3.000000
+SEQs[1].RampStep	Параметры последовательностей - Ramp speed	REAL	0.100000
+SEQs[1].Ti	Параметры последовательностей - Integral time	UINT	60
+SEQs[2].DeadBand	Параметры последовательностей - Neutral zone	REAL	0.100000
+SEQs[2].Pband	Параметры последовательностей - Proportional band	REAL	3.000000
+SEQs[2].RampStep	Параметры последовательностей - Ramp speed	REAL	0.100000
+SEQs[2].Ti	Параметры последовательностей - Integral time	UINT	60
+SEQs[3].DeadBand	Параметры последовательностей - Neutral zone	REAL	0.100000
+SEQs[3].Pband	Параметры последовательностей - Proportional band	REAL	5.000000
+SEQs[3].RampStep	Параметры последовательностей - Ramp speed	REAL	0.100000
+SEQs[3].Ti	Параметры последовательностей - Integral time	UINT	600
+SEQs[4].DeadBand	Параметры последовательностей - Neutral zone	REAL	0.100000
+SEQs[4].Pband	Параметры последовательностей - Proportional band	REAL	5.000000
+SEQs[4].RampStep	Параметры последовательностей - Ramp speed	REAL	0.100000
+SEQs[4].Ti	Параметры последовательностей - Integral time	UINT	60
+SEQs[5].DeadBand	Параметры последовательностей - Neutral zone	REAL	0.100000
+SEQs[5].Pband	Параметры последовательностей - Proportional band	REAL	5.000000
+SEQs[5].RampStep	Параметры последовательностей - Ramp speed	REAL	0.100000
+SEQs[5].Ti	Параметры последовательностей - Integral time	UINT	600
+SEQs[6].DeadBand	Параметры последовательностей - Neutral zone	REAL	0.100000
+SEQs[6].Pband	Параметры последовательностей - Proportional band	REAL	5.000000
+SEQs[6].RampStep	Параметры последовательностей - Ramp speed	REAL	0.100000
+SEQs[6].Ti	Параметры последовательностей - Integral time	UINT	600
+SUM_Comp	Количество компрессоров в установке	DINT	1
+SlaveAddress	pCO Address for Slave	USINT	1
+UnitModel	Типоразмер  ЦВК (номер модели)	USINT	1
+UnitSel	Выбор роли контроллера (0-DP_CTRL, 1-DP_TOP, 2-DP_CTRL Иркутск, 3-DP_TOP Иркутск,)	USINT	0
+cpCOe_Mng.Baudrate	-	UDINT	19200
+cpCOe_Mng.DevCfg.DOuts[1].ChTyp	c.pCOe configuration - Digital outputs configuration - Digital outputs configurations - Channel type (0=standard, 2=cyclic, 3=delayed)	UINT	0
+cpCOe_Mng.DevCfg.DOuts[1].EnSafeMode	c.pCOe configuration - Digital outputs configuration - Digital outputs configurations - Safe mode enabling (FALSE=freeze outputs, TRUE=execute pattern)	BOOL	TRUE
+cpCOe_Mng.DevCfg.DOuts[1].OfflinePattern	c.pCOe configuration - Digital outputs configuration - Digital outputs configurations - Pattern in case of offline if EnSafeMode=TRUE	BOOL	TRUE
+cpCOe_Mng.DevCfg.DOuts[2].ChTyp	c.pCOe configuration - Digital outputs configuration - Digital outputs configurations - Channel type (0=standard, 2=cyclic, 3=delayed)	UINT	0
+cpCOe_Mng.DevCfg.DOuts[2].EnSafeMode	c.pCOe configuration - Digital outputs configuration - Digital outputs configurations - Safe mode enabling (FALSE=freeze outputs, TRUE=execute pattern)	BOOL	TRUE
+cpCOe_Mng.DevCfg.DOuts[2].OfflinePattern	c.pCOe configuration - Digital outputs configuration - Digital outputs configurations - Pattern in case of offline if EnSafeMode=TRUE	BOOL	FALSE
+cpCOe_Mng.DevCfg.DOuts[3].ChTyp	c.pCOe configuration - Digital outputs configuration - Digital outputs configurations - Channel type (0=standard, 2=cyclic, 3=delayed)	UINT	0
+cpCOe_Mng.DevCfg.DOuts[4].ChTyp	c.pCOe configuration - Digital outputs configuration - Digital outputs configurations - Channel type (0=standard, 2=cyclic, 3=delayed)	UINT	0
+cpCOe_Mng.DevCfg.DOuts[5].ChTyp	c.pCOe configuration - Digital outputs configuration - Digital outputs configurations - Channel type (0=standard, 2=cyclic, 3=delayed)	UINT	0
+cpCOe_Mng.DevCfg.DOuts[6].ChTyp	c.pCOe configuration - Digital outputs configuration - Digital outputs configurations - Channel type (0=standard, 2=cyclic, 3=delayed)	UINT	0
+cpCOe_Mng.DevCfg.DOuts[6].EnSafeMode	c.pCOe configuration - Digital outputs configuration - Digital outputs configurations - Safe mode enabling (FALSE=freeze outputs, TRUE=execute pattern)	BOOL	TRUE
+cpCOe_Mng.DevCfg.DOuts[6].OfflinePattern	c.pCOe configuration - Digital outputs configuration - Digital outputs configurations - Pattern in case of offline if EnSafeMode=TRUE	BOOL	FALSE
+cpCOe_Mng.DevCfg.Parity	c.pCOe configuration - Line parity (0=NONE, 1=ODD, 2=EVEN)	USINT	0
+cpCOe_Mng.DevCfg.SafeModeDT	c.pCOe configuration - Delay time to wait before to enter in safe mode in milliseconds	UINT	2000
+cpCOe_Mng.DevCfg.SlvTimeout	c.pCOe configuration - Slave offline tiemout in milliseconds	UINT	3000
+cpCOe_Mng.DevCfg.StopBits	c.pCOe configuration - Line stop bits (1 or 2)	USINT	2
+cpCOe_Mng.DevCfg.UnivChs[10].ChDir	c.pCOe configuration - Universal channels configuration - Universal channels configurations - Channel direction (0=IN, 1=OUT)	UINT	1
+cpCOe_Mng.DevCfg.UnivChs[10].ChTyp	c.pCOe configuration - Universal channels configuration - Universal channels configurations - Channel type	UINT	0
+cpCOe_Mng.DevCfg.UnivChs[10].EnSafeMode	c.pCOe configuration - Universal channels configuration - Universal channels configurations - Safe mode enabling (FALSE=freeze output, TRUE=execute pattern)	BOOL	TRUE
+cpCOe_Mng.DevCfg.UnivChs[10].OfflinePattern	c.pCOe configuration - Universal channels configuration - Universal channels configurations - Pattern in case of offline if EnSafeMode=TRUE	REAL	5.000000
+cpCOe_Mng.DevCfg.UnivChs[1].ChDir	c.pCOe configuration - Universal channels configuration - Universal channels configurations - Channel direction (0=IN, 1=OUT)	UINT	0
+cpCOe_Mng.DevCfg.UnivChs[1].ChTyp	c.pCOe configuration - Universal channels configuration - Universal channels configurations - Channel type	UINT	0
+cpCOe_Mng.DevCfg.UnivChs[1].FiltSamplesNo	c.pCOe configuration - Universal channels configuration - Universal channels configurations - Number of samples for filtering (0-9)	UINT	5
+cpCOe_Mng.DevCfg.UnivChs[1].UpdThrsh	c.pCOe configuration - Universal channels configuration - Universal channels configurations - Minimum variation to make the slave notify the change to the master (only for AIn)	REAL	0.100000
+cpCOe_Mng.DevCfg.UnivChs[2].ChDir	c.pCOe configuration - Universal channels configuration - Universal channels configurations - Channel direction (0=IN, 1=OUT)	UINT	0
+cpCOe_Mng.DevCfg.UnivChs[2].ChTyp	c.pCOe configuration - Universal channels configuration - Universal channels configurations - Channel type	UINT	0
+cpCOe_Mng.DevCfg.UnivChs[2].FiltSamplesNo	c.pCOe configuration - Universal channels configuration - Universal channels configurations - Number of samples for filtering (0-9)	UINT	5
+cpCOe_Mng.DevCfg.UnivChs[2].UpdThrsh	c.pCOe configuration - Universal channels configuration - Universal channels configurations - Minimum variation to make the slave notify the change to the master (only for AIn)	REAL	0.100000
+cpCOe_Mng.DevCfg.UnivChs[3].ChDir	c.pCOe configuration - Universal channels configuration - Universal channels configurations - Channel direction (0=IN, 1=OUT)	UINT	0
+cpCOe_Mng.DevCfg.UnivChs[3].ChTyp	c.pCOe configuration - Universal channels configuration - Universal channels configurations - Channel type	UINT	4
+cpCOe_Mng.DevCfg.UnivChs[3].FiltSamplesNo	c.pCOe configuration - Universal channels configuration - Universal channels configurations - Number of samples for filtering (0-9)	UINT	5
+cpCOe_Mng.DevCfg.UnivChs[3].UpdThrsh	c.pCOe configuration - Universal channels configuration - Universal channels configurations - Minimum variation to make the slave notify the change to the master (only for AIn)	REAL	0.100000
+cpCOe_Mng.DevCfg.UnivChs[4].ChDir	c.pCOe configuration - Universal channels configuration - Universal channels configurations - Channel direction (0=IN, 1=OUT)	UINT	0
+cpCOe_Mng.DevCfg.UnivChs[4].ChTyp	c.pCOe configuration - Universal channels configuration - Universal channels configurations - Channel type	UINT	4
+cpCOe_Mng.DevCfg.UnivChs[4].FiltSamplesNo	c.pCOe configuration - Universal channels configuration - Universal channels configurations - Number of samples for filtering (0-9)	UINT	5
+cpCOe_Mng.DevCfg.UnivChs[4].UpdThrsh	c.pCOe configuration - Universal channels configuration - Universal channels configurations - Minimum variation to make the slave notify the change to the master (only for AIn)	REAL	1.000000
+cpCOe_Mng.DevCfg.UnivChs[5].ChDir	c.pCOe configuration - Universal channels configuration - Universal channels configurations - Channel direction (0=IN, 1=OUT)	UINT	0
+cpCOe_Mng.DevCfg.UnivChs[5].ChTyp	c.pCOe configuration - Universal channels configuration - Universal channels configurations - Channel type	UINT	5
+cpCOe_Mng.DevCfg.UnivChs[5].FiltSamplesNo	c.pCOe configuration - Universal channels configuration - Universal channels configurations - Number of samples for filtering (0-9)	UINT	2
+cpCOe_Mng.DevCfg.UnivChs[6].ChDir	c.pCOe configuration - Universal channels configuration - Universal channels configurations - Channel direction (0=IN, 1=OUT)	UINT	0
+cpCOe_Mng.DevCfg.UnivChs[6].ChTyp	c.pCOe configuration - Universal channels configuration - Universal channels configurations - Channel type	UINT	5
+cpCOe_Mng.DevCfg.UnivChs[6].FiltSamplesNo	c.pCOe configuration - Universal channels configuration - Universal channels configurations - Number of samples for filtering (0-9)	UINT	2
+cpCOe_Mng.DevCfg.UnivChs[7].ChDir	c.pCOe configuration - Universal channels configuration - Universal channels configurations - Channel direction (0=IN, 1=OUT)	UINT	0
+cpCOe_Mng.DevCfg.UnivChs[7].ChTyp	c.pCOe configuration - Universal channels configuration - Universal channels configurations - Channel type	UINT	5
+cpCOe_Mng.DevCfg.UnivChs[7].FiltSamplesNo	c.pCOe configuration - Universal channels configuration - Universal channels configurations - Number of samples for filtering (0-9)	UINT	2
+cpCOe_Mng.DevCfg.UnivChs[8].ChDir	c.pCOe configuration - Universal channels configuration - Universal channels configurations - Channel direction (0=IN, 1=OUT)	UINT	0
+cpCOe_Mng.DevCfg.UnivChs[8].ChTyp	c.pCOe configuration - Universal channels configuration - Universal channels configurations - Channel type	UINT	5
+cpCOe_Mng.DevCfg.UnivChs[8].FiltSamplesNo	c.pCOe configuration - Universal channels configuration - Universal channels configurations - Number of samples for filtering (0-9)	UINT	2
+cpCOe_Mng.DevCfg.UnivChs[9].ChDir	c.pCOe configuration - Universal channels configuration - Universal channels configurations - Channel direction (0=IN, 1=OUT)	UINT	1
+cpCOe_Mng.DevCfg.UnivChs[9].ChTyp	c.pCOe configuration - Universal channels configuration - Universal channels configurations - Channel type	UINT	0
+cpCOe_Mng.DevCfg.UnivChs[9].EnSafeMode	c.pCOe configuration - Universal channels configuration - Universal channels configurations - Safe mode enabling (FALSE=freeze output, TRUE=execute pattern)	BOOL	TRUE
+cpCOe_Mng.DevCfg.UnivChs[9].OfflinePattern	c.pCOe configuration - Universal channels configuration - Universal channels configurations - Pattern in case of offline if EnSafeMode=TRUE	REAL	0.000000
+cpCOe_Mng.En_cpCOe	Enables the block	BOOL	TRUE
+cpCOe_Mng.Parity_1	Automatically generated	USINT	0
+cpCOe_Mng.Protocol_CPCOE_1	Protocol selector, reatain, linked to c.design	USINT	1
+cpCOe_Mng.StopBits_1	Automatically generated	USINT	2
