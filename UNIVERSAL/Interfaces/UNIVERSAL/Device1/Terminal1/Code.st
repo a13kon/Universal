@@ -4853,3 +4853,6 @@ FUNCTION Goto_FRIDGE_STATS //Переход к параметрах ХМ
     GotoMaskID(21,0); //DF_MID_CM_STA
 END_FUNCTION
 
+FUNCTION SwitchPGD
+    SetKeySwitch(28);
+END_FUNCTION

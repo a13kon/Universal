@@ -11,6 +11,7 @@
     <ShortCut Name="UP+ENTER" Keys="UP,ENTER" Code="133" />
     <ShortCut Name="ALARM+ESC" Keys="ALARM,ESC" Code="27" />
     <ShortCut Name="ESC+DOWN" Keys="ESC,DOWN" Code="30" />
+    <ShortCut Name="ESC+ENTER" Keys="ESC,ENTER" Code="28" />
   </ShortCuts>
   <KeyBindings>
     <KeyBinding Key="ALARM" BindOn="CheckActiveAlarm" />
@@ -18,5 +19,6 @@
     <KeyBinding Key="ESC" BindOn="GlobalEsc" />
     <KeyBinding Key="DOWN+ENTER" BindOn="DOWN_ENTER_Move" />
     <KeyBinding Key="UP+ENTER" BindOn="UP_ENTER_Move" />
+    <KeyBinding Key="ESC+ENTER" BindOn="SwitchPGD" />
   </KeyBindings>
 </Terminal>
