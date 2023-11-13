@@ -3,7 +3,7 @@
   <Connections>
     <Connection NetworkName="ISARSI1" />
     <Connection NetworkName="ETCP1">
-      <Parameter Name="IPAddress" Value="172.17.3.115" />
+      <Parameter Name="IPAddress" Value="172.17.5.103" />
     </Connection>
   </Connections>
   <Resource Name="Resource1" ElementGuid="aaa250d1-8b67-4330-9ca3-1e445abf6648" />

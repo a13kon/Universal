@@ -81,4 +81,22 @@
   <Variable>
     <FullName>UNIVERSAL.Device1.Resource1.Position</FullName>
   </Variable>
+  <Variable>
+    <FullName>UNIVERSAL.Device1.Resource1.Display.MaskID</FullName>
+  </Variable>
+  <Variable>
+    <FullName>UNIVERSAL.Device1.Resource1.Display.MaskHeader</FullName>
+  </Variable>
+  <Variable>
+    <FullName>UNIVERSAL.Device1.Resource1.Display.value_MaxINT</FullName>
+  </Variable>
+  <Variable>
+    <FullName>UNIVERSAL.Device1.Resource1.Reserve.Use</FullName>
+  </Variable>
+  <Variable>
+    <FullName>UNIVERSAL.Device1.Resource1.Param.ID_BOOL[23]</FullName>
+  </Variable>
+  <Variable>
+    <FullName>UNIVERSAL.Device1.Resource1.Param.ID_BOOL</FullName>
+  </Variable>
 </SpyListVars_0>
