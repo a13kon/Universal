@@ -74,6 +74,7 @@
       Acronym=""
       Min=""
       Max=""
+      InitialValue="FALSE"
       StringSize="0" />
     <Variable
       Name="temp_Calc"

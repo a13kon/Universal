@@ -3,7 +3,7 @@
   <Info ManifestVersion="1.1.0">
     <Name>UNIVERSAL</Name>
     <Description>Универсальная программа для бассайнов, ледовых арен, бесканальников и прецизионников</Description>
-    <Version>3.1.002</Version>
+    <Version>3.1.003</Version>
     <CreationDate>2018-04-21T14:48:36.9502836Z</CreationDate>
     <Owner>TechnoGroup</Owner>
     <StorageToolManaged>false</StorageToolManaged>

@@ -1,102 +1,48 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <SpyListVars_0>
   <ConfigurationInfo>
-    <SpyListName>DI/U Testing</SpyListName>
+    <SpyListName>GateHeater</SpyListName>
     <ConfigFileVersion>3</ConfigFileVersion>
     <ToolWindowPaneIndex>0</ToolWindowPaneIndex>
     <DefaultRefreshRateMonitoring>500</DefaultRefreshRateMonitoring>
   </ConfigurationInfo>
   <Variable>
-    <FullName>UNIVERSAL.Device1.Resource1.MODE_Testing</FullName>
+    <FullName>UNIVERSAL.Device1.Resource1.mod_GateHeater.not_firstStart</FullName>
   </Variable>
   <Variable>
-    <FullName>UNIVERSAL.Device1.Resource1.cfgIO.Values</FullName>
+    <FullName>UNIVERSAL.Device1.Resource1.EQ_GateHeater.DO</FullName>
   </Variable>
   <Variable>
-    <FullName>UNIVERSAL.Device1.Resource1.Display.Descr[1]</FullName>
+    <FullName>UNIVERSAL.Device1.Resource1.EQ_Dampers.SuExh.AO</FullName>
   </Variable>
   <Variable>
-    <FullName>UNIVERSAL.Device1.Resource1.cfgIO.Manual</FullName>
+    <FullName>UNIVERSAL.Device1.Resource1.TgtOK</FullName>
   </Variable>
   <Variable>
-    <FullName>UNIVERSAL.Device1.Resource1.SEQ.T.Out</FullName>
+    <FullName>UNIVERSAL.Device1.Resource1.mod_GateHeater.cnt_Tgt</FullName>
+  </Variable>
+  <Variable>
+    <FullName>UNIVERSAL.Device1.Resource1.En_GateHeater</FullName>
+  </Variable>
+  <Variable>
+    <FullName>UNIVERSAL.Device1.Resource1.GateHeaterOK</FullName>
+  </Variable>
+  <Variable>
+    <FullName>UNIVERSAL.Device1.Resource1.CNT_Sec</FullName>
+  </Variable>
+  <Variable>
+    <FullName>UNIVERSAL.Device1.Resource1.mod_GateHeater.temp_Calc</FullName>
+  </Variable>
+  <Variable>
+    <FullName>UNIVERSAL.Device1.Resource1.mod_GateHeater.time_Gt</FullName>
+  </Variable>
+  <Variable>
+    <FullName>UNIVERSAL.Device1.Resource1.Param.INT</FullName>
   </Variable>
   <Variable>
     <FullName>UNIVERSAL.Device1.Resource1.mod_Recycling.temp_REAL</FullName>
   </Variable>
   <Variable>
-    <FullName>UNIVERSAL.Device1.Resource1.SEQ.H.Out</FullName>
-  </Variable>
-  <Variable>
-    <FullName>UNIVERSAL.Device1.Resource1.mod_Recycling.temp_SuExh_AO</FullName>
-  </Variable>
-  <Variable>
-    <FullName>UNIVERSAL.Device1.Resource1.mod_Recycling.DampersH</FullName>
-  </Variable>
-  <Variable>
-    <FullName>UNIVERSAL.Device1.Resource1.Cascade_ST.cascSlaveSensValue</FullName>
-  </Variable>
-  <Variable>
-    <FullName>UNIVERSAL.Device1.Resource1.SNSR_Troom.Value</FullName>
-  </Variable>
-  <Variable>
-    <FullName>UNIVERSAL.Device1.Resource1.EQ_Fans.Supply.AO</FullName>
-  </Variable>
-  <Variable>
-    <FullName>UNIVERSAL.Device1.Resource1.mod_Fans.PID_Adv_2_Supply</FullName>
-  </Variable>
-  <Variable>
-    <FullName>UNIVERSAL.Device1.Resource1.Display.Descr[3]</FullName>
-  </Variable>
-  <Variable>
-    <FullName>UNIVERSAL.Device1.Resource1.Display.value_BOOL[3]</FullName>
-  </Variable>
-  <Variable>
-    <FullName>UNIVERSAL.Device1.Resource1.CurRow_modePRG</FullName>
-  </Variable>
-  <Variable>
-    <FullName>UNIVERSAL.Device1.Resource1.Display.value_BOOL</FullName>
-  </Variable>
-  <Variable>
-    <FullName>UNIVERSAL.Device1.Resource1.Display.value_Storage</FullName>
-  </Variable>
-  <Variable>
-    <FullName>UNIVERSAL.Device1.Resource1.Display.value_Address</FullName>
-  </Variable>
-  <Variable>
-    <FullName>UNIVERSAL.Device1.Resource1.Param.BOOL</FullName>
-  </Variable>
-  <Variable>
-    <FullName>UNIVERSAL.Device1.Resource1.Display.Hint</FullName>
-  </Variable>
-  <Variable>
-    <FullName>UNIVERSAL.Device1.Resource1.num_Rows</FullName>
-  </Variable>
-  <Variable>
-    <FullName>UNIVERSAL.Device1.Resource1.Display</FullName>
-  </Variable>
-  <Variable>
-    <FullName>UNIVERSAL.Device1.Resource1.StatePRG</FullName>
-  </Variable>
-  <Variable>
-    <FullName>UNIVERSAL.Device1.Resource1.Position</FullName>
-  </Variable>
-  <Variable>
-    <FullName>UNIVERSAL.Device1.Resource1.Display.MaskID</FullName>
-  </Variable>
-  <Variable>
-    <FullName>UNIVERSAL.Device1.Resource1.Display.MaskHeader</FullName>
-  </Variable>
-  <Variable>
-    <FullName>UNIVERSAL.Device1.Resource1.Display.value_MaxINT</FullName>
-  </Variable>
-  <Variable>
-    <FullName>UNIVERSAL.Device1.Resource1.Reserve.Use</FullName>
-  </Variable>
-  <Variable>
-    <FullName>UNIVERSAL.Device1.Resource1.Param.ID_BOOL[23]</FullName>
-  </Variable>
-  <Variable>
-    <FullName>UNIVERSAL.Device1.Resource1.Param.ID_BOOL</FullName>
+    <FullName>UNIVERSAL.Device1.Resource1.mod_Recycling.AirChange_POOL</FullName>
   </Variable>
 </SpyListVars_0>
