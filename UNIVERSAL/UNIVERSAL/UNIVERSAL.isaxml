@@ -3020,7 +3020,6 @@
     </Network>
   </Networks>
   <NetworkInstances>
-    <NetworkInstance NetworkName="ISARSI" Name="ISARSI1" />
     <NetworkInstance NetworkName="ETCP" Name="ETCP1" />
   </NetworkInstances>
   <Targets>

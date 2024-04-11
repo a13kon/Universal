@@ -1,48 +1,39 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <SpyListVars_0>
   <ConfigurationInfo>
-    <SpyListName>GateHeater</SpyListName>
+    <SpyListName>Spy List Name[1]</SpyListName>
     <ConfigFileVersion>3</ConfigFileVersion>
     <ToolWindowPaneIndex>0</ToolWindowPaneIndex>
     <DefaultRefreshRateMonitoring>500</DefaultRefreshRateMonitoring>
   </ConfigurationInfo>
   <Variable>
-    <FullName>UNIVERSAL.Device1.Resource1.mod_GateHeater.not_firstStart</FullName>
+    <FullName>UNIVERSAL.Device1.Resource1.cfgIO.Values</FullName>
   </Variable>
   <Variable>
-    <FullName>UNIVERSAL.Device1.Resource1.EQ_GateHeater.DO</FullName>
+    <FullName>UNIVERSAL.Device1.Resource1.cfgIO.Link_toTypes</FullName>
   </Variable>
   <Variable>
-    <FullName>UNIVERSAL.Device1.Resource1.EQ_Dampers.SuExh.AO</FullName>
+    <FullName>UNIVERSAL.Device1.Resource1.U</FullName>
   </Variable>
   <Variable>
-    <FullName>UNIVERSAL.Device1.Resource1.TgtOK</FullName>
+    <FullName>UNIVERSAL.Device1.Resource1.EQ_Fans.Res_Supply.Use</FullName>
   </Variable>
   <Variable>
-    <FullName>UNIVERSAL.Device1.Resource1.mod_GateHeater.cnt_Tgt</FullName>
+    <FullName>UNIVERSAL.Device1.Resource1.EQ_Fans.Res_Exhaust.Use</FullName>
   </Variable>
   <Variable>
-    <FullName>UNIVERSAL.Device1.Resource1.En_GateHeater</FullName>
+    <FullName>UNIVERSAL.Device1.Resource1.BUG_FINDER</FullName>
   </Variable>
   <Variable>
-    <FullName>UNIVERSAL.Device1.Resource1.GateHeaterOK</FullName>
+    <FullName>UNIVERSAL.Device1.Resource1.EQ_Fans.Res_Supply.FB</FullName>
   </Variable>
   <Variable>
-    <FullName>UNIVERSAL.Device1.Resource1.CNT_Sec</FullName>
+    <FullName>UNIVERSAL.Device1.Resource1.EQ_Fans.Res_Exhaust.FB</FullName>
   </Variable>
   <Variable>
-    <FullName>UNIVERSAL.Device1.Resource1.mod_GateHeater.temp_Calc</FullName>
+    <FullName>UNIVERSAL.Device1.Resource1.DIn</FullName>
   </Variable>
   <Variable>
-    <FullName>UNIVERSAL.Device1.Resource1.mod_GateHeater.time_Gt</FullName>
-  </Variable>
-  <Variable>
-    <FullName>UNIVERSAL.Device1.Resource1.Param.INT</FullName>
-  </Variable>
-  <Variable>
-    <FullName>UNIVERSAL.Device1.Resource1.mod_Recycling.temp_REAL</FullName>
-  </Variable>
-  <Variable>
-    <FullName>UNIVERSAL.Device1.Resource1.mod_Recycling.AirChange_POOL</FullName>
+    <FullName>UNIVERSAL.Device1.Resource1.MODE_Testing</FullName>
   </Variable>
 </SpyListVars_0>

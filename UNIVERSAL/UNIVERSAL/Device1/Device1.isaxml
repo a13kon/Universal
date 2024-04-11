@@ -1,7 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Configuration FileVersion="200.00.003" Name="Device1" ElementGuid="e5619c74-aed5-4bfa-87ad-8e4823a88b2d" onlineBehavior="Always" TargetName="CAREL_PCO" Comment="&#xD;&#xA;&#xD;&#xA;Resources 1" SingleTextLine="This is the Device 1" Password="" IsEnhanced="false" IsEnhancedTarget="true" IsIsagraf3="false">
   <Connections>
-    <Connection NetworkName="ISARSI1" />
     <Connection NetworkName="ETCP1">
       <Parameter Name="IPAddress" Value="172.17.5.103" />
     </Connection>
